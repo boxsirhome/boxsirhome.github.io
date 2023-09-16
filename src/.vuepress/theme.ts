@@ -12,72 +12,41 @@ const footerICP_HTML = `
   </a>&nbsp;|&nbsp;<a href="/intro">关于我的故事</a>`;
 
 export default hopeTheme({
-  //部署的域名
-  hostname: "https://boxsir.gitee.io",
+  navbar,                                 // navbar
+  sidebar,                                // sidebar
+  hostname: "https://boxsir.gitee.io",   //部署的域名
+  iconAssets: "iconfont",                 //全局设置图标资源关键词
+  logo: "/logo.png",                      //导航栏图标
+  repo: "https://github.com/leekboxsir",  //仓库地址
+  repoLabel: "GitHub",                    //导航栏标签类型
+  repoDisplay: true,                      //是否在导航栏显示仓库链接
+  fullscreen: true,                       // 是否开启全屏模式
+  darkmode: "toggle",                     //主题在深色模式和浅色模式之间切换
+  lastUpdated: true,                      // 是否显示页面最后更新时间
+  contributors: true,                     // 是否显示页面贡献者
+  editLink: false,                        // 是否展示编辑此页链接
+  docsDir: "src",                         //文档在仓库中的目录
+  backToTop: true,                        //返回顶部按钮
+  footer: footerICP_HTML,                 //页面页脚内容
+  displayFooter: true,                    //是否打开页脚
+  pageInfo: ['Author', 'Original', 'Date', 'ReadingTime', 'Word', 'Category', 'Tag', 'PageView'],  //文章信息展示项目
+  // hotReload: true,                     //是否在开发服务器中启用热重载
 
-  //文章显示的默认作者
-  author: {
+  metaLocales: {                          // page meta
+    editLink: "在 GitHub 上编辑此页",
+  },
+
+  author: {                              //文章显示的默认作者信息
     name: "盒子先生",
     url: "https://boxsir.gitee.io"
   },
 
-  //全局设置图标资源关键词
-  iconAssets: "iconfont",
-
-  //导航栏图标
-  logo: "/logo.png",
-
-  //仓库地址 | 导航栏标签类型 | 是否在导航栏显示仓库链接
-  repo: "https://github.com/leekboxsir",
-  repoLabel: "GitHub",
-  repoDisplay: true,
-
-  //是否在开发服务器中启用热重载
-  // hotReload: true,
-  // 是否开启全屏模式
-  fullscreen: true,
-  // 是否显示页面最后更新时间
-  lastUpdated: true,
-  // 是否显示页面贡献者
-  contributors: true,
-
-  // 是否展示编辑此页链接
-  editLink: false,
-
-  // page meta
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
-
-  //文档在仓库中的目录
-  docsDir: "src",
-
-  //返回顶部按钮
-  backToTop: true,
-
-  // navbar
-  navbar,
-  // sidebar
-  sidebar,
-
-  //页面页脚 | 是否打开页脚
-  footer: footerICP_HTML,
-  displayFooter: true,
-
-  //文章信息展示项目
-  pageInfo: ['Author', 'Date', 'ReadingTime', 'Word', 'PageView', 'Category', 'Tag', 'Original'],
-
-  //博客选项
   blog: {
     description: "一个全栈开发者",
-    //个人介绍地址
-    intro: "/intro.html",
-    //剪裁头像为圆形形状
-    roundAvatar: true,
-    //时间轴的顶部文字
-    timeline: "持续更新",
-    //媒体链接配置,内置图标见官方文档
-    medias: {
+    intro: "/intro.html",                 //个人介绍地址
+    roundAvatar: true,                    //剪裁头像为圆形形状
+    timeline: "持续更新",                  //时间轴的顶部文字
+    medias: {                             //媒体链接配置,内置图标见官方文档
       Email: "mailto:1796535192@qq.com",
       Gitee: "https://gitee.com/boxsir",
       GitHub: "https://github.com/leekboxsir",
@@ -88,35 +57,27 @@ export default hopeTheme({
     },
   },
 
-  //加密配置
-  encrypt: {
+  encrypt: {                                //加密配置
     config: {
-      "/demo/encrypt.html": ["123456"],
+      // "/demo/encrypt.html": ["123456"],
     },
   },
 
-  plugins: {    
+  plugins: {
     blog: true,
+    git: true,                   //开发模式下启用,实现了页面创建时间、最后更新时间与贡献者的自动生成
+    seo: true,                   //全面增强站点的搜索引擎优化性
 
-    //开发模式下启用,实现了页面创建时间、最后更新时间与贡献者的自动生成
-    git: true,
-
-    //全面增强站点的搜索引擎优化性
-    seo: true,
-
-    // feed支持
-    feed:{
-      rss:true
+    feed: {                      // feed支持
+      rss: true
     },
 
-    comment: {
-      // 您应该生成并使用自己的评论服务
+    comment: {                  // 评论服务配置
       provider: "Waline",
-      serverURL: "https://waline-comment.vuejs.press",
+      serverURL: "https://waline.cailei.site/", /* https://waline-comment.vuejs.press 官方自己的地址，放着备用*/
     },
 
-    //MdEnhance 插件配置
-    mdEnhance: {
+    mdEnhance: {               //MdEnhance 插件配置
       align: true,
       attrs: true,
       chart: true,
@@ -156,61 +117,62 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    // 如果您想要PWA，请取消注释
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
+    pwa: {                           // PWA
+      favicon: "/favicon.ico",
+      cacheHTML: true,
+      cachePic: true,
+      appendBase: true,
+      apple: {
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+        // shortcuts: [
+        //   {
+        //     name: "Demo",
+        //     short_name: "Demo",
+        //     url: "/demo/",
+        //     icons: [
+        //       {
+        //         src: "/assets/icon/guide-maskable.png",
+        //         sizes: "192x192",
+        //         purpose: "maskable",
+        //         type: "image/png",
+        //       },
+        //     ],
+        //   },
+        // ],
+      },
+    },
+
+
   },
 });

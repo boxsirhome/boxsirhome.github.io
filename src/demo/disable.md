@@ -7,14 +7,14 @@ category:
 tag:
   - 禁用
 
-navbar: false
+navbar: true
 sidebar: false
 
 breadcrumb: false
 pageInfo: false
-contributors: false
+contributors: true
 editLink: false
-lastUpdated: false
+lastUpdated: true
 prev: false
 next: false
 comment: false
