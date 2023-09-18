@@ -12,9 +12,9 @@ export default defineUserConfig({
 
   plugins: [
     docsearchPlugin({       //Algolia全文搜索 | 教程地址 (https://juejin.cn/post/7110518413839040519 https://blog.csdn.net/weixin_44495599/article/details/132022146）
-      appId: "",
-      apiKey: "",
-      indexName: "",
+      appId: "0VQDGS0S4K",
+      apiKey: "ac98898d458e3ec9c165070b5329362f",
+      indexName: "boxsir-gitee",
       locales: {
         "/": {
           placeholder: "搜素文档",

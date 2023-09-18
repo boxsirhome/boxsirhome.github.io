@@ -75,6 +75,8 @@ export default hopeTheme({
     comment: {                  // 评论服务配置
       provider: "Waline",
       serverURL: "https://waline.cailei.site/", /* https://waline-comment.vuejs.press 官方自己的地址，放着备用*/
+      copyright: false,         // 是否显示页脚版权信息(Powered by Waline v2.15.7)
+      reaction: true,           // 开启反应
     },
 
     mdEnhance: {               //MdEnhance 插件配置

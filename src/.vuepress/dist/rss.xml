@@ -6,8 +6,8 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 16 Sep 2023 09:37:33 GMT</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2023 09:37:33 GMT</lastBuildDate>
+    <pubDate>Mon, 18 Sep 2023 01:27:39 GMT</pubDate>
+    <lastBuildDate>Mon, 18 Sep 2023 01:27:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>使用指南</category>
@@ -16,8 +16,8 @@
     <category>水果</category>
     <category>草莓</category>
     <category>蔬菜</category>
-    <category>香蕉</category>
     <category>苹果</category>
+    <category>香蕉</category>
     <item>
       <title>介绍页</title>
       <link>https://boxsir.gitee.io/intro.html</link>
@@ -405,70 +405,6 @@
       <enclosure url="https://boxsir.gitee.io/assets/images/cover2.jpg" type="image/jpeg"/>
     </item>
     <item>
-      <title>香蕉 1</title>
-      <link>https://boxsir.gitee.io/posts/banana/1.html</link>
-      <guid>https://boxsir.gitee.io/posts/banana/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">香蕉 1</source>
-      <description>香蕉 1 标题 2 这里是内容。 标题 3 这里是内容。</description>
-      <category>香蕉</category>
-      <category>水果</category>
-      <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 香蕉 1</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>香蕉 2</title>
-      <link>https://boxsir.gitee.io/posts/banana/2.html</link>
-      <guid>https://boxsir.gitee.io/posts/banana/2.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">香蕉 2</source>
-      <description>香蕉 2 一个被数字 10 星标了的香蕉文章。</description>
-      <category>香蕉</category>
-      <category>水果</category>
-      <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 香蕉 2</h1>
-<p>一个被数字 <code>10</code> 星标了的香蕉文章。</p>
-<!-- more -->
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>香蕉 3</title>
-      <link>https://boxsir.gitee.io/posts/banana/3.html</link>
-      <guid>https://boxsir.gitee.io/posts/banana/3.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">香蕉 3</source>
-      <description>香蕉 3 标题 2 这里是内容。 标题 3 这里是内容。</description>
-      <category>香蕉</category>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 香蕉 3</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>香蕉 4</title>
-      <link>https://boxsir.gitee.io/posts/banana/4.html</link>
-      <guid>https://boxsir.gitee.io/posts/banana/4.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">香蕉 4</source>
-      <description>香蕉 4 标题 2 这里是内容。 标题 3 这里是内容。</description>
-      <category>香蕉</category>
-      <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 香蕉 4</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>苹果 1</title>
       <link>https://boxsir.gitee.io/posts/apple/1.html</link>
       <guid>https://boxsir.gitee.io/posts/apple/1.html</guid>
@@ -526,6 +462,70 @@
       <category>水果</category>
       <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 苹果 4</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>香蕉 1</title>
+      <link>https://boxsir.gitee.io/posts/banana/1.html</link>
+      <guid>https://boxsir.gitee.io/posts/banana/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">香蕉 1</source>
+      <description>香蕉 1 标题 2 这里是内容。 标题 3 这里是内容。</description>
+      <category>香蕉</category>
+      <category>水果</category>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 香蕉 1</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>香蕉 2</title>
+      <link>https://boxsir.gitee.io/posts/banana/2.html</link>
+      <guid>https://boxsir.gitee.io/posts/banana/2.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">香蕉 2</source>
+      <description>香蕉 2 一个被数字 10 星标了的香蕉文章。</description>
+      <category>香蕉</category>
+      <category>水果</category>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 香蕉 2</h1>
+<p>一个被数字 <code>10</code> 星标了的香蕉文章。</p>
+<!-- more -->
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>香蕉 3</title>
+      <link>https://boxsir.gitee.io/posts/banana/3.html</link>
+      <guid>https://boxsir.gitee.io/posts/banana/3.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">香蕉 3</source>
+      <description>香蕉 3 标题 2 这里是内容。 标题 3 这里是内容。</description>
+      <category>香蕉</category>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 香蕉 3</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>香蕉 4</title>
+      <link>https://boxsir.gitee.io/posts/banana/4.html</link>
+      <guid>https://boxsir.gitee.io/posts/banana/4.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">香蕉 4</source>
+      <description>香蕉 4 标题 2 这里是内容。 标题 3 这里是内容。</description>
+      <category>香蕉</category>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 香蕉 4</h1>
 <h2> 标题 2</h2>
 <p>这里是内容。</p>
 <h3> 标题 3</h3>
