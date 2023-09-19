@@ -11,10 +11,10 @@ export default defineUserConfig({
   theme,
 
   plugins: [
-    docsearchPlugin({       //Algolia全文搜索 | 教程地址 (https://juejin.cn/post/7110518413839040519 https://blog.csdn.net/weixin_44495599/article/details/132022146）
-      appId: "0VQDGS0S4K",
-      apiKey: "ac98898d458e3ec9c165070b5329362f",
-      indexName: "boxsir-gitee",
+    docsearchPlugin({       //Algolia全文搜索 | 教程地址 (https://blog.csdn.net/weixin_44495599/article/details/132022146）
+      appId: "0VQDGS0S4K",                        //应用程序标识
+      apiKey: "cfa11ad05ae34956f4464beaa5bfce2c", //搜索接口密钥
+      indexName: "boxsir-gitee",                  //索引名称
       locales: {
         "/": {
           placeholder: "搜素文档",
@@ -59,7 +59,6 @@ export default defineUserConfig({
         },
       },
     }),
-
   ],
 
   shouldPrefetch: false,      // 使用pwa推荐设置为 shouldPrefetch: false
