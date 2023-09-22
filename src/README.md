@@ -1,12 +1,18 @@
 ---
 home: true
-layout: BlogHome
-icon: home
 title: 博客主页
-heroImage: /logo.png
-heroText: Mr.Box
-heroFullScreen: true
+heroText: Mr.Box Blog
 tagline: 轻舟已过万重山
+heroImage: /logo.png
+bgImage: /assets/bgImage/day.jpg
+bgImageDark: /assets/bgImage/dark.jpg
+layout: BlogHome
+icon: shouye
+heroFullScreen: true
+head:
+  - - meta
+    - name: keywords
+      content: 盒子小屋, 盒子先生, Mr.Box Blog, 博客, java, 前端, 物联网, Vue
 projects:
   - icon: project
     name: 项目名称
@@ -23,20 +29,15 @@ projects:
     desc: 书籍详细描述
     link: https://你的书籍链接
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
-
   - icon: friend
     name: 伙伴名称
     desc: 伙伴详细介绍
     link: https://你的伙伴链接
 
-  - icon: /logo.png
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+  # - icon: /logo.png
+  #   name: 自定义项目
+  #   desc: 自定义详细介绍
+  #   link: https://你的自定义链接
 
 footer: true
 ---

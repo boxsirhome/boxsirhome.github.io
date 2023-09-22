@@ -1,20 +1,33 @@
 import { defineUserConfig } from "vuepress";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 import theme from "./theme.js";
+import { popperPlugin } from "./plugins/vuepress-plugin-popper";
+import { PopperShape } from "@moefy-canvas/theme-popper";
+import { getDirname, path } from "@vuepress/utils";
+const __dirname = getDirname(import.meta.url);
+
 export default defineUserConfig({
   base: "/",
-
   lang: "zh-CN",
-  title: "盒子先生",
+  title: "盒子小屋",
   description: "盒子先生的博客",
 
   theme,
 
   plugins: [
-    docsearchPlugin({       //Algolia全文搜索 | 教程地址 (https://blog.csdn.net/weixin_44495599/article/details/132022146）
-      appId: "0VQDGS0S4K",                        //应用程序标识
-      apiKey: "cfa11ad05ae34956f4464beaa5bfce2c", //搜索接口密钥
-      indexName: "boxsir-gitee",                  //索引名称
+    
+    popperPlugin({                                // 鼠标特效插件
+      config: {
+        shape: PopperShape.Star,
+        size: 1.95,
+        numParticles: 8,
+      },
+    }),
+
+    docsearchPlugin({                             // Algolia全文搜索
+      appId: "0VQDGS0S4K",                        // 应用程序标识
+      apiKey: "cfa11ad05ae34956f4464beaa5bfce2c", // 搜索接口密钥
+      indexName: "boxsir-gitee",                  // 索引名称
       locales: {
         "/": {
           placeholder: "搜素文档",
@@ -61,5 +74,12 @@ export default defineUserConfig({
     }),
   ],
 
+  
+  alias: {
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
+      __dirname,
+      "./components/BlogHero.vue",
+    ),
+  },
   shouldPrefetch: false,      // 使用pwa推荐设置为 shouldPrefetch: false
 });

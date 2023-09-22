@@ -2,7 +2,6 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
     text: "博文",
     icon: "pen-to-square",
@@ -49,4 +48,13 @@ export default navbar([
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
   },
+  {
+    text: "关于",
+    icon: "info",
+    children:[
+      { text: "关于我", icon: "people", link: "/about/intro" },
+      { text: "关于本站", icon: "info", link: "/about/site" },
+    ]
+  },
+  "/demo/",
 ]);

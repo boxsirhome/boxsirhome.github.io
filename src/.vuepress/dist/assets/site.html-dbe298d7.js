@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as a,d as e,e as c}from"./app-78759c33.js";const o={},n=e("h1",{id:"关于本站",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#关于本站","aria-hidden":"true"},"#"),c(" 关于本站")],-1),r=e("p",null,"将你的站点介绍和档案放置在此处。",-1),_=[n,r];function d(i,l){return s(),a("div",null,_)}const f=t(o,[["render",d],["__file","site.html.vue"]]);export{f as default};
