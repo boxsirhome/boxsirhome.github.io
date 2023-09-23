@@ -3,57 +3,41 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/posts/",
+    text: "笔记分类",
+    icon: "edit",
+    prefix: "/notes/",
     children: [
       {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
+        text: "后端笔记",
+        prefix: "after/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "JAVA", icon: "java", link: "java/" }
         ],
       },
       {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
+        text: "前端笔记",
+        prefix: "front/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
+          { text: "VUE", icon: "vue", link: "vue/" },
         ],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      {
+        text: "生态笔记",
+        prefix: "ecology/",
+        children: [
+          { text: "LINUX", icon: "linux", link: "linux/" },
+          { text: "GIT", icon: "git", link: "git/" },
+        ],
+      },
     ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
   },
   {
     text: "关于",
     icon: "info",
-    children:[
-      { text: "关于我", icon: "people", link: "/about/intro" },
-      { text: "关于本站", icon: "info", link: "/about/site" },
+    prefix: "/about/",
+    children: [
+      { text: "关于我", icon: "people", link: "intro" },
+      { text: "关于本站", icon: "computer", link: "site" },
     ]
   },
   "/demo/",

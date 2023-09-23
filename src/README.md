@@ -7,7 +7,7 @@ heroImage: /logo.png
 bgImage: /assets/bgImage/day.jpg
 bgImageDark: /assets/bgImage/dark.jpg
 layout: BlogHome
-icon: shouye
+icon: home
 heroFullScreen: true
 head:
   - - meta

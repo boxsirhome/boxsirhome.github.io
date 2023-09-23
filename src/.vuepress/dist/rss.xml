@@ -6,10 +6,12 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 22 Sep 2023 10:03:23 GMT</pubDate>
-    <lastBuildDate>Fri, 22 Sep 2023 10:03:23 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Sep 2023 10:05:39 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Sep 2023 10:05:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Java</category>
+    <category>git</category>
     <category>使用指南</category>
     <category>樱桃</category>
     <category>火龙果</category>
@@ -18,6 +20,94 @@
     <category>蔬菜</category>
     <category>苹果</category>
     <category>香蕉</category>
+    <category>Vue</category>
+    <item>
+      <title>Java 中 IO 流分为几种?</title>
+      <link>https://boxsir.gitee.io/notes/after/java/1.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/java/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Java 中 IO 流分为几种?</source>
+      <description>Java 中 IO 流分为几种? 标题 2 Java1。 标题 3 Java2。</description>
+      <category>Java</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Java 中 IO 流分为几种?</h1>
+<h2> 标题 2</h2>
+<p>Java1。</p>
+<h3> 标题 3</h3>
+<p>Java2。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Java 中异常处理体系</title>
+      <link>https://boxsir.gitee.io/notes/after/java/2.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/java/2.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Java 中异常处理体系</source>
+      <description>Java 中异常处理体系 标题 2 Java1。 标题 3 Java2。</description>
+      <category>Java</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Java 中异常处理体系</h1>
+<h2> 标题 2</h2>
+<p>Java1。</p>
+<h3> 标题 3</h3>
+<p>Java2。</p>
+]]></content:encoded>
+      <enclosure url="https://boxsir.gitee.io/assets/images/cover2.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>常用的git命令大全</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/1.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
+      <description>常用的git命令大全 标题 2 gitee 标题 3 github</description>
+      <category>git</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 常用的git命令大全</h1>
+<h2> 标题 2</h2>
+<p>gitee</p>
+<h3> 标题 3</h3>
+<p>github</p>
+]]></content:encoded>
+      <enclosure url="https://boxsir.gitee.io/assets/images/qima.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>常用的Linux命令</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/1.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">常用的Linux命令</source>
+      <description>常用的Linux命令 标题 2 Linux 标题 3 Linux2</description>
+      <category>Java</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 常用的Linux命令</h1>
+<h2> 标题 2</h2>
+<p>Linux</p>
+<h3> 标题 3</h3>
+<p>Linux2</p>
+]]></content:encoded>
+      <enclosure url="https://boxsir.gitee.io/assets/images/cover2.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>介绍站主</title>
+      <link>https://boxsir.gitee.io/about/intro.html</link>
+      <guid>https://boxsir.gitee.io/about/intro.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">介绍站主</source>
+      <description>介绍站主 将你的个人介绍和档案放置在此处。</description>
+      <pubDate>Fri, 22 Sep 2023 10:05:13 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 介绍站主</h1>
+<p>将你的个人介绍和档案放置在此处。</p>
+]]></content:encoded>
+      <enclosure url="https://boxsir.gitee.io/assets/images/cover3.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>关于本站</title>
+      <link>https://boxsir.gitee.io/about/site.html</link>
+      <guid>https://boxsir.gitee.io/about/site.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">关于本站</source>
+      <description>关于本站 将你的站点介绍和档案放置在此处。</description>
+      <pubDate>Fri, 22 Sep 2023 10:05:13 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 关于本站</h1>
+<p>将你的站点介绍和档案放置在此处。</p>
+]]></content:encoded>
+      <enclosure url="https://boxsir.gitee.io/assets/images/cover3.jpg" type="image/jpeg"/>
+    </item>
     <item>
       <title>幻灯片页</title>
       <link>https://boxsir.gitee.io/slides.html</link>
@@ -445,26 +535,19 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>介绍站主</title>
-      <link>https://boxsir.gitee.io/about/intro.html</link>
-      <guid>https://boxsir.gitee.io/about/intro.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">介绍站主</source>
-      <description>介绍站主 将你的个人介绍和档案放置在此处。</description>
-      <content:encoded><![CDATA[<h1> 介绍站主</h1>
-<p>将你的个人介绍和档案放置在此处。</p>
+      <title>Vue中有2种数据绑定的方式</title>
+      <link>https://boxsir.gitee.io/notes/front/vue/1.html</link>
+      <guid>https://boxsir.gitee.io/notes/front/vue/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Vue中有2种数据绑定的方式</source>
+      <description>Vue中有2种数据绑定的方式 标题 2 Vue1。 标题 3 Vue2。</description>
+      <category>Vue</category>
+      <content:encoded><![CDATA[<h1> Vue中有2种数据绑定的方式</h1>
+<h2> 标题 2</h2>
+<p>Vue1。</p>
+<h3> 标题 3</h3>
+<p>Vue2。</p>
 ]]></content:encoded>
-      <enclosure url="https://boxsir.gitee.io/assets/images/cover3.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>关于本站</title>
-      <link>https://boxsir.gitee.io/about/site.html</link>
-      <guid>https://boxsir.gitee.io/about/site.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">关于本站</source>
-      <description>关于本站 将你的站点介绍和档案放置在此处。</description>
-      <content:encoded><![CDATA[<h1> 关于本站</h1>
-<p>将你的站点介绍和档案放置在此处。</p>
-]]></content:encoded>
-      <enclosure url="https://boxsir.gitee.io/assets/images/cover3.jpg" type="image/jpeg"/>
+      <enclosure url="https://boxsir.gitee.io/assets/images/cover2.jpg" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
