@@ -1,5 +1,5 @@
 ---
-title: "LINUX"
+title: "Linux"
 icon: "linux"
 date: 2023-09-23
 index: false

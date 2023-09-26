@@ -4,6 +4,8 @@ import theme from "./theme.js";
 import { popperPlugin } from "./plugins/vuepress-plugin-popper";
 import { PopperShape } from "@moefy-canvas/theme-popper";
 import { getDirname, path } from "@vuepress/utils";
+import {canvasPlugin, CanvasPluginType,} from "./plugins/vuepress-plugin-canvas";
+import { gradientCoverPlugin } from "./plugins/vuepress-plugin-gradient-cover";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
@@ -72,14 +74,27 @@ export default defineUserConfig({
         },
       },
     }),
-  ],
 
+     canvasPlugin({                               // 背景插件
+      type: CanvasPluginType.Figure,
+      ribbonOption: {
+        zIndex: 1,
+        alpha: 0.8,
+        size: 90,
+      },
+    }),
+
+    gradientCoverPlugin({}),                    // 模糊背景 
+  ],
   
   alias: {
-    "@theme-hope/modules/blog/components/BlogHero": path.resolve(
-      __dirname,
-      "./components/BlogHero.vue",
-    ),
+    "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHero.vue",), //主页描述替换为一言词句
+    "@MyCoverLink": path.resolve(__dirname, "./components/MyCoverLink.vue"),  //自定义友链组件
+    "@MyLink": path.resolve(__dirname, "./components/Mylink.vue"),            //自定义友卡片组件
+    "@Tool": path.resolve(__dirname, "./data/tool.ts"),                       //工具数据
+    "@Doc": path.resolve(__dirname, "./data/doc.ts"),                         //文档数据
+    "@Software": path.resolve(__dirname, "./data/software.ts"),                         //文档数据
   },
+
   shouldPrefetch: false,      // 使用pwa推荐设置为 shouldPrefetch: false
 });

@@ -1,6 +1,8 @@
 ---
 icon: yanjingnan
-cover: /assets/images/cover3.jpg
+breadcrumb: false
+sidebar: false
+article: false
 ---
 
 # 介绍站主

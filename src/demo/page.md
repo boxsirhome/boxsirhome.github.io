@@ -18,15 +18,19 @@ category:
 tag:
   - 页面配置
 # 此页面会在文章列表置顶
-sticky: true
+sticky: false
 # 当前文章是否为原创
 isOriginal: true
 # 此页面会出现在文章收藏中
-star: true
+star: false
 # 你可以自定义页脚
 footer: 这是测试显示的页脚
 # 你可以自定义版权信息
 copyright: 无版权
+# 是否将该文章添加至文章列表中，默认true
+article: false 
+# 是否将该文章添加至时间线中，默认true
+timeline: false
 ---
 
 `more` 注释之前的内容被视为文章摘要。

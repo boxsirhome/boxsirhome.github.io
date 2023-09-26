@@ -3,7 +3,7 @@ home: true
 title: 博客主页
 heroText: Mr.Box Blog
 tagline: 轻舟已过万重山
-heroImage: /logo.png
+heroImage: /head.png
 bgImage: /assets/bgImage/day.jpg
 bgImageDark: /assets/bgImage/dark.jpg
 layout: BlogHome

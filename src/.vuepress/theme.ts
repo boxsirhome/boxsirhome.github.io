@@ -20,7 +20,8 @@ export default hopeTheme({
     "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",          // 默认的
     "//at.alicdn.com/t/c/font_4261008_me2jor012ub.css",         // Iconfont 平台,项目生成的地址
   ],
-  logo: "/logo.png",                                             // 导航栏图标
+  
+  logo: "/head.png",                                             // 导航栏图标
   repo: "https://github.com/leekboxsir",                         // 仓库地址
   repoLabel: "GitHub",                                           // 导航栏标签类型
   repoDisplay: true,                                             // 是否在导航栏显示仓库链接
@@ -46,7 +47,8 @@ export default hopeTheme({
   },
 
   blog: {
-    description: "一个全栈开发者",
+    avatar: "/logo.png",                                           // 博主头像
+    description: "一个全栈开发者",                                  // 博主描述
     intro: "/about/intro.html",                                    // 个人介绍地址
     roundAvatar: true,                                             // 剪裁头像为圆形形状
     timeline: "持续更新",                                           // 时间轴的顶部文字

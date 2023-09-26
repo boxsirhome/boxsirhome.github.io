@@ -2,6 +2,10 @@
 title: Markdown 展示
 icon: fab fa-markdown
 order: 2
+article: false
+sticky: false
+star: false
+timeline: false
 category:
   - 使用指南
 tag:

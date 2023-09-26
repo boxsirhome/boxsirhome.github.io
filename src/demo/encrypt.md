@@ -1,6 +1,10 @@
 ---
 icon: lock
 order: 4
+article: false
+sticky: false
+star: false
+timeline: false
 category:
   - 使用指南
 tag:

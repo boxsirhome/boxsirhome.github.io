@@ -1,1 +1,114 @@
 // 把你的自定义样式放在这里
+// place your custom styles here
+@use "@sass-palette/hope-config";
+
+.blog .fullscreen h1 {
+  font-size: 2.8rem;
+}
+
+.vp-blog-hero.fullscreen {
+  z-index: 2;
+}
+.blog-page-wrapper {
+  z-index: 2;
+}
+.vp-footer-wrapper{
+  z-index: 4;
+}
+
+.theme-container .vp-sidebar {
+  transition: 0.3s;
+  top: var(--navbar-height);
+  @media (min-width: hope-config.$pad) {
+    z-index: 4;
+    background-color: transparent;
+  }
+}
+
+// 文章不显示内容
+.vp-article-excerpt{
+  display: none;
+}
+
+// 文章页面
+#main-content.vp-page {
+  backdrop-filter: saturate(150%) blur(0.75rem);
+  z-index: 2;
+}
+
+// 404页面
+.vp-page.not-found {
+  max-width: none;
+  background-color: transparent;
+}
+
+// 底部页码
+.vp-pagination .vp-pagination-number div.active {
+  background-color: var(--theme-color) !important;
+}
+
+// 主页模糊
+.vp-article-wrapper .vp-article-item,
+.vp-page .vp-blogger-info,
+.vp-page .vp-blog-infos,
+.vp-pagination .vp-pagination-number div,
+.vp-pagination .vp-pagination-nav .vp-pagination-button,
+.vp-pagination .vp-pagination-nav input,
+.back-to-top {
+  -webkit-backdrop-filter: saturate(150%) blur(0.75rem);
+  backdrop-filter: saturate(150%) blur(0.75rem);
+}
+
+[data-theme="light"] .theme-container .vp-sidebar {
+  @media (max-width: hope-config.$tablet) {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: saturate(150%) blur(0.75rem);
+  }
+}
+
+[data-theme="dark"] .theme-container .vp-sidebar {
+  @media (max-width: hope-config.$tablet) {
+    background-color: rgba(29, 32, 37, 0.8);
+    backdrop-filter: saturate(150%) blur(0.75rem);
+  }
+}
+
+[data-theme="light"] #main-content.vp-page {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] #main-content.vp-page {
+  background-color: #1d2025cc;
+}
+
+[data-theme="light"] .vp-article-wrapper .vp-article-item,
+[data-theme="light"] .vp-page .vp-blogger-info,
+[data-theme="light"] .vp-page .vp-blog-infos,
+[data-theme="light"] .vp-pagination .vp-pagination-nav .vp-pagination-button,
+[data-theme="light"] .vp-pagination .vp-pagination-nav input,
+[data-theme="light"] .vp-pagination .vp-pagination-number div,
+[data-theme="light"] .wl-panel,
+[data-theme="light"] .back-to-top [data-theme="light"] .page-bg {
+  background-color: #ffffffb3;
+}
+
+[data-theme="dark"] .vp-article-wrapper .vp-article-item,
+[data-theme="dark"] .vp-page .vp-blogger-info,
+[data-theme="dark"] .vp-page .vp-blog-infos,
+[data-theme="dark"] .vp-pagination .vp-pagination-nav .vp-pagination-button,
+[data-theme="dark"] .vp-pagination .vp-pagination-nav input,
+[data-theme="dark"] .vp-pagination .vp-pagination-number div,
+[data-theme="dark"] .wl-panel,
+[data-theme="dark"] .back-to-top [data-theme="dark"] .page-bg {
+  background-color: #1d2025b3;
+}
+
+[data-theme="light"] .vp-blog-hero .vp-blog-mask:after {
+  background: #000;
+  opacity: 0.2 !important;
+}
+
+[data-theme="dark"] .vp-blog-hero .vp-blog-mask:after {
+  background: #000;
+  opacity: 0.5 !important;
+}

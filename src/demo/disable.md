@@ -19,7 +19,10 @@ prev: false
 next: false
 comment: false
 footer: false
-
+article: false
+sticky: false
+star: false
+timeline: false
 backtotop: false
 ---
 
