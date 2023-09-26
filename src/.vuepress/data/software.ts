@@ -4,13 +4,13 @@ export const software_database: LinkData[] = [
   {
     name: "MySql5.7",
     desc: "提取码：8eph",
-    ico: "https://labs.mysql.com/common/themes/sakila/favicon.ico",
+    ico: "https://img1.baidu.com/it/u=1282090260,2707582269&fm=253&fmt=auto&app=138&f=JPEG",
     link: "https://pan.baidu.com/s/1XwEE89pi7BQmtWxdM6aDKQ",
   },
   {
     name: "MySql8.0",
     desc: "提取码：9pwa",
-    ico: "https://labs.mysql.com/common/themes/sakila/favicon.ico",
+    ico: "https://img1.baidu.com/it/u=1282090260,2707582269&fm=253&fmt=auto&app=138&f=JPEG",
     link: "https://pan.baidu.com/s/1BabN8he2eIHkPE8HMyMJ9A",
   },
 ];

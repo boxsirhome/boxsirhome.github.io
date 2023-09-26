@@ -48,7 +48,7 @@ export default hopeTheme({
 
   blog: {
     avatar: "/logo.png",                                           // 博主头像
-    description: "一个全栈开发者",                                  // 博主描述
+    description: "心有山海，静而不争",                               // 博主描述
     intro: "/about/intro.html",                                    // 个人介绍地址
     roundAvatar: true,                                             // 剪裁头像为圆形形状
     timeline: "持续更新",                                           // 时间轴的顶部文字
