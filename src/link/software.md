@@ -6,6 +6,7 @@ breadcrumb: false
 sidebar: false
 article: false
 comment: false
+pageInfo: ["Author", "Date", "PageView"]
 ---
 
 :::info

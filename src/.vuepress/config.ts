@@ -13,6 +13,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "盒子小屋",
   description: "盒子先生的博客",
+  port: 8088,
 
   theme,
 
