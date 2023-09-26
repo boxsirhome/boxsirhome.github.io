@@ -6,8 +6,8 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 26 Sep 2023 09:59:10 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Sep 2023 09:59:10 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2023 12:06:26 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2023 12:06:26 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java</category>
@@ -66,10 +66,22 @@
       <link>https://boxsir.gitee.io/notes/ecology/git/1.html</link>
       <guid>https://boxsir.gitee.io/notes/ecology/git/1.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
-      <description>常用的git命令大全 标题 2 gitee 标题 3 github</description>
+      <description>相关信息 永远不要过早优化，优化也有相应的代价 开发时间变长 开发成本增加 代码难以阅读 增加维护成本 何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</description>
       <category>git</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 常用的git命令大全</h1>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>永远不要过早优化，优化也有相应的代价</p>
+<ul>
+<li>开发时间变长</li>
+<li>开发成本增加</li>
+<li>代码难以阅读</li>
+<li>增加维护成本</li>
+</ul>
+<p>何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</p>
+</div>
+<!-- more -->
+<h1> 常用的git命令大全</h1>
 <h2> 标题 2</h2>
 <p>gitee</p>
 <h3> 标题 3</h3>
