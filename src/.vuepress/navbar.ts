@@ -47,8 +47,8 @@ export default navbar([
         text: "物联网项目",
         prefix: "/IoT",
         children: [
-          { text: "ESP32", icon: "vue", link: "/ESP32" },
-          { text: "ESP8266", icon: "vue", link: "/ESP8266" },
+          { text: "ESP32", icon: "IoT", link: "/ESP32" },
+          { text: "ESP8266", icon: "IoT", link: "/ESP8266" },
         ],
       },
     ],

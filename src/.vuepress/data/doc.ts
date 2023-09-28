@@ -31,3 +31,12 @@ export const doc_after: LinkData[] = [
     link: "https://redis.io/",
   },
 ];
+
+export const doc_IoT: LinkData[] = [
+  {
+    name: "Yiboard",
+    desc: "开发板的技术交流平台，各大半导体厂商官方开发板的支持，电子爱好者的自主设计开发板 ",
+    ico: "https://www.yiboard.com/favicon.ico",
+    link: "https://www.yiboard.com/forum.php/",
+  },
+];

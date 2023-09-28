@@ -14,25 +14,25 @@ head:
     - name: keywords
       content: 盒子小屋, 盒子先生, Mr.Box Blog, 博客, java, 前端, 物联网, Vue
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: /assets/homeProjects/friendLink.svg
+    name: 友情链接
+    desc: 志同道合的一帮人
+    link: /social/friend
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: /assets/homeProjects/comment.svg
+    name: 写下留言
+    desc: 欢迎来留言哦
+    link: /social/guestbook
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+  - icon: /assets/homeProjects/aboutMe.svg
+    name: 关于博主
+    desc: 博主的私人空间
+    link: /about/intro
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+  - icon: /assets/homeProjects/aboutSite.svg
+    name: 关于本站
+    desc: 有关站点的介绍
+    link: /about/site
 
   # - icon: /logo.png
   #   name: 自定义项目
@@ -41,4 +41,3 @@ projects:
 
 footer: true
 ---
-

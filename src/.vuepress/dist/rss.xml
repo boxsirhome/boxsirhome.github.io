@@ -6,116 +6,19 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Sep 2023 03:20:25 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Sep 2023 03:20:25 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Sep 2023 09:52:11 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Sep 2023 09:52:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>Java</category>
-    <category>git</category>
-    <category>Vue</category>
     <category>项目</category>
+    <category>笔记</category>
     <category>使用指南</category>
-    <item>
-      <title>Java 中 IO 流分为几种?</title>
-      <link>https://boxsir.gitee.io/notes/after/java/1.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/java/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Java 中 IO 流分为几种?</source>
-      <description>Java 中 IO 流分为几种? 标题 2 Java1。 标题 3 Java2。</description>
-      <category>Java</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Java 中 IO 流分为几种?</h1>
-<h2> 标题 2</h2>
-<p>Java1。</p>
-<h3> 标题 3</h3>
-<p>Java2。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Java 中异常处理体系</title>
-      <link>https://boxsir.gitee.io/notes/after/java/2.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/java/2.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Java 中异常处理体系</source>
-      <description>相关信息 java 中异常处理体系</description>
-      <category>Java</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>java 中异常处理体系</p>
-</div>
-<!-- more -->
-<h1> Java 中异常处理体系</h1>
-<h2> 标题 2</h2>
-<p>Java1。</p>
-<h3> 标题 3</h3>
-<p>Java2。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>常用的git命令大全</title>
-      <link>https://boxsir.gitee.io/notes/ecology/git/1.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/git/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
-      <description>相关信息 永远不要过早优化，优化也有相应的代价 开发时间变长 开发成本增加 代码难以阅读 增加维护成本 何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</description>
-      <category>git</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>永远不要过早优化，优化也有相应的代价</p>
-<ul>
-<li>开发时间变长</li>
-<li>开发成本增加</li>
-<li>代码难以阅读</li>
-<li>增加维护成本</li>
-</ul>
-<p>何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</p>
-</div>
-<!-- more -->
-<h1> 常用的git命令大全</h1>
-<h2> 标题 2</h2>
-<p>gitee</p>
-<h3> 标题 3</h3>
-<p>github</p>
-]]></content:encoded>
-      <enclosure url="https://boxsir.gitee.io/assets/images/qima.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>常用的Linux命令</title>
-      <link>https://boxsir.gitee.io/notes/ecology/linux/1.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/linux/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">常用的Linux命令</source>
-      <description>常用的Linux命令 标题 2 Linux 标题 3 Linux2</description>
-      <category>Java</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 常用的Linux命令</h1>
-<h2> 标题 2</h2>
-<p>Linux</p>
-<h3> 标题 3</h3>
-<p>Linux2</p>
-]]></content:encoded>
-      <enclosure url="https://boxsir.gitee.io/assets/images/cover2.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Vue中有2种数据绑定的方式</title>
-      <link>https://boxsir.gitee.io/notes/front/vue/1.html</link>
-      <guid>https://boxsir.gitee.io/notes/front/vue/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Vue中有2种数据绑定的方式</source>
-      <description>Vue中有2种数据绑定的方式 标题 2 Vue1。 标题 3 Vue2。</description>
-      <category>Vue</category>
-      <pubDate>Sat, 23 Sep 2023 10:06:22 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Vue中有2种数据绑定的方式</h1>
-<h2> 标题 2</h2>
-<p>Vue1。</p>
-<h3> 标题 3</h3>
-<p>Vue2。</p>
-]]></content:encoded>
-      <enclosure url="https://boxsir.gitee.io/assets/images/cover2.jpg" type="image/jpeg"/>
-    </item>
     <item>
       <title>《锋迷商城》项目介绍</title>
       <link>https://boxsir.gitee.io/item/web/java/1.html</link>
       <guid>https://boxsir.gitee.io/item/web/java/1.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">《锋迷商城》项目介绍</source>
-      <description>《锋迷商城》项目介绍 1.1 项目背景 锋迷商城——电商平台 B2C 商家对客户 平台即商家 B2B商家对商家 C2B2C 客户对商家对客户 1.1.1 B2C 平台运营方即商品的卖家 小米商城 商品 用户 1.1.2 C2B2C 平台运营方不卖商品（也可以卖） 卖家是平台的用户 买家也是平台用户 用户（店铺） 用户（买家） 服务 商品</description>
+      <description>《锋迷商城》项目介绍 1.1 项目背景 锋迷商城——电商平台 B2C 商家对客户 平台即商家 B2B商家对商家 C2B2C 客户对商家对客户</description>
       <category>项目</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 《锋迷商城》项目介绍</h1>
@@ -128,6 +31,7 @@
 <li>C2B2C 客户对商家对客户</li>
 </ul>
 </blockquote>
+<!-- more -->
 <h2> 1.1.1 B2C</h2>
 <blockquote>
 <p>平台运营方即商品的卖家    小米商城</p>
@@ -165,7 +69,7 @@
       <link>https://boxsir.gitee.io/item/web/java/2.html</link>
       <guid>https://boxsir.gitee.io/item/web/java/2.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">刀客项目介绍</source>
-      <description>刀客项目介绍 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。 在线体验 刀客官网：http://www.daoke.space(opens new window) 演示地址：http://demo.daoke.space(opens new window) 代码下载：https://gitee.com/idaoke/idaoke</description>
+      <description>刀客项目介绍 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。</description>
       <category>项目</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 刀客项目介绍</h1>
@@ -177,6 +81,7 @@
 <li>权限认证使用Jwt，支持多终端认证系统。</li>
 <li>支持加载动态权限菜单，多方式轻松权限控制。</li>
 </ul>
+<!-- more -->
 <h2> 在线体验</h2>
 <ul>
 <li>刀客官网：<a href="http://www.daoke.space" target="_blank" rel="noopener noreferrer">http://www.daoke.space(opens new window)</a></li>
@@ -258,6 +163,34 @@
 <li>支持服务监控，数据监控，缓存监控功能。</li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>常用的git命令大全</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/1.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
+      <description>相关信息 永远不要过早优化，优化也有相应的代价 开发时间变长 开发成本增加 代码难以阅读 增加维护成本 何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>永远不要过早优化，优化也有相应的代价</p>
+<ul>
+<li>开发时间变长</li>
+<li>开发成本增加</li>
+<li>代码难以阅读</li>
+<li>增加维护成本</li>
+</ul>
+<p>何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</p>
+</div>
+<!-- more -->
+<h1> 常用的git命令大全</h1>
+<h2> 标题 2</h2>
+<p>gitee</p>
+<h3> 标题 3</h3>
+<p>github</p>
+]]></content:encoded>
+      <enclosure url="https://boxsir.gitee.io/assets/images/qima.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>主要功能与配置演示</title>
