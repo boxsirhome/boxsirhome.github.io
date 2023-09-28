@@ -15,14 +15,18 @@ export default sidebar({
   ],
 
   "/notes/": "structure",
-
   "/notes/after/": "structure",
   "/notes/after/java/": "structure",
-
   "/notes/front/": "structure",
   "/notes/front/vue/": "structure",
-
   "/notes/ecology/": "structure",
   "/notes/ecology/linux/": "structure",
   "/notes/ecology/git/": "structure",
+
+  "/item/": "structure",
+  "/item/web/java": "structure",
+  "/item/IoT/ESP32/": "structure",
+  "/item/IoT/ESP8266/": "structure",
+
+  "/about/site/": "structure",
 });

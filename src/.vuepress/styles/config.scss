@@ -1,4 +1,26 @@
-// you can change config here
+// 你可以在这里修改配置
 $colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
   #7f8c8d !default;
 $theme-colors: #2196f3, #f26d6d, #3eaf7c, #fb9b5f;
+
+//代码高亮主题
+$code-color: (
+  light: #383a42,
+  dark: #abb2bf,
+);
+$code-line-color:(
+  light: rgba(56, 58, 66, .67),
+  dark: rgba(171, 178, 191, .67),
+);
+$code-bg-color: (
+  light: #def1ff,
+  dark: #333945,
+);
+$code-border-color: (
+  light: #c3def3,
+  dark: #343e51,
+);
+$code-highlight-line-color: (
+  light: #d8e9f6,
+  dark: #2f3542,
+)

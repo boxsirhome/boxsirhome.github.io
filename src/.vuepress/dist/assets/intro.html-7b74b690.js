@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,d as e,e as c}from"./app-4bcd1db1.js";const n={},r=e("h1",{id:"介绍站主",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#介绍站主","aria-hidden":"true"},"#"),c(" 介绍站主")],-1),s=e("p",null,"将你的个人介绍和档案放置在此处。",-1),_=[r,s];function d(i,l){return o(),a("div",null,_)}const f=t(n,[["render",d],["__file","intro.html.vue"]]);export{f as default};

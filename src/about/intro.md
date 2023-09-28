@@ -1,5 +1,5 @@
 ---
-icon: yanjingnan
+icon: aboutMe
 breadcrumb: false
 sidebar: false
 article: false

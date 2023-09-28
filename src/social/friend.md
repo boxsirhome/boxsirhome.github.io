@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-icon: link
+icon: friendLink
 breadcrumb: false
 sidebar: false
 article: false

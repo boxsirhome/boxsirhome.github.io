@@ -1,11 +1,11 @@
 ---
-icon: mark
+title:  留言板 ✨ 
+icon: comment
 breadcrumb: false
 sidebar: false
 article: false
 ---
 
-# 留言板 ✨ 
 ![](https://tenapi.cn/v2/acg)
 
 :::: tip 博主留言✨📒

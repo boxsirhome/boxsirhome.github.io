@@ -1,6 +1,6 @@
 ---
-title: "软件"
-icon: "creative"
+title: 软件
+icon: softwarePackage
 date: 2023-04-11
 breadcrumb: false
 sidebar: false

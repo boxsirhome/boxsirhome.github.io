@@ -17,8 +17,8 @@ export default hopeTheme({
   
   hostname: "https://boxsir.gitee.io",                          // 部署的域名
   iconAssets: [                                                 // 全局设置图标资地址，默认的设置：iconAssets: "iconfont"
-    "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",          // 默认的
-    "//at.alicdn.com/t/c/font_4261008_me2jor012ub.css",         // Iconfont 平台,项目生成的地址
+    "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",          // 默认图标的地址
+    "//at.alicdn.com/t/c/font_4261008_unxo3n4weml.css",         // Iconfont 平台,我的项目中"navbar"的图标
   ],
   
   logo: "/head.png",                                             // 导航栏图标
@@ -74,7 +74,7 @@ export default hopeTheme({
     blog: true,
     git: true,                   // 开发模式下启用,实现了页面创建时间、最后更新时间与贡献者的自动生成
     seo: true,                   // 全面增强站点的搜索引擎优化性
-
+    prismjs: false,              // 禁用Prism的高亮，使用Shiki的高亮
     feed: {                      // feed支持
       rss: true
     },

@@ -6,6 +6,7 @@ import { PopperShape } from "@moefy-canvas/theme-popper";
 import { getDirname, path } from "@vuepress/utils";
 import {canvasPlugin, CanvasPluginType,} from "./plugins/vuepress-plugin-canvas";
 import { gradientCoverPlugin } from "./plugins/vuepress-plugin-gradient-cover";
+import { shikiPlugin } from "@vuepress/plugin-shiki";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
@@ -19,6 +20,10 @@ export default defineUserConfig({
 
   plugins: [
     
+    shikiPlugin({                                 //代码高亮插件
+      theme: "one-dark-pro",
+    }),
+
     popperPlugin({                                // 鼠标特效插件
       config: {
         shape: PopperShape.Star,
@@ -85,7 +90,7 @@ export default defineUserConfig({
       },
     }),
 
-    gradientCoverPlugin({}),                    // 模糊背景 
+    gradientCoverPlugin({}),                      // 模糊背景 
   ],
   
   alias: {

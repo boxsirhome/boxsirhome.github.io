@@ -1,6 +1,6 @@
 ---
-title: "文档"
-icon: "api"
+title: 文档
+icon: devDocs
 date: 2023-03-28
 breadcrumb: false
 sidebar: false

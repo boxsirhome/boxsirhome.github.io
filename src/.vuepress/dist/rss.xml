@@ -6,13 +6,14 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 26 Sep 2023 15:08:45 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Sep 2023 15:08:45 GMT</lastBuildDate>
+    <pubDate>Thu, 28 Sep 2023 03:20:25 GMT</pubDate>
+    <lastBuildDate>Thu, 28 Sep 2023 03:20:25 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Java</category>
     <category>git</category>
     <category>Vue</category>
+    <category>项目</category>
     <category>使用指南</category>
     <item>
       <title>Java 中 IO 流分为几种?</title>
@@ -108,6 +109,155 @@
 <p>Vue2。</p>
 ]]></content:encoded>
       <enclosure url="https://boxsir.gitee.io/assets/images/cover2.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>《锋迷商城》项目介绍</title>
+      <link>https://boxsir.gitee.io/item/web/java/1.html</link>
+      <guid>https://boxsir.gitee.io/item/web/java/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">《锋迷商城》项目介绍</source>
+      <description>《锋迷商城》项目介绍 1.1 项目背景 锋迷商城——电商平台 B2C 商家对客户 平台即商家 B2B商家对商家 C2B2C 客户对商家对客户 1.1.1 B2C 平台运营方即商品的卖家 小米商城 商品 用户 1.1.2 C2B2C 平台运营方不卖商品（也可以卖） 卖家是平台的用户 买家也是平台用户 用户（店铺） 用户（买家） 服务 商品</description>
+      <category>项目</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 《锋迷商城》项目介绍</h1>
+<h2> 1.1 项目背景</h2>
+<blockquote>
+<p>锋迷商城——电商平台</p>
+<ul>
+<li>B2C 商家对客户   平台即商家</li>
+<li>B2B商家对商家</li>
+<li>C2B2C 客户对商家对客户</li>
+</ul>
+</blockquote>
+<h2> 1.1.1 B2C</h2>
+<blockquote>
+<p>平台运营方即商品的卖家    小米商城</p>
+<ul>
+<li>商品</li>
+<li>用户</li>
+</ul>
+</blockquote>
+<h2> 1.1.2 C2B2C</h2>
+<blockquote>
+<p>平台运营方不卖商品（也可以卖）</p>
+<p>卖家是平台的用户</p>
+<p>买家也是平台用户</p>
+<ul>
+<li>用户（店铺）</li>
+<li>用户（买家）</li>
+<li>服务</li>
+<li>商品</li>
+</ul>
+</blockquote>
+<h2> 1.1.3 Java</h2>
+<blockquote>
+<p>Java语言的应用领域很广，但主要应用于web领域的项目开发，web项目类型分为两类：</p>
+<ul>
+<li>企业级开发 （供企业内部使用的系统：企业内部的管理系统CRM\ERP、学校的教务管理系统）</li>
+<li>互联网开发（提供给所有互联网用户使用的系统——用户量）—— 电商</li>
+</ul>
+</blockquote>
+<h2> 1.2 项目功能</h2>
+<p><a href="https://www.processon.com/view/link/606bde8b1e08534321fd2103" target="_blank" rel="noopener noreferrer">https://www.processon.com/view/link/606bde8b1e08534321fd2103</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>刀客项目介绍</title>
+      <link>https://boxsir.gitee.io/item/web/java/2.html</link>
+      <guid>https://boxsir.gitee.io/item/web/java/2.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">刀客项目介绍</source>
+      <description>刀客项目介绍 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。 在线体验 刀客官网：http://www.daoke.space(opens new window) 演示地址：http://demo.daoke.space(opens new window) 代码下载：https://gitee.com/idaoke/idaoke</description>
+      <category>项目</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 刀客项目介绍</h1>
+<h2> 平台简介</h2>
+<p>墨客带刀，万物共生！</p>
+<ul>
+<li>前端采用Vue、Element UI。</li>
+<li>后端采用Spring Boot、Spring Security、Redis &amp; Jwt。</li>
+<li>权限认证使用Jwt，支持多终端认证系统。</li>
+<li>支持加载动态权限菜单，多方式轻松权限控制。</li>
+</ul>
+<h2> 在线体验</h2>
+<ul>
+<li>刀客官网：<a href="http://www.daoke.space" target="_blank" rel="noopener noreferrer">http://www.daoke.space(opens new window)</a></li>
+<li>演示地址：<a href="http://demo.daoke.space" target="_blank" rel="noopener noreferrer">http://demo.daoke.space(opens new window)</a></li>
+<li>代码下载：<a href="https://gitee.com/idaoke/idaoke" target="_blank" rel="noopener noreferrer">https://gitee.com/idaoke/idaoke</a></li>
+</ul>
+<h2> 内置功能</h2>
+<p>（1）系统管理</p>
+<ul>
+<li>用户管理：用户是系统操作者，该功能主要完成系统用户配置。</li>
+<li>部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。</li>
+<li>岗位管理：配置系统用户所属担任职务。</li>
+<li>菜单管理：配置系统菜单，操作权限，按钮权限标识等。</li>
+<li>角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。</li>
+<li>字典管理：对系统中经常使用的一些较为固定的数据进行维护。</li>
+<li>参数管理：对系统动态配置常用参数。</li>
+<li>通知公告：系统通知公告信息发布维护。</li>
+<li>操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。</li>
+<li>登录日志：系统登录日志记录查询包含登录异常。</li>
+<li>在线用户：当前系统中活跃用户状态监控。</li>
+<li>定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。</li>
+<li>代码生成：前后端代码的生成（java、html、xml、sql）支持CRUD下载 。</li>
+<li>系统接口：根据业务代码自动生成相关的api接口文档。</li>
+<li>服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。</li>
+<li>缓存监控：对系统的缓存信息查询，命令统计等。</li>
+<li>在线构建器：拖动表单元素生成相应的HTML代码。</li>
+<li>连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。</li>
+</ul>
+<p>（2）店铺管理</p>
+<ul>
+<li>店员管理：维护店员信息，店员是会员的管理者。</li>
+<li>会员管理：会员信息，账单信息，积分信息。</li>
+<li>收入报表：生成各时间段会员人数，充值人数，每日人流，收入金额等的Echart图。</li>
+</ul>
+<p>（3）物业管理</p>
+<ul>
+<li>建设中</li>
+</ul>
+<p>（4）打卡管理</p>
+<ul>
+<li>建设中</li>
+</ul>
+<h2> 技术选型</h2>
+<p><strong>1、系统环境</strong></p>
+<ul>
+<li>Java EE 8</li>
+<li>Servlet 3.0</li>
+<li>Apache Maven 3</li>
+</ul>
+<p><strong>2、主框架</strong></p>
+<ul>
+<li>Spring Boot 2.5.x</li>
+<li>Spring Framework 5.2.x</li>
+<li>Spring Security 5.2.x</li>
+</ul>
+<p><strong>3、持久层</strong></p>
+<ul>
+<li>Apache Mybatis-plus 3.4.x</li>
+<li>Hibernate Validation 6.0.x</li>
+<li>Alibaba Druid 1.2.x</li>
+</ul>
+<p><strong>4、视图层</strong></p>
+<ul>
+<li>Vue 2.6.x</li>
+<li>Axios 0.21.x</li>
+<li>Element 2.15.x</li>
+</ul>
+<h2> 主要特性</h2>
+<ul>
+<li>完全响应式布局（支持电脑、平板、手机等所有主流设备）</li>
+<li>强大的一键生成功能（包括控制器、模型、视图、菜单等）</li>
+<li>支持多数据源，简单配置即可实现切换。</li>
+<li>支持按钮及数据权限，可自定义部门数据权限。</li>
+<li>对常用js插件进行二次封装，使js代码变得简洁，更加易维护</li>
+<li>完善的XSS防范及脚本过滤，彻底杜绝XSS攻击</li>
+<li>Maven多项目依赖，模块及插件分项目，尽量松耦合，方便模块升级、增减模块。</li>
+<li>国际化支持，服务端及客户端支持</li>
+<li>完善的日志记录体系简单注解即可实现</li>
+<li>支持服务监控，数据监控，缓存监控功能。</li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>主要功能与配置演示</title>

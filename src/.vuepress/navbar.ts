@@ -4,7 +4,7 @@ export default navbar([
   "/",
   {
     text: "笔记",
-    icon: "edit",
+    icon: "notes",
     prefix: "/notes",
     children: [
       {
@@ -33,42 +33,48 @@ export default navbar([
   },
   {
     text: "项目",
-    icon: "app",
-    prefix: "/notes",
+    icon: "project",
+    prefix: "/item",
     children: [
       {
         text: "web项目",
-        prefix: "/after",
+        prefix: "/web",
         children: [
           { text: "JAVA", icon: "java", link: "/java" }
         ],
       },
       {
         text: "物联网项目",
-        prefix: "/front",
+        prefix: "/IoT",
         children: [
-          { text: "VUE", icon: "vue", link: "/vue" },
+          { text: "ESP32", icon: "vue", link: "/ESP32" },
+          { text: "ESP8266", icon: "vue", link: "/ESP8266" },
         ],
       },
     ],
   },
   {
-    text: "仓库", icon: "box", prefix: "/link",
+    text: "仓库", icon: "warehouse", prefix: "/link",
     children: [
-      { text: "工具", icon: "tool", link: "/tool" },
-      { text: "软件", icon: "software", link: "/software" },
-      { text: "文档", icon: "article", link: "/doc" },
+      { text: "工具", icon: "toolBox", link: "/tool" },
+      { text: "软件", icon: "softwarePackage", link: "/software" },
+      { text: "文档", icon: "devDocs", link: "/doc" },
     ]
   },
-  { text: "友链", icon: "link", link: "/social/friend" },
-  { text: "留言", icon: "mark", link: "/social/guestbook" },
+  {
+    text: "交友", icon: "makeFriends", prefix: "/social",
+    children: [
+      { text: "友链", icon: "friendLink", link: "/friend" },
+      { text: "留言", icon: "comment", link: "/guestbook" },
+    ]
+  },
   {
     text: "关于",
-    icon: "info",
+    icon: "about",
     prefix: "/about",
     children: [
-      { text: "关于我", icon: "people", link: "/intro" },
-      { text: "关于本站", icon: "computer", link: "/site" },
+      { text: "关于我", icon: "aboutMe", link: "/intro" },
+      { text: "关于本站", icon: "aboutSite", link: "/site/pushBlog" },
     ]
   },
 ]);
