@@ -6,22 +6,22 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Sep 2023 09:52:11 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Sep 2023 09:52:11 GMT</lastBuildDate>
+    <pubDate>Fri, 06 Oct 2023 10:30:06 GMT</pubDate>
+    <lastBuildDate>Fri, 06 Oct 2023 10:30:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>项目</category>
     <category>笔记</category>
     <category>使用指南</category>
     <item>
-      <title>《锋迷商城》项目介绍</title>
+      <title>锋迷商城</title>
       <link>https://boxsir.gitee.io/item/web/java/1.html</link>
       <guid>https://boxsir.gitee.io/item/web/java/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">《锋迷商城》项目介绍</source>
-      <description>《锋迷商城》项目介绍 1.1 项目背景 锋迷商城——电商平台 B2C 商家对客户 平台即商家 B2B商家对商家 C2B2C 客户对商家对客户</description>
+      <source url="https://boxsir.gitee.io/rss.xml">锋迷商城</source>
+      <description>锋迷商城 1.1 项目背景 锋迷商城——电商平台 B2C 商家对客户 平台即商家 B2B商家对商家 C2B2C 客户对商家对客户</description>
       <category>项目</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 《锋迷商城》项目介绍</h1>
+      <content:encoded><![CDATA[<h1> 锋迷商城</h1>
 <h2> 1.1 项目背景</h2>
 <blockquote>
 <p>锋迷商城——电商平台</p>
@@ -65,14 +65,14 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>刀客项目介绍</title>
+      <title>刀客</title>
       <link>https://boxsir.gitee.io/item/web/java/2.html</link>
       <guid>https://boxsir.gitee.io/item/web/java/2.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">刀客项目介绍</source>
-      <description>刀客项目介绍 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。</description>
+      <source url="https://boxsir.gitee.io/rss.xml">刀客</source>
+      <description>刀客 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。</description>
       <category>项目</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 刀客项目介绍</h1>
+      <content:encoded><![CDATA[<h1> 刀客</h1>
 <h2> 平台简介</h2>
 <p>墨客带刀，万物共生！</p>
 <ul>
@@ -165,39 +165,21 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>常用的git命令大全</title>
-      <link>https://boxsir.gitee.io/notes/ecology/git/1.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/git/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
-      <description>相关信息 永远不要过早优化，优化也有相应的代价 开发时间变长 开发成本增加 代码难以阅读 增加维护成本 何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</description>
+      <title>常用的Linux命令</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/1.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/1.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">常用的Linux命令</source>
       <category>笔记</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>永远不要过早优化，优化也有相应的代价</p>
-<ul>
-<li>开发时间变长</li>
-<li>开发成本增加</li>
-<li>代码难以阅读</li>
-<li>增加维护成本</li>
-</ul>
-<p>何时优化，因地制宜，是一门艺术，尽量把优化的思想带入写代码的过程中</p>
-</div>
-<!-- more -->
-<h1> 常用的git命令大全</h1>
-<h2> 标题 2</h2>
-<p>gitee</p>
-<h3> 标题 3</h3>
-<p>github</p>
-]]></content:encoded>
-      <enclosure url="https://boxsir.gitee.io/assets/images/qima.jpg" type="image/jpeg"/>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
       <title>主要功能与配置演示</title>
       <link>https://boxsir.gitee.io/demo/</link>
       <guid>https://boxsir.gitee.io/demo/</guid>
       <source url="https://boxsir.gitee.io/rss.xml">主要功能与配置演示</source>
-      <description>目录 页面展示 Markdown 展示 禁用展示 加密展示</description>
+      <description>目录 页面展示 (page.md); Markdown 展示 (markdown.md); 禁用展示 (disable.md); 加密展示 (encrypt.md);</description>
       <category>使用指南</category>
       <pubDate>Fri, 15 Sep 2023 05:42:19 GMT</pubDate>
       <content:encoded><![CDATA[<h2> 目录</h2>
@@ -216,6 +198,15 @@
 </li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>Git合并提交代码</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/3.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/3.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Git合并提交代码</source>
+      <category>笔记</category>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

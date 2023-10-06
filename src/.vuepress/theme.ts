@@ -66,7 +66,7 @@ export default hopeTheme({
   encrypt: {                                                        // 加密配置
     admin: "boxsir",                                                // 最高权限密码
     config: {
-      // "/demo/encrypt.html": ["123456"],
+       "/demo": ["cl970812"],
     },
   },
 

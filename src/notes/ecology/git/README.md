@@ -1,9 +1,8 @@
 ---
-title: "GIT"
+title: "GIT笔记目录"
 icon: "git"
 date: 2023-09-23
 index: false
-timeline: false
 article: false
 ---
 :::info

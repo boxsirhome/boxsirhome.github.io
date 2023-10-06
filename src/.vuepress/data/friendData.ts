@@ -14,12 +14,6 @@ export const friends: LinkData[] = [
     "link": "https://boxsir.gitee.io/"
   },
   {
-    name: "上冬十二",
-    desc: "到最后，竟庆幸于夕阳仍留在身上",
-    ico: "https://oragekk.me/logo.svg",
-    link: "https://oragekk.me/",
-  },
-  {
     name: "Mr.Hope",
     desc: "VuePress Theme Hope 主题作者。",
     ico: "https://mister-hope.com/logo.svg",

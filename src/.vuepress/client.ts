@@ -1,8 +1,11 @@
 import { defineClientConfig } from "@vuepress/client";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
-
+import Layout from "./components/pay/Layout.vue";
 export default defineClientConfig({
+  layouts: {
+    Layout,
+  },
   setup() {
     setupRunningTimeFooter(
       new Date("2023-09-01"),

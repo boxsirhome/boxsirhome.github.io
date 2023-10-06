@@ -1,13 +1,12 @@
 ---
-title: "JAVA"
+title: JAVA笔记目录
 icon: "java"
 date: 2023-09-23
 index: false
-timeline: false
 article: false
 ---
 :::info
-这里放置 JAVA相关 内容
+JAVA相关笔记目录
 :::
 
 <AutoCatalog />

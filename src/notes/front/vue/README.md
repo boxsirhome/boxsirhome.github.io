@@ -1,13 +1,12 @@
 ---
-title: "Vue"
+title: "Vue笔记目录"
 icon: "vue"
 date: 2023-09-23
 index: false
-timeline: false
 article: false
 ---
 :::info
-这里放置 JAVA相关 内容
+VUE相关笔记
 :::
 
 <AutoCatalog />

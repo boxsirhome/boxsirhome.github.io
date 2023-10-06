@@ -38,10 +38,11 @@ export default {
 
 ## 提交网站获取秘钥
 
-1. [进入网站提交页面](https://docsearch.algolia.com/apply/) ，填写网站信息来加入 DocSearch 项目。网站必须已经有博客内容，电子邮箱用于接受通知和后台的登录，储存库地址必须开源。[详细参考docsearch的文档](https://docsearch.algolia.com/docs/what-is-docsearch)![1](/blog/about/site/algolia/1.png)
+1. [进入网站提交页面](https://docsearch.algolia.com/apply/) ，填写网站信息来加入 DocSearch 项目。网站必须已经有博客内容，电子邮箱用于接受通知和后台的登录，储存库地址必须开源。[详细参考docsearch的文档](https://docsearch.algolia.com/docs/what-is-docsearch)
+  ![1](/blog/about/site/algolia/1.png)
 
 2. 申请后需要等待官方发来邮件。Algolia 会发来两封邮件，分别告知申请通过和爬取完成。盒子先生的申请通过邮件，大概等待了三天。官方发来的邮件中，提取出 `appId` `apiKey` 和 `indexName` 三个信息，根据自己使用的 Vuepress 框架的文档进行配置即可。
-![2](/blog/about/site/algolia/2.png)
+  ![2](/blog/about/site/algolia/2.png)
 
 ::: details 配置示例
 
@@ -117,10 +118,8 @@ export default {
 ## 修改爬虫配置
 
 1. Algolia 爬取时，只将每个页面匹配指定的元素选择器的元素下的文字建立索引，因此对于大多数情况需要手动指定选择器。前往 [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) 来更新爬虫配置
-
-![8](/blog/about/site/algolia/8.png)
-
-![4](/blog/about/site/algolia/4.png)
+  ![8](/blog/about/site/algolia/8.png)
+  ![4](/blog/about/site/algolia/4.png)
 
 2. 配置中 `initialIndexSettings.YOUR_INDEX_NAME.attributesForFaceting` 字段**必须**包含 `"lang"` ，否则该插件将无法正常工作。
 
@@ -253,17 +252,17 @@ new Crawler({
 ```
 :::
 
-3. 其实就是需要根据自己网站的正文在 HTML 文档中的所处元素位置来告诉 Algolia 要从什么元素提取文字。如对于我使用的 VuePress-Theme-Hope 主题，就需要从 `.theme-hope-content` 中提取![5](/blog/about/site/algolia/5.png)
+3. 其实就是需要根据自己网站的正文在 HTML 文档中的所处元素位置来告诉 Algolia 要从什么元素提取文字。如对于我使用的 VuePress-Theme-Hope 主题，就需要从 `.theme-hope-content` 中提取
+  ![5](/blog/about/site/algolia/5.png)
 
 4. 修改好后，在网站右侧的 URL Tester 中可以输入自己网站某个界面的网址进行测试（注意选择正文界面而非首页，毕竟首页并没有东西用来建索引），如果看到 Records 中有内容就是成功啦。
-![6](/blog/about/site/algolia/6.png)
+  ![6](/blog/about/site/algolia/6.png)
 
 5. 回到Algolia的Overview（标注4的小眼睛），点击右上角的 Restart crawling 按钮重新启动爬虫，耐心等待爬取完成！
-![9](/blog/about/site/algolia/9.png)
+  ![9](/blog/about/site/algolia/9.png)
 
 前往博客，测试搜索功能成功实现
-
-![10](/blog/about/site/algolia/10.png)
+  ![10](/blog/about/site/algolia/10.png)
 
 ## 更新博客搜索
 
@@ -275,5 +274,4 @@ new Crawler({
 ```
 
 2. 如果推送了新文章，希望立刻实现对新文章的搜索，可手动重启爬虫！前往 [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) 来手动重启爬虫
-
-![11](/blog/about/site/algolia/11.png)
+  ![11](/blog/about/site/algolia/11.png)

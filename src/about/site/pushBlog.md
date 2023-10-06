@@ -78,4 +78,4 @@ git push -u origin "master"               #推送到远程maste分支
 ## 更新博客
 
 - 在vscode中更新博客内容后，需要重复 **上传博客** 和 **部署博客** 中的操作
-- 如果希望博客的搜索功能，立即实现对新文章的搜索，需要前往 [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) 来手动重启爬虫，实现对新文章的索引。具体步骤，参考 **搜索功能>更新博客搜索**
+- 如果希望博客的搜索功能，立即实现对新文章的搜索，需要前往 [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) 来手动重启爬虫，实现对新文章的索引。具体步骤，参考 **Algolia搜索>[更新博客搜索](/about/site/algolia.html#更新博客搜索)**
