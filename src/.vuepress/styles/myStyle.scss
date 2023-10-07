@@ -1,0 +1,17 @@
+
+//关于我，介绍博主的文字样式
+.aboutMe {
+    font-family: ZWZT,'-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", STHeiti, "Microsoft YaHei", SimSun, sans-serif';
+  }
+
+//修复框架的代码块行高亮，不对齐的问题，就是不能用17px
+body {
+    @media (min-width: 1440px) {
+      font-size: 18px;
+    }
+  }
+
+//防止代码块中内容右侧溢出
+.theme-hope-content pre{
+  margin: 0.85rem 0.5rem
+  }

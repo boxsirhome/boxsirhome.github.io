@@ -1,2 +1,13 @@
 // you can change colors here
 $theme-color: #096dd9;
+$textColor: #2c3e50;
+$border-color: (
+  light: #e4e6e9,
+  dark: #534045
+);
+
+// 布局
+$navbar-height: 3.75rem;
+$sidebar-width: 18rem;
+$content-width: 780px;
+$home-page-width: 1160px;

@@ -6,13 +6,23 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 06 Oct 2023 10:30:06 GMT</pubDate>
-    <lastBuildDate>Fri, 06 Oct 2023 10:30:06 GMT</lastBuildDate>
+    <pubDate>Sat, 07 Oct 2023 10:23:06 GMT</pubDate>
+    <lastBuildDate>Sat, 07 Oct 2023 10:23:06 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>项目</category>
     <category>笔记</category>
+    <category>项目</category>
     <category>使用指南</category>
+    <item>
+      <title>Git合并提交代码</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/3.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/3.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Git合并提交代码</source>
+      <category>笔记</category>
+      <pubDate>Fri, 06 Oct 2023 10:31:11 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
     <item>
       <title>锋迷商城</title>
       <link>https://boxsir.gitee.io/item/web/java/1.html</link>
@@ -198,15 +208,6 @@
 </li>
 </ul>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>Git合并提交代码</title>
-      <link>https://boxsir.gitee.io/notes/ecology/git/3.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/git/3.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Git合并提交代码</source>
-      <category>笔记</category>
-      <content:encoded><![CDATA[<!-- more -->
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

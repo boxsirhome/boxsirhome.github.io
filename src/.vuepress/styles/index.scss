@@ -1,6 +1,28 @@
 // 把你的自定义样式放在这里
 // place your custom styles here
 @use "@sass-palette/hope-config";
+@use "md";
+@use "waline";
+@use "myStyle";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap");
+@font-face {
+  font-family: "PRshouxie";
+  src: url("/assets/font/8d6a7466947745f9f211cd17e0ed5dc3.woff2")
+      format("woff2"),
+    url("/assets/font/8d6a7466947745f9f211cd17e0ed5dc3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ZWZT";
+  src: url("https://gcore.jsdelivr.net/gh/ZhongZN/ZFonts/13.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 .blog .fullscreen h1 {
   font-size: 2.8rem;
@@ -22,6 +44,19 @@
   @media (min-width: hope-config.$pad) {
     z-index: 4;
     background-color: transparent;
+  }
+}
+
+//主页一言字体样式
+.hitokoto,.vp-blog-hero-title {
+  font-family: PRshouxie, Georgia, "Times New Roman", Times, serif, sans-serif;
+}
+.hitokoto-text span {
+  font-size: 2.5rem;
+  font-weight: 400;
+  @media (max-width: hope-config.$tablet) {
+    font-size: 1.8rem;
+    font-weight: 400;
   }
 }
 

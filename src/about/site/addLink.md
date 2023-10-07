@@ -12,7 +12,7 @@ article: false
 
 在 `src\.vuepress\data\tool.ts` 文件中添加json
 
-```ts
+```ts{11-16}
 import { LinkData } from "./friendData";
 
 export const tool: LinkData[] = [
@@ -40,7 +40,7 @@ export const tool: LinkData[] = [
 
 1. 在 `src\.vuepress\data\software.ts` 文件下，添加 `software_develop` 方法
 
-   ```ts
+   ```ts{20-33}
    import { LinkData } from "./friendData";
 
    //数据库类软件
@@ -74,12 +74,11 @@ export const tool: LinkData[] = [
        link: "https://pan.baidu.com/s/1-ZeAndWpUL0wpWJwXddVSg?pwd=6789",
      },
    ];
-
    ```
 
 2. 在 `src\link\software.md` 文件中使用
 
-   ```md
+   ```md{21,25}
    ---
    title: "软件"
    icon: "creative"
@@ -157,17 +156,16 @@ export const tool: LinkData[] = [
 
 2. 在 `src\.vuepress\config.ts` 文件的**alias:{}** 方法下引入：
 
-   ```ts
+   ```ts{3}
      alias: {
        "@MyLink": path.resolve(__dirname, "./components/Mylink.vue"),       //卡片组件
        "@Doc": path.resolve(__dirname, "./data/doc.ts"),                    //文档数据
      },
-
    ```
 
 3. 在 `src\link` 目录下新建`doc.md`文件并使用：
 
-   ```md
+   ```md{17,21,25}
    ---
    title: "官网文档"
    icon: "api"
@@ -198,7 +196,7 @@ export const tool: LinkData[] = [
 
 4. 在 `src\.vuepress\navbar.ts` 文件中挂载到下拉菜单
 
-   ```ts
+   ```ts{7}
    import { navbar } from "vuepress-theme-hope";
 
    export default navbar([

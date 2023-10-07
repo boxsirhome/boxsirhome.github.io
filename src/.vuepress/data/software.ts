@@ -1,5 +1,20 @@
 import { LinkData } from "./friendData";
 
+export const software_system: LinkData[] = [
+  {
+    name: "VMware16.0",
+    desc: "提取码：7777",
+    ico: "https://softs.weizhen66.cn/xuni/static/picture/goods_img.png",
+    link: "https://pan.baidu.com/s/1zcOp06HX4OxPdsCCGkHbXQ",
+  },
+  {
+    name: "ubuntu18.0.4",
+    desc: "提取码：7777",
+    ico: "https://img2.baidu.com/it/u=3729412030,1227003750&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=399",
+    link: "https://pan.baidu.com/s/13469aDpGacReo1bFvTKmng",
+  },
+];
+
 export const software_database: LinkData[] = [
   {
     name: "MySql5.7",
@@ -12,6 +27,12 @@ export const software_database: LinkData[] = [
     desc: "提取码：9pwa",
     ico: "https://img1.baidu.com/it/u=1282090260,2707582269&fm=253&fmt=auto&app=138&f=JPEG",
     link: "https://pan.baidu.com/s/1BabN8he2eIHkPE8HMyMJ9A",
+  },
+  {
+    name: "SQLServer2008",
+    desc: "提取码：xber",
+    ico: "https://imgsa.baidu.com/exp/w=500/sign=874ccf9f5bb5c9ea62f303e3e538b622/3801213fb80e7bece730fa752f2eb9389a506bb8.jpg",
+    link: "https://pan.baidu.com/s/1w4MqiY8ac7EomC3uiSyCQw",
   },
 ];
 

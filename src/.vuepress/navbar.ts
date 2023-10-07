@@ -74,7 +74,7 @@ export default navbar([
     prefix: "/about",
     children: [
       { text: "关于我", icon: "aboutMe", link: "/intro" },
-      { text: "关于本站", icon: "aboutSite", link: "/site/pushBlog" },
+      { text: "关于本站", icon: "aboutSite", link: "/site" },
     ]
   },
 ]);

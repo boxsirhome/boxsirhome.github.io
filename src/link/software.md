@@ -13,6 +13,10 @@ pageInfo: ["Author", "Date", "PageView"]
 软件
 :::
 
+## 电脑系统
+
+<MyLink :links="software_system"/> 
+
 ## 数据库
 
 <MyLink :links="software_database"/>
@@ -23,5 +27,5 @@ pageInfo: ["Author", "Date", "PageView"]
 
 <script setup lang="ts">
 import MyLink from "@MyLink";
-import {software_database, software_develop} from "@Software";
+import {software_system, software_database, software_develop} from "@Software";
 </script>
