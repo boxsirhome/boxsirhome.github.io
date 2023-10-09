@@ -344,9 +344,9 @@ li[id$="_donate"]:hover::after {
 #drinks-qrcode {
   position: absolute;
   top: calc(50% - 90px);
-  left: calc(50% - 90px);
-  width: 180px;
-  height: 180px;
+  left: calc(54% - 90px);
+  width: 150px;
+  height: 150px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

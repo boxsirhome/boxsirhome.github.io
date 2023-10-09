@@ -50,3 +50,36 @@ export const software_develop : LinkData[] = [
     link: "https://pan.baidu.com/s/1-ZeAndWpUL0wpWJwXddVSg?pwd=6789",
   },
 ];
+
+export const software_work : LinkData[] = [
+  {
+    name: "Office2016(64位)",
+    desc: "提取码：5678",
+    ico: "https://www.somode.com/uploadimg/image/20211206/20211206114207_27387.jpg",
+    link: "https://pan.baidu.com/s/1FscfgOh2_hwtwp_oP7lETA?pwd=5678",
+  },
+  {
+    name: "Office2016(32位)",
+    desc: "提取码：5678",
+    ico: "https://www.somode.com/uploadimg/image/20211206/20211206114207_27387.jpg",
+    link: "https://pan.baidu.com/s/14BeVj53HoYZcGvUAvjBqfA?pwd=5678",
+  },
+  {
+    name: "Visio2016(64位)",
+    desc: "提取码：5678",
+    ico: "https://img0.baidu.com/it/u=4241570976,2563197318&fm=253&fmt=auto&app=138&f=JPEG?w=320&h=320",
+    link: "https://pan.baidu.com/s/1BP1UlyPKkzH1UT66ApCE8Q?pwd=5678",
+  },
+  {
+    name: "Visio2016(32位)",
+    desc: "提取码：5678",
+    ico: "https://img0.baidu.com/it/u=4241570976,2563197318&fm=253&fmt=auto&app=138&f=JPEG?w=320&h=320",
+    link: "https://pan.baidu.com/s/1HQH0uTedMEJEFjZmfYYgzQ?pwd=5678",
+  },
+  {
+    name: "Xmind2022(64位)",
+    desc: "提取码：6789",
+    ico: "https://tfss-design-1300446698.cos.ap-nanjing.myqcloud.com/img/cover/610d4e4c19566.jpg%21cover_270",
+    link: "https://pan.baidu.com/s/1caHL7lwtjslPn0GCzW1pqQ?pwd=6789",
+  },
+];

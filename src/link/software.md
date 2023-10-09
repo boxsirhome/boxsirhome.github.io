@@ -5,7 +5,6 @@ date: 2023-04-11
 breadcrumb: false
 sidebar: false
 article: false
-comment: false
 pageInfo: ["Author", "Date", "PageView"]
 ---
 
@@ -25,7 +24,11 @@ pageInfo: ["Author", "Date", "PageView"]
 
 <MyLink :links="software_develop"/> 
 
+## 办公软件
+
+<MyLink :links="software_work"/> 
+
 <script setup lang="ts">
 import MyLink from "@MyLink";
-import {software_system, software_database, software_develop} from "@Software";
+import {software_system, software_database, software_develop, software_work} from "@Software";
 </script>

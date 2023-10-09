@@ -1,10 +1,11 @@
 ---
 title: ESP32
-icon: 
+icon: ESP32
 date: 2023-09-23
 index: false
-timeline: false
 article: false
+comment: false
+pageInfo: false
 ---
 
 :::info
