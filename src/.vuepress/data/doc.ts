@@ -69,4 +69,10 @@ export const doc_IoT: LinkData[] = [
     ico: "https://cloud.bemfa.com/img/favicon.ico",
     link: "https://cloud.bemfa.com/",
   },
+  {
+    name: "IT项目网",
+    desc: "简单、有趣、好玩的编程项目,主要涵盖Python、C、C++项目",
+    ico: "https://cdn2022.itprojects.cn/01.assets/2022/04/1649554851-fa57a423e9d5fb2.ico",
+    link: "https://www.itprojects.cn/",
+  },
 ];
