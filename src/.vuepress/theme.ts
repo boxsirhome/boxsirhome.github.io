@@ -157,6 +157,7 @@ export default hopeTheme({
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
+      update: "hint",            //建设期，默认值“available”
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",
