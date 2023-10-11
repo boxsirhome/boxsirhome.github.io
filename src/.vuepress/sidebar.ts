@@ -25,8 +25,7 @@ export default sidebar({
 
   "/item/": "structure",
   "/item/web/java": "structure",
-  "/item/IoT/ESP32/": "structure",
-  "/item/IoT/ESP8266/": "structure",
+  "/item/IoT/": "structure",
 
   "/about/site/": "structure",
 });
