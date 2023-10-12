@@ -15,3 +15,11 @@ tag:
 :::info
 SpringBoot 从入门到进阶系列官方小册.pdf
 :::
+
+<PDF url="/pdf/SpringBoot.pdf" width="100%" ratio="16 / 30"/>
+
+
+<PDF url="/pdf/SpringBoot.pdf" width="100%" ratio="30 / 16"/>
+
+
+<PDF url="/pdf/SpringBoot.pdf" width="100%" ratio="16/30"/>
