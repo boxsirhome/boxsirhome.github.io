@@ -29,6 +29,13 @@ export default navbar([
           { text: "GIT", icon: "git", link: "/git" },
         ],
       },
+      {
+        text: "物联网笔记",
+        prefix: "/iot",
+        children: [
+          { text: "嵌入式", icon: "embedded", link: "/embedded" },
+        ],
+      },
     ],
   },
   {

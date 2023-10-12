@@ -91,15 +91,16 @@ export default defineUserConfig({
     }),
 
     gradientCoverPlugin({}),                      // 模糊背景 
+
   ],
   
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHero.vue",), //主页描述替换为一言词句
     "@MyCoverLink": path.resolve(__dirname, "./components/MyCoverLink.vue"),  //自定义友链组件
-    "@MyLink": path.resolve(__dirname, "./components/Mylink.vue"),            //自定义友卡片组件
+    "@MyLink": path.resolve(__dirname, "./components/Mylink.vue"),            //自定义卡片组件
     "@Tool": path.resolve(__dirname, "./data/tool.ts"),                       //工具数据
     "@Doc": path.resolve(__dirname, "./data/doc.ts"),                         //文档数据
-    "@Software": path.resolve(__dirname, "./data/software.ts"),                         //文档数据
+    "@Software": path.resolve(__dirname, "./data/software.ts"),               //软件数据
   },
 
   shouldPrefetch: false,      // 使用pwa推荐设置为 shouldPrefetch: false
