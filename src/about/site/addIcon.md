@@ -54,29 +54,29 @@ article: false
 3. 设置可以辨识的项目名称
 4. `FontClass/Symbol 前缀` 填入 `icon-` (可以根据自己喜好填写，但需要将此值设置额外前缀 `iconfont` 并设置到在主题选项中的 `iconPrefix` ，如果填入的就是 `icon-` 则不需要设置主题选项中的 `iconPrefix` ，因为主题已经自动把 `iconPrefix` 设置成 `icon-` ，填了反而可能出现问题)
 5. Font Family 请保持 `iconfont` 
-   ![1](/blog/about/site/addIcon/1.png)
+   ![1](./addIcon/1.png)
 
 ### 导入图标
 
 1. 在 iconfont 自由搜索寻找你想要使用的图标，并点击图标上的 “添加入库” 按钮
-   ![2](/blog/about/site/addIcon/2.png)
+   ![2](./addIcon/2.png)
 
 2. 在寻找完所有图标后，请点击右上角的 “添加入库” 图标，点击下方的 “添加至项目” 并选择你刚刚创建好的项目进行确定。
-   ![3](/blog/about/site/addIcon/3.png)
+   ![3](./addIcon/3.png)
 
 3. 请点击项目上方的 “Font Class” 按钮，并点击生成。
-   ![4](/blog/about/site/addIcon/4.png)
+   ![4](./addIcon/4.png)
 
 4. 生成链接
-   ![5](/blog/about/site/addIcon/5.png)
+   ![5](./addIcon/5.png)
 
 5. 将 css 地址设置到主题选项的 `iconAssets` 中
-   ![6](/blog/about/site/addIcon/6.png)
+   ![6](./addIcon/6.png)
 
 ### 使用图标
 
 1. 复制代码
-   ![7](/blog/about/site/addIcon/7.png)
+   ![7](./addIcon/7.png)
 
    例如：`icon-bangbangtang-01`
 

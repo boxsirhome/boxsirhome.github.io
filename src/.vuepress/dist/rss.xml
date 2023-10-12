@@ -6,78 +6,139 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 11 Oct 2023 02:57:52 GMT</pubDate>
-    <lastBuildDate>Wed, 11 Oct 2023 02:57:52 GMT</lastBuildDate>
+    <pubDate>Thu, 12 Oct 2023 06:24:57 GMT</pubDate>
+    <lastBuildDate>Thu, 12 Oct 2023 06:24:57 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>笔记</category>
+    <category>物联网</category>
     <category>项目</category>
     <category>使用指南</category>
     <item>
-      <title>Git合并提交代码</title>
-      <link>https://boxsir.gitee.io/notes/ecology/git/3.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/git/3.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Git合并提交代码</source>
+      <title>Linux下安装jdk</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/installJdk.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/installJdk.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装jdk</source>
+      <description>一、在/usr/local/目录下创建java目录 mkdir /usr/local/java cd /usr/local/java</description>
       <category>笔记</category>
-      <pubDate>Fri, 06 Oct 2023 10:31:11 GMT</pubDate>
-      <content:encoded><![CDATA[<!-- more -->
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 一、在/usr/local/目录下创建java目录</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2> 二、下载jdk</h2>
+<p>JDK1.8官网下载地址：<a href="https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html</a></p>
+<p>放到/usr/local/java目录下，并解压</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 三、设置环境变量</h2>
+<p>输入命令配置环境变量</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在编辑模式下(按i键或者insert键进入编辑模式)，在profile文件的最后加上如下配置：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>按Esc退出编辑模式，再按<strong>Shift + :</strong> 输入<strong>wq</strong> 保存并退出</p>
+<p>修改完成后输入命令重新加载配置文件</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 四、使用命令查看是否修改安装成功</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>锋迷商城</title>
-      <link>https://boxsir.gitee.io/item/web/java/1.html</link>
-      <guid>https://boxsir.gitee.io/item/web/java/1.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">锋迷商城</source>
-      <description>锋迷商城 1.1 项目背景 锋迷商城——电商平台 B2C 商家对客户 平台即商家 B2B商家对商家 C2B2C 客户对商家对客户</description>
-      <category>项目</category>
+      <title>Linux下安装Nginx</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/installNginx.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/installNginx.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装Nginx</source>
+      <description>提示 文档整理中。。。</description>
+      <category>笔记</category>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>文档整理中。。。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux下安装Redis</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/installRedis.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/installRedis.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装Redis</source>
+      <description>1.安装依赖环境 yum install -y gcc</description>
+      <category>笔记</category>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 1.安装依赖环境</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 2.下载redis包并解压</h2>
+<p>官网下载地址：Download | Redis</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3.进入解压目录并编译</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 4.指定安装目录安装</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 5.通过守护进程方式启动</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 6.设置开机自启动</h2>
+<p>切换到/lib/systemd/system/目录，创建redis.service文件。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>文件内容如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>PS：Type=forking这一句很关键，之前网上试了好多方法都不行。</p>
+<h2> 7.设置开机启动命令</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 8.开放端口</h2>
+<p>防火墙没开的无视</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>无线监控小车</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">无线监控小车</source>
+      <description>无线监控小车 1.1 ESP32-CAM ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。 1.2 OV2640摄像头</description>
+      <category>物联网</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 锋迷商城</h1>
-<h2> 1.1 项目背景</h2>
-<blockquote>
-<p>锋迷商城——电商平台</p>
-<ul>
-<li>B2C 商家对客户   平台即商家</li>
-<li>B2B商家对商家</li>
-<li>C2B2C 客户对商家对客户</li>
-</ul>
-</blockquote>
-<!-- more -->
-<h2> 1.1.1 B2C</h2>
-<blockquote>
-<p>平台运营方即商品的卖家    小米商城</p>
-<ul>
-<li>商品</li>
-<li>用户</li>
-</ul>
-</blockquote>
-<h2> 1.1.2 C2B2C</h2>
-<blockquote>
-<p>平台运营方不卖商品（也可以卖）</p>
-<p>卖家是平台的用户</p>
-<p>买家也是平台用户</p>
-<ul>
-<li>用户（店铺）</li>
-<li>用户（买家）</li>
-<li>服务</li>
-<li>商品</li>
-</ul>
-</blockquote>
-<h2> 1.1.3 Java</h2>
-<blockquote>
-<p>Java语言的应用领域很广，但主要应用于web领域的项目开发，web项目类型分为两类：</p>
-<ul>
-<li>企业级开发 （供企业内部使用的系统：企业内部的管理系统CRM\ERP、学校的教务管理系统）</li>
-<li>互联网开发（提供给所有互联网用户使用的系统——用户量）—— 电商</li>
-</ul>
-</blockquote>
-<h2> 1.2 项目功能</h2>
-<p><a href="https://www.processon.com/view/link/606bde8b1e08534321fd2103" target="_blank" rel="noopener noreferrer">https://www.processon.com/view/link/606bde8b1e08534321fd2103</a></p>
+      <content:encoded><![CDATA[<h1> 无线监控小车</h1>
+<h2> 1.1 ESP32-CAM</h2>
+<p>ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。</p>
+<h2> 1.2 OV2640摄像头</h2>
+<p>OV2640摄像头具有200万像素的高分辨率，能够提供清晰、细节丰富的图像，确保捕捉到准确的画面细节，提供高质量的监控和录像。摄像头模块集成了图像处理功能，包括自动曝光、自动白平衡、自动对焦等。这些功能可以自动优化图像质量，使图像在不同的光线条件下保持清晰和准确，获得最佳的图像效果。支持多种输出格式，包括JPEG、YUV、RGB565等，可以选择最合适的图像格式，以便进行进一步的分析和处理。摄像头可以以15帧/秒的速度拍摄2 Megapixels的图像，或以30帧/秒的速度拍摄较低分辨率的图像，这使得无线监控小车能够实时捕捉和传输图像，提供实时监控和响应能力。模块采用了低功耗设计，适用于需要长时间运行的应用场景，提高电池寿命，延长设备的工作时间。</p>
+<h2> 1.3 L298N电机驱动</h2>
+<p>L298N电机驱动芯片提供最大2A的电流输出，可以驱动各种类型和大小的直流电机，包括驱动力较大的电机，非常适合用于运行较重载荷的无线监控小车项目。可以实现直流电机的双向控制，即控制小车的前进、后退和转向。这使得无线监控小车能够在不同的场景中灵活移动和导航，提供更好的监控覆盖范围。通过使用PWM信号来控制电机驱动的输入引脚，可以实现对电机的精确速度控制，调整小车移动速度。L298N电机驱动支持5V至35V的电源电压范围，可以适应不同类型的电源配置，包括使用电池供电的情况，小车在不同的供电环境中都能正常运行。驱动具有过热保护功能，可在电机或芯片过热时自动停止工作，以保护设备的安全性。这在长时间运行或高负载条件下尤为重要，可以延长设备的使用寿命。L298N电机驱动控制逻辑关系如表1所示</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>WiFi天气时钟系统设计</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">WiFi天气时钟系统设计</source>
+      <description>WiFi天气时钟系统设计 1总体结构 本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示 2系统硬件设计 本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</description>
+      <category>物联网</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> WiFi天气时钟系统设计</h1>
+<h2> 1总体结构</h2>
+<p>本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示</p>
+<h2> 2系统硬件设计</h2>
+<p>本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</p>
+<h3> 2.1 ESP32芯片</h3>
+<p>选择ESP32作为主控芯片，内置了WIFI和蓝牙的微控芯片。ESP32采用两个哈佛结构Xtensa LX6 CPU构成，拥有双核系统。所有的片上存储器、片外存储器以及外设都分布在两个CPU的数据总线和指令总线上。提供了强大的处理能力和丰富的外设接口，泛应用于物联网等领域。通过其强大的处理能力和多种接口，能够方便地连接到云平台、传感器、外设等设备，并实现各种智能化应用。<br>
+ESP32一共有38个引脚，除去电源引脚外，可用IO引脚为34个。GPIO0到GPIO39用于输入或输出数字信号。GPIO32到GPIO39可用于模拟信号的采集，将模拟信号转换为数字信号。GPIO25和GPIO26用于输出模拟信号，将数字信号转换为模拟信号。UART0_TX、UART0_RX、UART1_TX、UART1_RX、UART2_TX、UART2_RX用于串行通信。GPIO21和GPIO22用于I2C总线通信。GPIO5（SPI0_CLK）、GPIO18（SPI0_CS）、GPIO19（SPI0_MISO）、GPIO23（SPI0_MOSI）用于SPI总线通信。GPIO25（I2S_BCLK）、GPIO26（I2S_LRC）、GPIO22（I2S_DOUT）、GPIO21（I2S_DIN）用于音频相关的数据传输。GPIO0到GPIO19、GPIO21到GPIO23、GPIO25、GPIO26、GPIO27用于产生脉冲宽度调制信号。<br>
+需要注意的是，某些引脚可能有多个功能，并且在使用之前需要根据具体需求进行配置。此外，还有一些特殊引脚，如EN模组的电源使能引脚、VCC供电引脚和GND地引脚。在使用ESP32模组时，还需注意以下几点。ESP32引脚的电压范围为1.8V至3.3V，因此需要确保外部设备与模组的电压兼容。每个引脚的最大电流为12mA，总体最大电流为200mA。在设计电路时，需要注意不要超过这些限制，以免导致模组损坏。引脚具有多个功能，需要正确配置引脚功能以实现所需的功能。在高温环境下可能会过热，需注意散热和温度控制，以确保稳定运行。<br>
+ESP32模组具有强大的功能和丰富的引脚资源，适用于各种应用领域。在使用时，需要根据所需功能和需求，正确配置引脚，并保证电压和电流的合适范围，以确保稳定可靠的运行。</p>
+<h3> 2.2 LCD液晶屏</h3>
+<p>选择1.54寸彩色TFT显示屏高清IPS LCD液晶屏240<em>240模块展示数据信息，分辨率为240</em>240像素。这种高分辨率的显示屏可以产生清晰、细腻的图像和文本显示效果，采用高清IPS（In-Plane Switching）面板技术，可提供更广阔的视角范围和更好的视觉效果。适合用于显示天气信息和时间。<br>
+该显示屏具有较小的尺寸和低功耗、低发热和稳定的显示性能，可以用于各种嵌入式系统、智能手表、可穿戴设备和其他物联网应用。在使用过程中需要确保供电电压符合显示屏的要求，以避免损坏。连接合适的驱动芯片或模块，以实现正确的图像显示和触摸控制功能。有时需要使用转接板来适配显示屏和其他设备之间的接口差异。对于液晶屏模块, 在使用时需避免强烈冲击和大幅度扭曲，以免损坏显示模块。在使用时，需要注意供电电压、驱动控制、转接板以及可靠性问题，以确保显示屏的正常工作和长寿命。<br>
+LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。它具有高清显示、多种显示模式、可编程性等特点。连接LCD液晶屏与ESP32引脚可实现图形和文字信息的显示功能，需要确保正确地对应液晶屏的引脚与ESP32的引脚，以避免错误的连接导致显示异常或引脚损坏。确保为液晶屏和ESP32提供稳定的电源供应，并遵循其规格要求进行电气连接。在设计液晶屏功能时，需要正确配置并调用驱动程序，以确保其能够正确地与ESP32通信。在连接时，需留意其他设备或传感器是否与ESP32使用的引脚有冲突，以避免引脚冲突导致设备无法正常工作。确保正确的引脚对应、供电稳定、正确的屏幕驱动和避免引脚冲突是使用此功能时需要注意的关键点。</p>
+<h3> 2.3 轻触立式按键</h3>
+<p>选择6*6轻触立式按键。是一种较小的按键开关，有减轻使用者的手部负担，使用寿命长，操作简单等特点。这种尺寸适合在有限的空间内嵌入，可以满足紧凑设计的需求。本系统中按键主要用于界面动画风格和配网模式的切换。</p>
+<h2> 3系统软件设计</h2>
+<p>系统中使用到了Arduino平台，采用易于使用的硬件和软件开发工具，以简化电子项目的开发过程。ESP32和Arduino的结合使用，使得开发者能够利用ESP32的功能和Arduino的简洁易用性进行项目开发。使用C++编程语言来开发系统，简化了Arduino的库函数与ESP32的交互。开发环境采用VS Code软件。在VS Code的插件市场中搜索并安装Arduino插件，该插件提供了针对Arduino平台的开发环境和功能，指定ESP32的开发板型号、串口号和波特率，并确保正确配置。使用VS Code的Arduino插件，可以将代码编译和上传代码到ESP32开发板。插件处理编译和连接过程，并将生成的二进制文件通过串口上传到开发板。本系统软件部分的流程图如图2所示</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>燃气报警系统设计</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">燃气报警系统设计</source>
+      <description>燃气报警系统设计 1 系统总体结构 系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。 2 系统硬件设计 硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</description>
+      <category>物联网</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 燃气报警系统设计</h1>
+<h2> 1 系统总体结构</h2>
+<p>系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</p>
+<h2> 2 系统硬件设计</h2>
+<p>硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</p>
+<h3> 2.1 ESP8266芯片</h3>
+<p>ESP8266成本较低，适用于小型物联网项目的开发。内置了WiFi模组，可以方便地连接到无线网络，实现远程监控和控制，对于燃气报警系统是非常重要的特性。内部搭载了高性能的处理器，能够运行复杂的算法和处理大量的数据。这使得它能够完成燃气传感器数据的处理和分析，进行报警判断和决策。具有多个通用输入输出引脚，可以连接外部传感器和执行器，实现与其他硬件设备的交互。ESP8266支持MicroPython进行编程和开发，具有丰富的开发资源和社区支持，开发燃气报警系统变得更加简单和便捷，可利用现有的库和示例代码进行快速开发。</p>
+<h3> 2.2 MQ-2传感器</h3>
+<p>MQ-2传感器是一种多气体检测器，能够检测多种可燃性气体，如甲烷、液化石油气、丙烷、氢气等。MQ-2具有很高的灵敏度，能够快速、准确地检测到燃气泄漏。能够实时监测环境中的气体浓度，并通过与ESP8266的连接，向系统发送相应的报警信号。具有低功耗特性，可以在长时间运行的情况下保持稳定的性能。MQ-2传感器采用了模拟输出方式，可以直接与ESP8266的模拟输入引脚连接，在硬件上的集成非常简单，且与ESP8266的通信也较为方便。价格相对较低，且易于获得，可以在开发过程中轻松获取所需数量的传感器，降低了项目成本和开发的难度。MQ-2常用的电路有两种，一种使用采用比较器电路监控，另一种为ADC电路检测，本文中采用的是ADC电路检测即将电压信号转化为数字信号，进而转化为精确的烟雾浓度值，ADC转换电路如图2所示。</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>刀客</title>
-      <link>https://boxsir.gitee.io/item/web/java/2.html</link>
-      <guid>https://boxsir.gitee.io/item/web/java/2.html</guid>
+      <link>https://boxsir.gitee.io/item/web/java/daoke.html</link>
+      <guid>https://boxsir.gitee.io/item/web/java/daoke.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">刀客</source>
       <description>刀客 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。</description>
       <category>项目</category>
@@ -175,14 +236,96 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>工程启动时建表和填充数据</title>
+      <link>https://boxsir.gitee.io/notes/after/java/createDatabase.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/java/createDatabase.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">工程启动时建表和填充数据</source>
+      <description>相关信息 java项目启动 建表和填充数据</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>java项目启动 建表和填充数据</p>
+</div>
+<!-- more -->
+<p>本例适用版本：</p>
+<p>SpringBoot：2.7.4</p>
+<p>Kingbase：8.6.0</p>
+<p>不保证本例在其它版本依然适用</p>
+<p>先决条件：</p>
+<p>SpringBoot工程能与目标DB顺畅连接。</p>
+<p>下面正文开始：</p>
+<p>1.在application.properties中加入以下文字：</p>
+<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>sql.init.mode有always、embedded、never三个选项，一般再需要建表时填always，如果表已经建立完毕须改成never；</p>
+<p>schema-locations是建表语句文件所在，本例中的schema.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>data-locations是给表充值文件所在，本例中data.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上文件的物理位置见下图：<br>
+</p>
+<p>2.以上三处就绪后运行程序，如果报错就检查sql语句有没有纰漏，如果不报错就表示建表成功了</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SpringBoot全局异常处理</title>
+      <link>https://boxsir.gitee.io/notes/after/java/exceptionHandling.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/java/exceptionHandling.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot全局异常处理</source>
+      <description>相关信息 java全局异常处理</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>java全局异常处理</p>
+</div>
+<!-- more -->
+<h3> 6、统一异常处理</h3>
+<h4> 6.1、制造异常</h4>
+<p><strong>除以0</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>我们想让异常结果也显示为统一的返回结果对象，并且统一处理系统的异常信息，那么需要统一异常处理。</p>
+<h4> 6.2、全局异常处理</h4>
+<h5> 6.2.1、创建统一异常处理器</h5>
+<p>创建处理类</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.2.1、测试</h5>
+<h4> 6.3、处理特定异常</h4>
+<h5> 6.3.1、添加异常处理方法</h5>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.3.2、测试</h5>
+<h4> 6.4、处理自定义异常</h4>
+<h5> 6.4.1、创建自定义异常类</h5>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.2、业务中需要位置抛出</h5>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.3、添加异常处理方法</h5>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>Linux常用命令</title>
-      <link>https://boxsir.gitee.io/notes/ecology/linux/1.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/linux/1.html</guid>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/frequently.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/frequently.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">Linux常用命令</source>
       <category>笔记</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<!-- more -->
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux开放端口</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/openPort.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/openPort.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux开放端口</source>
+      <description>以下命令,适用 Centos7开放或者关闭具体端口 首先查看现在所有已开放的端口 开放指定端口 设置完成,下面会出现success,但是这时只是设置成功,还没生效。生效需要重启以下防火墙: 移除指定端口 重启防火墙 关闭防火墙 当需要的端口无法一一开启时,可以直接关闭防火墙 关闭之后,使用命令查看防火墙的状态</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<p>以下命令,适用 Centos7开放或者关闭具体端口<br>
+首先查看现在所有已开放的端口</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>开放指定端口</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>设置完成,下面会出现success,但是这时只是设置成功,还没生效。生效需要重启以下防火墙:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>移除指定端口</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>重启防火墙</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>关闭防火墙<br>
+当需要的端口无法一一开启时,可以直接关闭防火墙</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>关闭之后,使用</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>命令查看防火墙的状态</p>
+]]></content:encoded>
     </item>
     <item>
       <title>主要功能与配置演示</title>
@@ -208,6 +351,708 @@
 </li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>创建仓库</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/create.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/create.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">创建仓库</source>
+      <category>笔记</category>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>常用的git命令大全</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/frequently.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/frequently.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
+      <category>笔记</category>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Git合并提交代码</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/merge.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/merge.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Git合并提交代码</source>
+      <category>笔记</category>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>VUE简介</title>
+      <link>https://boxsir.gitee.io/notes/front/vue/vue.html</link>
+      <guid>https://boxsir.gitee.io/notes/front/vue/vue.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">VUE简介</source>
+      <description>Author: Thor Version: 9.0.1 一、Vue简介 1.1 简介 Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式的js框架，发布于 2014 年 2 月。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库（如：vue-router，vue-resource，vuex）或既有项目整合。</description>
+      <category>笔记</category>
+      <content:encoded><![CDATA[<figure><figcaption></figcaption></figure>
+<blockquote>
+<p>Author:  Thor</p>
+<p>Version:  9.0.1</p>
+</blockquote>
+<h3> 一、Vue简介</h3>
+<hr>
+<h4> 1.1 简介</h4>
+<blockquote>
+<p>Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的<strong>渐进式</strong>的js框架，发布于 2014 年 2 月。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库（如：<a href="">vue-router</a>，<a href="">vue-resource</a>，<a href="">vuex</a>）或既有项目整合。</p>
+</blockquote>
+<h4> 1.2 MVVM 模式的实现者——双向数据绑定模式</h4>
+<blockquote>
+<ul>
+<li>Model：模型层，在这里表示 JavaScript 对象 数据</li>
+<li>View：视图层，在这里表示 DOM（HTML 操作的元素）</li>
+<li>ViewModel：连接视图和数据的中间件，Vue.js 就是 MVVM 中的 ViewModel 层的实现者</li>
+</ul>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<blockquote>
+<p>在 MVVM 架构中，是不允许 数据 和 视图 直接通信的，只能通过 ViewModel 来通信，而 ViewModel 就是定义了一个Observer` 观察者</p>
+<ul>
+<li>ViewModel 能够观察到数据的变化，并对视图下对应的内容进行更新</li>
+<li>ViewModel 能够监听到视图的变化，并能够通知数据发生改变</li>
+</ul>
+<p>至此，我们就明白了，Vue.js 就是一个 MVVM 的实现者，他的核心就是实现了 DOM 监听 与 数据绑定</p>
+</blockquote>
+<h4> 1.3 其它 MVVM 实现者</h4>
+<blockquote>
+<ul>
+<li>
+<p>AngularJS</p>
+<p>简单介绍一下，AngularJS诞生于2009年，由Misko Hevery 等人创建，后为Google所收购。是一款优秀的前端JS框架，已经被用于Google的多款产品当中。AngularJS有着诸多特性，最为核心的是：MVVM、<strong>模块化</strong>、自动化双向数据绑定、语义化标签、依赖注入等等。</p>
+</li>
+<li>
+<p>ReactJS</p>
+<p>React引入了<strong>虚拟DOM</strong>（Virtual DOM）的机制：在浏览器端用Javascript实现了一套DOM API。基于React进行开发时所有的DOM构造都是通过虚拟DOM进行，每当数据变化时，React都会重新构建整个DOM树，然后React将当前整个DOM树和上一次的DOM树进行对比，得到DOM结构的区别，然后仅仅将需要变化的部分进行实际的浏览器DOM更新。</p>
+</li>
+<li>
+<p>微信小程序</p>
+<p>微信小程序的视图层和数据层就是通过MVVM进行绑定的。</p>
+</li>
+</ul>
+</blockquote>
+<h4> 1.4 为什么要使用 Vue.js</h4>
+<blockquote>
+<ul>
+<li>轻量级，体积小是一个重要指标。Vue.js 压缩后有只有 20多kb （Angular 压缩后 56kb+，React 压缩后 44kb+）</li>
+<li>移动优先。更适合移动端，比如移动端的 Touch 事件</li>
+<li>易上手，学习曲线平稳，文档齐全</li>
+<li>吸取了 Angular（模块化）和 React（虚拟 DOM）的长处，并拥有自己独特的功能，如：计算属性</li>
+<li>开源，社区活跃度高</li>
+</ul>
+</blockquote>
+<h4> 1.5 Vue.js 的两大核心要素</h4>
+<h5> 1.5.1 数据驱动</h5>
+<figure><figcaption></figcaption></figure>
+<blockquote>
+<p>当你把一个普通的 JavaScript 对象传给 Vue 实例的 data 选项，Vue 将遍历此对象所有的属性，并使用 Object.defineProperty 把这些属性全部转为 getter/setter。Object.defineProperty 是 ES5 中一个无法 shim 的特性，这也就是为什么 Vue 不支持 IE8 以及更低版本浏览器。</p>
+<p>这些 getter/setter 对用户来说是不可见的，但是在内部它们让 Vue 追踪依赖，在属性被访问和修改时通知变化。这里需要注意的问题是浏览器控制台在打印数据对象时 getter/setter 的格式化并不同，所以你可能需要安装 vue-devtools 来获取更加友好的检查接口。</p>
+<p>每个组件实例都有相应的 watcher 实例对象，它会在组件渲染的过程中把属性记录为依赖，之后当依赖项的 setter 被调用时，会通知 watcher 重新计算，从而致使它关联的组件得以更新。</p>
+</blockquote>
+<h5> 1.5.2 组件化</h5>
+<blockquote>
+<ul>
+<li>
+<p>页面上每个独立的可交互的区域视为一个组件</p>
+<p>主板，显卡，cpu，硬盘，主机箱，电源，内存条  ===  主机  就是我们的html页面</p>
+<p>主板：是零件，两件就是组件</p>
+<p>主板：有各种简单的电路学组成，组件就是有简单的html标签组成</p>
+<p>反过来书：HTML页面就是一个盒子，里面装着组件</p>
+</li>
+<li>
+<p>每个组件对应一个工程目录，组件所需的各种资源在这个目录下就近维护</p>
+</li>
+<li>
+<p>页面不过是组件的容器，组件可以嵌套自由组合（复用）形成完整的页面</p>
+</li>
+</ul>
+</blockquote>
+<h3> 二、Vue的初体验</h3>
+<hr>
+<h4> 2.1在页面引入vue的js文件即可。</h4>
+<blockquote>
+<p>注意：cdn是一种加速策略，能够快速的提供js文件</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4> 2.2 在页面中绑定vue元素</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4> 2.3 创建vue对象，设计对象的内容</h4>
+<blockquote>
+<p>其中该vue对象，绑定了页面中id是app的那个div</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4> 2.4 在页面的元素中使用插值表达式来使用vue对象中的内容</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 三、 插值表达式</h3>
+<hr>
+<blockquote>
+<p>插值表达式的作用是在View中获得Model中的内容,</p>
+<p>使用在标签内容中，不能在标签上使用。插值表达式的写法“{{表达式}}”</p>
+<p>Model中的内容如下：</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 3.1 简单使用插值表达式获取数据</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>此时，页面上将会显示"Hello world!"</p>
+</blockquote>
+<h4> 3.2 在插值表达式中获取数组中的内容</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>此时，页面上会显示“3”，也就是数组中的第三个元素被获取。</p>
+</blockquote>
+<h4> 3.3 使用插值表达式获取对象中的属性</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>此时，页面上会显示“20”，也就是对象中age属性的值。</p>
+</blockquote>
+<h4> 3.4 使用插值表达式调用Vue中的方法</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>此时，页面上会显示“hello vue”，也就是调用了vue对象中的sayHello方法，并展示了方法的返回值。</p>
+</blockquote>
+<h3> 四、Vue对象总结</h3>
+<hr>
+<blockquote>
+<p>Vue.js通过加载js，实现对页面的快速渲染。vue封装的js该如何使用？ 就必须了解MVVM双向数据绑定模式。Vue将视图层和数据层分离，通过MVVM建立视图层和数据层的连接。其中，插值表达式是一种连接方式，可以通过插值表达式以多种方式，快速的从数据层获取数据并展示在视图层上。数据层Vue对象，也是由很多部分组成，比如之前介绍的el，data，methods等，以及之后要介绍的mount，computed等。</p>
+</blockquote>
+<h3> 五、Vue的分支 v-if</h3>
+<hr>
+<h4> 5.1 v-if</h4>
+<blockquote>
+<p>Vue中的分支语句v-if非常好理解，逻辑跟Java中的if-else相同。v-if语句块包含以下内容：</p>
+<ul>
+<li>v-if</li>
+<li>v-else</li>
+<li>v-else-if</li>
+</ul>
+<p>接下来以一个简单例子即可理解：</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>从这个例子可以看出，vue对象中的data提供了分支的条件。根据条件，如果是true，则v-if的内容就会显示，反之不显示。</p>
+</blockquote>
+<h4> 5.2 v-show</h4>
+<blockquote>
+<p>v-if和v-show之间有着看似相同的效果，但优化上却有区别。先看下面这个例子：</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>通过点击“今晚彩票开奖”按钮，能切换rich的值，此时发现，v-if和v-show的显示状态都会来回切换。看起来是一样的，但通过查看控制台代码发现，v-show实际会将p标签的css样式的display属性设为none来达到隐藏的效果。</p>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<blockquote>
+<p>而v-if是直接在页面上添加和删除p标签来达到效果，因此v-show在反复切换的应用场景下，效率比v-if更高。</p>
+</blockquote>
+<h3> 六、Vue的循环 v-for</h3>
+<hr>
+<blockquote>
+<p>Vue中的循环关键字并没有Java的那么多，只有v-for，但用法上有多种。接下来我们来逐一介绍。</p>
+</blockquote>
+<h4> 6.1 普通的for循环</h4>
+<blockquote>
+<p>我们需要定义数据源，然后通过v-for来遍历数据源，再使用差值表达式输出数据。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>在这个例子中，数据源提供了一个数组。视图层通过v-for来循环输出多个li标签，非常简单。</p>
+</blockquote>
+<h4> 6.2 带着索引的for</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>此时的i就是每次循环的循环变量 ，从0开始一直到元素个数-1</p>
+</blockquote>
+<h4> 6.3 遍历一个对象中的信息： v、k、i</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>v、k、i 这几个字符可以自己定义，分别表示每次循环内容的值、键、序号。</p>
+<ul>
+<li>v: 循环中每条数据的值   小鱼、20、如花</li>
+<li>k: 循环中每天数据的键   username、age、girl</li>
+<li>i: 循环的序号，从0开始</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>页面效果如下：</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4> 6.4 遍历一个对象数组：嵌套的for循环</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>可以清楚的看到，此时数据源是一个student数组，通过两层v-for循环，外层遍历数组中的每个student对象，内层v-for遍历每个对象的v、k、i。</p>
+<p>页面效果如下：</p>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<h3> 七、Vue的属性绑定</h3>
+<hr>
+<blockquote>
+<p>Vue提供了多个关键字，能快速的将数据对象中的值绑定在视图层中。</p>
+</blockquote>
+<h4> 7.1 v-model</h4>
+<blockquote>
+<p>通过v-model将标签的value值与vue对象中的data属性值进行绑定。要求，使用v-model一定是当前标签具有value属性，通常用于表单标签。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>此时input标签中加入了“v-model='title'”，表示input的value值与vue对象中的title属性绑定，当在input输入框中输入内容会实时修改title的值。于是{{title}}插值表达式能实时输出input输入框内的值。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>页面效果如下：</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4> 7.2 v-bind</h4>
+<blockquote>
+<p>我们知道插值表达式是不能写在html的标签的属性内的，那如果一定要用vue中的属性作为html标签的属性的内容，就可以通过v-bind进行属性绑定。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>这样，a标签内的href属性就可以使用vue对象中的属性值。</p>
+<p>注意： v-bind也可以简写，使用冒号“:”来代替。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 八、Vue的事件绑定</h3>
+<hr>
+<blockquote>
+<p>关于事件，要把握好三个步骤：设参、传参和接参。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>从这里例子中：</p>
+<ul>
+<li>设参：</li>
+</ul>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>传参：</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>接参：</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>接下来我们来看一下VUE中如何进行事件绑定。</p>
+</blockquote>
+<h4> 8.1 v-on</h4>
+<blockquote>
+<p>通过配合具体的事件名，来绑定vue中定义的函数</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>此时，该按钮，在点击时将会调用Vue对象中定义的changeMajor方法。</p>
+<p>注意： v-on也可以简写，使用"@"替代。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4> 8.2 事件修饰符</h4>
+<blockquote>
+<p>可以使用Vue中定义好的事件修饰符，快速达到效果。查看以下例子：</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>当鼠标经过P标签区域内时，区域内就会显示X和Y轴的坐标，如果经过P标签内的Span标签内时，此时会调用事件属性mousemove.stop预定的效果，鼠标移动的效果将会被取消，X和Y不再显示信息。</p>
+</blockquote>
+<h4> 8.3计算属性：computed</h4>
+<h5> 8.3.1 什么是计算属性</h5>
+<blockquote>
+<p>计算属性的重点突出在 属性 两个字上（属性是名词），首先它是个 属性 其次这个属性有 计算 的能力（计算是动词），这里的 计算 就是个函数；简单点说，它就是一个能够将计算结果缓存起来的属性（将行为转化成了静态的属性），仅此而已；</p>
+</blockquote>
+<h5> 8.3.2 计算属性与方法的区别</h5>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p><a href="">说明</a></p>
+<ul>
+<li>methods：定义方法，调用方法使用 currentTime1()，需要带括号</li>
+<li>computed：定义计算属性，调用属性使用 currentTime2，不需要带括号；this.message 是为了能够让 currentTime2 观察到数据变化而变化</li>
+</ul>
+<p>注意：methods 和 computed 里的方法不能重名</p>
+</blockquote>
+<h5> 8.3.3 测试效果</h5>
+<p>仔细看图中说明，观察其中的差异</p>
+<figure><figcaption></figcaption></figure>
+<h5> 8.3.4 结论</h5>
+<blockquote>
+<p>调用方法时，每次都需要进行计算，既然有计算过程则必定产生系统开销，那如果这个结果是不经常变化的呢？此时就可以考虑将这个结果缓存起来，采用计算属性可以很方便的做到这一点；计算属性的主要特性就是为了将不经常变化的计算结果进行缓存，以节约我们的系统开销</p>
+</blockquote>
+<h3> 九、Vue的组件化</h3>
+<hr>
+<h4> 9.1 什么是“组件化”</h4>
+<blockquote>
+<p>Vue的组件化设计思想借鉴了Java的面向对象思想。Java认为万物皆对象，在Vue中，万物皆组件。</p>
+<p>简单理解：Html中的每一个标签都可以认为是一个组件。书写组件可以认为就在定义Html中能够识别的标签。只是这些自定义的标签是用源HTML中定义好的标签组装的新标签。</p>
+<p>也就是说，在实际的vue项目中，以及使用了Vue框架的项目中，Vue的对象都会以组件的形式出现，能被反复使用。</p>
+<p>要想实现组件化，需要在页面中注册组件：关于注册的方式有两种，分别是全局注册和本地注册。</p>
+</blockquote>
+<h5> 9.1.1 组件的全局注册</h5>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 9.1.2 组件的本地注册</h5>
+<blockquote>
+<p>vue的全局注册，也就意味着在页面的任意一个被vue绑定过的div中，都可以使用全局注册了的vue组件。</p>
+<p>但是，如果是对vue组件进行本地注册，那么在其他被vue绑定的div中，不能使用该组件。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 9.1.3 小结</h5>
+<blockquote>
+<p>这是一个完整的Vue组件。该组件包含了三个部分：template（html视图层内容）、script（Model层）、style（CSS样式）。这样封装好的组件可以被复用，也可以作为其他组件的组成部分而被封装——Java的面向对象再次体现。</p>
+<ul>
+<li>
+<p>特点1： template标签内，必须有且只能有一个根标签。</p>
+</li>
+<li>
+<p>特点2： componet中注册的组件中的data，必须是函数的形式。</p>
+<p>如下：</p>
+</li>
+</ul>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 9.2 组件的生命周期</h4>
+<blockquote>
+<p>Vue中的组件也是有生命周期的。一个Vue组件会经历：初始化、创建、绑定、更新、销毁等阶段，不同的阶段，都会有相应的生命周期钩子函数被调用。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><table>
+<thead>
+<tr>
+<th>组件的生命周期钩子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3> 十、使用Vue-Cli搭建Vue项目</h3>
+<hr>
+<h4> 10.1 什么是vue-cli</h4>
+<blockquote>
+<p>cli: Command Line 命令行工具，vue-cli就是vue的命令行工具，也称之为<strong>脚手架</strong>，使用vue-cli提供的各种命令可以拉取、创建、运行我们需要使用到的框架，比如webpack、Element UI、Element Admin等等。那么要想使用vue-cli命令，需要先安装node.js。</p>
+</blockquote>
+<h4> 10.2 node.js的介绍及安装</h4>
+<h5> node.js的介绍</h5>
+<blockquote>
+<p>node.js提供了前端程序的运行环境，可以把node.js理解成是运行前端程序的服务器。</p>
+</blockquote>
+<h5> node.js的安装</h5>
+<blockquote>
+<p>从官网下载安装即可：<br>
+<a href="http://nodejs.cn/download/" target="_blank" rel="noopener noreferrer">http://nodejs.cn/download/</a></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>测试node.js是否安装成功： 在DOS窗口中输入“node -v” 查看版本，如果看到版本，就表示安装成功。</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4> 10.3 使用node.js安装vue-cli</h4>
+<p>使用如下命令安装vue-cli</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<ul>
+<li>npm： 使用node.js的命令</li>
+<li>install： 安装</li>
+<li>vue-cli： 要安装的vue-cli</li>
+<li>-g： 全局安装</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>当出现以下界面，表示正在安装：</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>如果使用npm官方镜像速度比较慢，可以使用淘宝镜像来安装：</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>之后使用npm命令时就可以替换成cnpm</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 10.4 使用vue-cli下载项目骨架搭建我们的项目</h4>
+<blockquote>
+<p>就像maven一样，vue为我们提供了一些官方项目骨架。使用vue list命令可以列出当前官方提供的骨架，可以使用这些骨架来快速搭建出项目。</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4> 10.5 创建项目目录并打开</h4>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 10.6 使用Webpack骨架快速创建项目</h4>
+<blockquote>
+<p>在my-vue-project目录中使用以下命令下载项目骨架</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<ul>
+<li>webpack: 骨架名称</li>
+<li>my-project1: 项目名称</li>
+</ul>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>过程中会出现如下界面，需要手动操作。</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>出现如下界面，表示安装成功。</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>进入到my-project1文件夹内后，使用以下命令来运行项目。</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<table>
+<thead>
+<tr>
+<th>访问<a href="http://localhost:8081" target="_blank" rel="noopener noreferrer">http://localhost:8081</a>，页面效果如下：</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>此时，项目目录及各目录介绍如下：</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<figure><figcaption></figcaption></figure>
+<h4> 10.7 webpack项目的几个常用命令</h4>
+<blockquote>
+<ul>
+<li>
+<p>npm install</p>
+<p>在运行和调试项目前，一般都需要先执行该命令，目的是安装项目运行所需要的环境。</p>
+</li>
+<li>
+<p>npm run dev</p>
+<p>以调试的方式运行项目</p>
+</li>
+<li>
+<p>npm run build</p>
+<p>生成用于项目部署所需的最小资源，生成的内容存放在build文件夹内。</p>
+</li>
+</ul>
+</blockquote>
+<h3> 十一、Vue组件间的参数传递</h3>
+<hr>
+<h4> 11.1 idea中安装Vue插件</h4>
+<blockquote>
+<p>在idea中下载vue插件</p>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<blockquote>
+<p>在idea中配置，让idea能够操作.vue文件</p>
+</blockquote>
+<p>​	</p>
+<h4> 11.2 在项目中创建子组件</h4>
+<blockquote>
+<p>创建子组件Content组件</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 11.3 注册子组件</h4>
+<blockquote>
+<p>在main.js中注册子组件</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 11.4 在App.vue中使用组件并传递参数</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 11.5 父传子</h4>
+<blockquote>
+<p>通过子组件的props部分，来指明可以接收的参数，父组件通过在标签中写明参数的键值对来传递参数。</p>
+<p>​	props是表示一个组件的参数部分，那么props的写法有两种：</p>
+<p>​		1）props:[参数列表]</p>
+<p>​		比如： props:['MyProp1','MyProp2',...]</p>
+<p>​		2）props:{参数名1:{type:String,required:true,default:'XX'},参数名2:{...}}</p>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<h4> 11.6 子传父</h4>
+<blockquote>
+<p>子传父的过程十分复杂，下列图解中已经配上了详细的步骤。</p>
+</blockquote>
+<figure><figcaption></figcaption></figure>
+<h3> 十二、Vue-router 路由</h3>
+<hr>
+<h4> 12.1 安装路由模块</h4>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4> 12.2 引入路由模块并使用</h4>
+<blockquote>
+<p>在main.js中引入路由模块并使用</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 12.3 路由初体验</h4>
+<h5> 12.3.1 创建App.vue</h5>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>改变url，发现中的内容发生改变</p>
+<ul>
+<li><a href="http://localhost:8080/#/" target="_blank" rel="noopener noreferrer">http://localhost:8080/#/</a>	显示home</li>
+<li><a href="http://localhost:8080/#/user" target="_blank" rel="noopener noreferrer">http://localhost:8080/#/user</a>     显示user</li>
+</ul>
+<p>向router实例中添加mode属性：</p>
+<ul>
+<li>值"hash": url带#  适用于调试模式</li>
+<li>值"history"  url不带#</li>
+</ul>
+</blockquote>
+<h5> 12.3.2 创建Home.vue</h5>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 12.3.3 创建Product.vue</h5>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 12.3.4 修改静态路由表</h5>
+<blockquote>
+<p>修改路由表src/router/index.js</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> </h4>
+<h4> 12.4 参数的传递</h4>
+<blockquote>
+<p>在路由表中设参</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>在App.vue中传参</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>在Product.vue中接参</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 12.5 程序式路由的实现</h4>
+<blockquote>
+<p>使用<code>&lt;router-link&gt;</code>进行路由跳转是有局限性的，可以通过 this.$router.push("/Product/1") 的js方式实现路由跳转，更加灵活。</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 十三、使用Axios发送请求</h3>
+<hr>
+<h4> 13.1  什么是 Axios</h4>
+<p>Axios 是一个开源的可以用在浏览器端和 NodeJS 的异步通信框架，她的主要作用就是实现 AJAX 异步通信，其功能特点如下：</p>
+<ul>
+<li>从浏览器中创建 XMLHttpRequests</li>
+<li>从 node.js 创建 http 请求</li>
+<li>支持 Promise API</li>
+<li>拦截请求和响应</li>
+<li>转换请求数据和响应数据</li>
+<li>取消请求</li>
+<li>自动转换 JSON 数据</li>
+<li>客户端支持防御 XSRF（跨站请求伪造）</li>
+</ul>
+<p>GitHub：<a href="https://github.com/axios/axios" target="_blank" rel="noopener noreferrer">https://github.com/axios/axios</a></p>
+<h4> 13.2 为什么要使用 Axios</h4>
+<p>由于 Vue.js 是一个 视图层框架 并且作者（尤雨溪）严格准守 SoC （关注度分离原则），所以 Vue.js 并不包含 AJAX 的通信功能，为了解决通信问题，作者单独开发了一个名为 vue-resource 的插件，不过在进入 2.0 版本以后停止了对该插件的维护并推荐了 Axios 框架</p>
+<h4> 13.3 Axios的使用</h4>
+<h5> 13.3.1 安装vue axios</h5>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 13.3.2 在main.js中引入</h5>
+<p>在项目中使用axios模块</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 13.3.3 发送ajax请求</h5>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 13.3.4 服务端解决跨域问题</h5>
+<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在spring-mvc.xml中加入上述这一段。其中，allowed-origins指的是允许的访问源的域名，"*"表示任何人都可以访问，也可以指明具体的域名</p>
+<h5> 13.3.5 解决axios无法传递data中的参数问题</h5>
+<p>原因：默认情况下发送axios时请求头中的内容类型为： （后端没有使用@RequestBody）</p>
+<div class="language-xml line-numbers-mode" data-ext="xml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>而实际服务端需要的是：</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>因此，使用axios的qs内置库中的方法进行内容类型的转换。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 十四、Vue实战项目：Webpack登录验证后路由至列表页</h3>
+<hr>
+<table>
+<thead>
+<tr>
+<th>对项目进行中的内容进行调整，结构如下：</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>各部分内容：</p>
+</blockquote>
+<h4> 14.1 router路由模块： index.js（路由配置表）</h4>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 14.2 使用Element-UI组件库</h4>
+<h5> 14.2.1 安装</h5>
+<blockquote>
+<p>在项目文件夹内使用命令来安装element-ui模块</p>
+</blockquote>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h5> 14.2.2 使用</h5>
+<blockquote>
+<p>在vue项目中引入element-ui并使用。在 main.js 中写入以下内容：</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 14.2.3 在Element-UI组件库中查找组件</h5>
+<table>
+<thead>
+<tr>
+<th>在官方组件库中，根据需求找到组件，然后在项目中使用。</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4> 14.3 编写登录组件：Login.vue</h4>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>输入的用户名和密码，通过Axios请求去后端做校验，若校验成功则路由至Home组件。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>登录页面的展示效果：（Element UI）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4> 14.4 编写入口js：main.js</h4>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 十五、 Vuex的应用</h3>
+<hr>
+<h4> 15.1 什么是Vuex</h4>
+<blockquote>
+<p>Vuex 是一个专为 Vue.js 应用程序开发的 状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。</p>
+</blockquote>
+<h4> 15.2 安装</h4>
+<blockquote>
+<p>在项目根目录执行如下命令来安装 Vuex</p>
+<p>若失败，可使用cnpm</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>修改 <code>main.js</code> 文件，导入 Vuex，关键代码如下：</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4> 15.3 配置 vuex</h4>
+<h5> 15.3.1 创建 Vuex 配置文件</h5>
+<blockquote>
+<p>在 src 目录下创建一个名为 store 的目录并新建一个名为 index.js 文件用来配置 Vuex，代码如下：</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>修改 main.js 增加刚才配置的 store/index.js，关键代码如下：</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 15.3.2 解决浏览器刷新后 Vuex 数据消失问题</h5>
+<ul>
+<li>问题描述</li>
+</ul>
+<blockquote>
+<p>Vuex 的状态存储是响应式的，当 Vue 组件从 store 中读取状态的时候，若 store 中的状态发生变化，那么相应的组件也会相应地得到高效更新。但是有一个问题就是：vuex 的存储的数据只是在页面的中，相当于我们定义的全局变量，刷新之后，里边的数据就会恢复到初始化状态。但是这个情况有时候并不是我们所希望的。</p>
+</blockquote>
+<ul>
+<li>解决方案</li>
+</ul>
+<blockquote>
+<p>监听页面是否刷新，如果页面刷新了，将 state 对象存入到 sessionStorage 中。页面打开之后，判断 sessionStorage 中是否存在 state 对象，如果存在，则说明页面是被刷新过的，将 sessionStorage 中存的数据取出来给 vuex 中的 state 赋值。如果不存在，说明是第一次打开，则取 vuex 中定义的 state 初始值。</p>
+</blockquote>
+<ul>
+<li>修改代码</li>
+</ul>
+<blockquote>
+<p>在 App.vue 中增加监听刷新事件</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>修改 store/index.js 中的 state</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

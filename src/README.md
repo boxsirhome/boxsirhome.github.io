@@ -16,12 +16,12 @@ head:
 projects:
   - icon: /assets/homeProjects/friendLink.svg
     name: 友情链接
-    desc: 志同道合的一帮人
+    desc: 万里尚为邻
     link: /social/friend
 
   - icon: /assets/homeProjects/comment.svg
     name: 写下留言
-    desc: 欢迎来留言哦
+    desc: 欢迎来留言
     link: /social/guestbook
 
   - icon: /assets/homeProjects/aboutMe.svg
