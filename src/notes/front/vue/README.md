@@ -1,5 +1,5 @@
 ---
-title: "Vue笔记目录"
+title: "Vue笔记"
 icon: "vue"
 date: 2023-09-23
 index: false
@@ -8,7 +8,7 @@ comment: false
 pageInfo: false
 ---
 :::info
-VUE相关笔记
+Vue相关笔记
 :::
 
 <AutoCatalog />

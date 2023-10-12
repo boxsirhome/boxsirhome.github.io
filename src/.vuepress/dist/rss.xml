@@ -6,12 +6,11 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 12 Oct 2023 13:35:19 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Oct 2023 13:35:19 GMT</lastBuildDate>
+    <pubDate>Thu, 12 Oct 2023 14:58:44 GMT</pubDate>
+    <lastBuildDate>Thu, 12 Oct 2023 14:58:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>笔记</category>
-    <category>物联网</category>
     <category>项目</category>
     <category>使用指南</category>
     <item>
@@ -745,79 +744,68 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>SpringBoot从入门到进阶</title>
-      <link>https://boxsir.gitee.io/notes/after/java/springboot.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/java/springboot.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot从入门到进阶</source>
-      <description>相关信息 SpringBoot 从入门到进阶系列官方小册.pdf</description>
-      <category>笔记</category>
+      <title>无线监控小车</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">无线监控小车</source>
+      <description>无线监控小车 1.1 ESP32-CAM ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。 1.2 OV2640摄像头</description>
+      <category>项目</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>SpringBoot 从入门到进阶系列官方小册.pdf</p>
-</div>
+      <content:encoded><![CDATA[<h1> 无线监控小车</h1>
+<h2> 1.1 ESP32-CAM</h2>
+<p>ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。</p>
+<h2> 1.2 OV2640摄像头</h2>
+<p>OV2640摄像头具有200万像素的高分辨率，能够提供清晰、细节丰富的图像，确保捕捉到准确的画面细节，提供高质量的监控和录像。摄像头模块集成了图像处理功能，包括自动曝光、自动白平衡、自动对焦等。这些功能可以自动优化图像质量，使图像在不同的光线条件下保持清晰和准确，获得最佳的图像效果。支持多种输出格式，包括JPEG、YUV、RGB565等，可以选择最合适的图像格式，以便进行进一步的分析和处理。摄像头可以以15帧/秒的速度拍摄2 Megapixels的图像，或以30帧/秒的速度拍摄较低分辨率的图像，这使得无线监控小车能够实时捕捉和传输图像，提供实时监控和响应能力。模块采用了低功耗设计，适用于需要长时间运行的应用场景，提高电池寿命，延长设备的工作时间。</p>
+<h2> 1.3 L298N电机驱动</h2>
+<p>L298N电机驱动芯片提供最大2A的电流输出，可以驱动各种类型和大小的直流电机，包括驱动力较大的电机，非常适合用于运行较重载荷的无线监控小车项目。可以实现直流电机的双向控制，即控制小车的前进、后退和转向。这使得无线监控小车能够在不同的场景中灵活移动和导航，提供更好的监控覆盖范围。通过使用PWM信号来控制电机驱动的输入引脚，可以实现对电机的精确速度控制，调整小车移动速度。L298N电机驱动支持5V至35V的电源电压范围，可以适应不同类型的电源配置，包括使用电池供电的情况，小车在不同的供电环境中都能正常运行。驱动具有过热保护功能，可在电机或芯片过热时自动停止工作，以保护设备的安全性。这在长时间运行或高负载条件下尤为重要，可以延长设备的使用寿命。L298N电机驱动控制逻辑关系如表1所示</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>工程启动时建表和填充数据</title>
-      <link>https://boxsir.gitee.io/notes/after/java/createDatabase.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/java/createDatabase.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">工程启动时建表和填充数据</source>
-      <description>相关信息 java项目启动 建表和填充数据</description>
-      <category>笔记</category>
+      <title>WiFi天气时钟系统设计</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">WiFi天气时钟系统设计</source>
+      <description>WiFi天气时钟系统设计 1总体结构 本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示 2系统硬件设计 本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</description>
+      <category>项目</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>java项目启动 建表和填充数据</p>
-</div>
-<!-- more -->
-<p>本例适用版本：</p>
-<p>SpringBoot：2.7.4</p>
-<p>Kingbase：8.6.0</p>
-<p>不保证本例在其它版本依然适用</p>
-<p>先决条件：</p>
-<p>SpringBoot工程能与目标DB顺畅连接。</p>
-<p>下面正文开始：</p>
-<p>1.在application.properties中加入以下文字：</p>
-<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>sql.init.mode有always、embedded、never三个选项，一般再需要建表时填always，如果表已经建立完毕须改成never；</p>
-<p>schema-locations是建表语句文件所在，本例中的schema.sql是这样书写的：</p>
-<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>data-locations是给表充值文件所在，本例中data.sql是这样书写的：</p>
-<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上文件的物理位置见下图：<br>
-</p>
-<p>2.以上三处就绪后运行程序，如果报错就检查sql语句有没有纰漏，如果不报错就表示建表成功了</p>
+      <content:encoded><![CDATA[<h1> WiFi天气时钟系统设计</h1>
+<h2> 1总体结构</h2>
+<p>本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示</p>
+<h2> 2系统硬件设计</h2>
+<p>本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</p>
+<h3> 2.1 ESP32芯片</h3>
+<p>选择ESP32作为主控芯片，内置了WIFI和蓝牙的微控芯片。ESP32采用两个哈佛结构Xtensa LX6 CPU构成，拥有双核系统。所有的片上存储器、片外存储器以及外设都分布在两个CPU的数据总线和指令总线上。提供了强大的处理能力和丰富的外设接口，泛应用于物联网等领域。通过其强大的处理能力和多种接口，能够方便地连接到云平台、传感器、外设等设备，并实现各种智能化应用。<br>
+ESP32一共有38个引脚，除去电源引脚外，可用IO引脚为34个。GPIO0到GPIO39用于输入或输出数字信号。GPIO32到GPIO39可用于模拟信号的采集，将模拟信号转换为数字信号。GPIO25和GPIO26用于输出模拟信号，将数字信号转换为模拟信号。UART0_TX、UART0_RX、UART1_TX、UART1_RX、UART2_TX、UART2_RX用于串行通信。GPIO21和GPIO22用于I2C总线通信。GPIO5（SPI0_CLK）、GPIO18（SPI0_CS）、GPIO19（SPI0_MISO）、GPIO23（SPI0_MOSI）用于SPI总线通信。GPIO25（I2S_BCLK）、GPIO26（I2S_LRC）、GPIO22（I2S_DOUT）、GPIO21（I2S_DIN）用于音频相关的数据传输。GPIO0到GPIO19、GPIO21到GPIO23、GPIO25、GPIO26、GPIO27用于产生脉冲宽度调制信号。<br>
+需要注意的是，某些引脚可能有多个功能，并且在使用之前需要根据具体需求进行配置。此外，还有一些特殊引脚，如EN模组的电源使能引脚、VCC供电引脚和GND地引脚。在使用ESP32模组时，还需注意以下几点。ESP32引脚的电压范围为1.8V至3.3V，因此需要确保外部设备与模组的电压兼容。每个引脚的最大电流为12mA，总体最大电流为200mA。在设计电路时，需要注意不要超过这些限制，以免导致模组损坏。引脚具有多个功能，需要正确配置引脚功能以实现所需的功能。在高温环境下可能会过热，需注意散热和温度控制，以确保稳定运行。<br>
+ESP32模组具有强大的功能和丰富的引脚资源，适用于各种应用领域。在使用时，需要根据所需功能和需求，正确配置引脚，并保证电压和电流的合适范围，以确保稳定可靠的运行。</p>
+<h3> 2.2 LCD液晶屏</h3>
+<p>选择1.54寸彩色TFT显示屏高清IPS LCD液晶屏240<em>240模块展示数据信息，分辨率为240</em>240像素。这种高分辨率的显示屏可以产生清晰、细腻的图像和文本显示效果，采用高清IPS（In-Plane Switching）面板技术，可提供更广阔的视角范围和更好的视觉效果。适合用于显示天气信息和时间。<br>
+该显示屏具有较小的尺寸和低功耗、低发热和稳定的显示性能，可以用于各种嵌入式系统、智能手表、可穿戴设备和其他物联网应用。在使用过程中需要确保供电电压符合显示屏的要求，以避免损坏。连接合适的驱动芯片或模块，以实现正确的图像显示和触摸控制功能。有时需要使用转接板来适配显示屏和其他设备之间的接口差异。对于液晶屏模块, 在使用时需避免强烈冲击和大幅度扭曲，以免损坏显示模块。在使用时，需要注意供电电压、驱动控制、转接板以及可靠性问题，以确保显示屏的正常工作和长寿命。<br>
+LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。它具有高清显示、多种显示模式、可编程性等特点。连接LCD液晶屏与ESP32引脚可实现图形和文字信息的显示功能，需要确保正确地对应液晶屏的引脚与ESP32的引脚，以避免错误的连接导致显示异常或引脚损坏。确保为液晶屏和ESP32提供稳定的电源供应，并遵循其规格要求进行电气连接。在设计液晶屏功能时，需要正确配置并调用驱动程序，以确保其能够正确地与ESP32通信。在连接时，需留意其他设备或传感器是否与ESP32使用的引脚有冲突，以避免引脚冲突导致设备无法正常工作。确保正确的引脚对应、供电稳定、正确的屏幕驱动和避免引脚冲突是使用此功能时需要注意的关键点。</p>
+<h3> 2.3 轻触立式按键</h3>
+<p>选择6*6轻触立式按键。是一种较小的按键开关，有减轻使用者的手部负担，使用寿命长，操作简单等特点。这种尺寸适合在有限的空间内嵌入，可以满足紧凑设计的需求。本系统中按键主要用于界面动画风格和配网模式的切换。</p>
+<h2> 3系统软件设计</h2>
+<p>系统中使用到了Arduino平台，采用易于使用的硬件和软件开发工具，以简化电子项目的开发过程。ESP32和Arduino的结合使用，使得开发者能够利用ESP32的功能和Arduino的简洁易用性进行项目开发。使用C++编程语言来开发系统，简化了Arduino的库函数与ESP32的交互。开发环境采用VS Code软件。在VS Code的插件市场中搜索并安装Arduino插件，该插件提供了针对Arduino平台的开发环境和功能，指定ESP32的开发板型号、串口号和波特率，并确保正确配置。使用VS Code的Arduino插件，可以将代码编译和上传代码到ESP32开发板。插件处理编译和连接过程，并将生成的二进制文件通过串口上传到开发板。本系统软件部分的流程图如图2所示</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>SpringBoot全局异常处理</title>
-      <link>https://boxsir.gitee.io/notes/after/java/exceptionHandling.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/java/exceptionHandling.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot全局异常处理</source>
-      <description>相关信息 java全局异常处理</description>
-      <category>笔记</category>
+      <title>燃气报警系统设计</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">燃气报警系统设计</source>
+      <description>燃气报警系统设计 1 系统总体结构 系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。 2 系统硬件设计 硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</description>
+      <category>项目</category>
       <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>java全局异常处理</p>
-</div>
-<!-- more -->
-<h3> 6、统一异常处理</h3>
-<h4> 6.1、制造异常</h4>
-<p><strong>除以0</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>我们想让异常结果也显示为统一的返回结果对象，并且统一处理系统的异常信息，那么需要统一异常处理。</p>
-<h4> 6.2、全局异常处理</h4>
-<h5> 6.2.1、创建统一异常处理器</h5>
-<p>创建处理类</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.2.1、测试</h5>
-<h4> 6.3、处理特定异常</h4>
-<h5> 6.3.1、添加异常处理方法</h5>
-<p><strong>GlobalExceptionHandler.java中添加</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.3.2、测试</h5>
-<h4> 6.4、处理自定义异常</h4>
-<h5> 6.4.1、创建自定义异常类</h5>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.2、业务中需要位置抛出</h5>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.3、添加异常处理方法</h5>
-<p><strong>GlobalExceptionHandler.java中添加</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+      <content:encoded><![CDATA[<h1> 燃气报警系统设计</h1>
+<h2> 1 系统总体结构</h2>
+<p>系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</p>
+<h2> 2 系统硬件设计</h2>
+<p>硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</p>
+<h3> 2.1 ESP8266芯片</h3>
+<p>ESP8266成本较低，适用于小型物联网项目的开发。内置了WiFi模组，可以方便地连接到无线网络，实现远程监控和控制，对于燃气报警系统是非常重要的特性。内部搭载了高性能的处理器，能够运行复杂的算法和处理大量的数据。这使得它能够完成燃气传感器数据的处理和分析，进行报警判断和决策。具有多个通用输入输出引脚，可以连接外部传感器和执行器，实现与其他硬件设备的交互。ESP8266支持MicroPython进行编程和开发，具有丰富的开发资源和社区支持，开发燃气报警系统变得更加简单和便捷，可利用现有的库和示例代码进行快速开发。</p>
+<h3> 2.2 MQ-2传感器</h3>
+<p>MQ-2传感器是一种多气体检测器，能够检测多种可燃性气体，如甲烷、液化石油气、丙烷、氢气等。MQ-2具有很高的灵敏度，能够快速、准确地检测到燃气泄漏。能够实时监测环境中的气体浓度，并通过与ESP8266的连接，向系统发送相应的报警信号。具有低功耗特性，可以在长时间运行的情况下保持稳定的性能。MQ-2传感器采用了模拟输出方式，可以直接与ESP8266的模拟输入引脚连接，在硬件上的集成非常简单，且与ESP8266的通信也较为方便。价格相对较低，且易于获得，可以在开发过程中轻松获取所需数量的传感器，降低了项目成本和开发的难度。MQ-2常用的电路有两种，一种使用采用比较器电路监控，另一种为ADC电路检测，本文中采用的是ADC电路检测即将电压信号转化为数字信号，进而转化为精确的烟雾浓度值，ADC转换电路如图2所示。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>创建仓库</title>
@@ -840,10 +828,10 @@
 <div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>Git合并提交代码</title>
+      <title>git合并提交代码</title>
       <link>https://boxsir.gitee.io/notes/ecology/git/merge.html</link>
       <guid>https://boxsir.gitee.io/notes/ecology/git/merge.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Git合并提交代码</source>
+      <source url="https://boxsir.gitee.io/rss.xml">git合并提交代码</source>
       <category>笔记</category>
       <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
       <content:encoded><![CDATA[<!-- more -->
@@ -938,10 +926,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>VUE简介</title>
+      <title>Vue简介</title>
       <link>https://boxsir.gitee.io/notes/front/vue/vue.html</link>
       <guid>https://boxsir.gitee.io/notes/front/vue/vue.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">VUE简介</source>
+      <source url="https://boxsir.gitee.io/rss.xml">Vue简介</source>
       <description>Author: Thor Version: 9.0.1 一、Vue简介 1.1 简介 Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式的js框架，发布于 2014 年 2 月。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库（如：vue-router，vue-resource，vuex）或既有项目整合。</description>
       <category>笔记</category>
       <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
@@ -1614,73 +1602,9 @@
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>无线监控小车</title>
-      <link>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</link>
-      <guid>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">无线监控小车</source>
-      <description>无线监控小车 1.1 ESP32-CAM ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。 1.2 OV2640摄像头</description>
-      <category>物联网</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 无线监控小车</h1>
-<h2> 1.1 ESP32-CAM</h2>
-<p>ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。</p>
-<h2> 1.2 OV2640摄像头</h2>
-<p>OV2640摄像头具有200万像素的高分辨率，能够提供清晰、细节丰富的图像，确保捕捉到准确的画面细节，提供高质量的监控和录像。摄像头模块集成了图像处理功能，包括自动曝光、自动白平衡、自动对焦等。这些功能可以自动优化图像质量，使图像在不同的光线条件下保持清晰和准确，获得最佳的图像效果。支持多种输出格式，包括JPEG、YUV、RGB565等，可以选择最合适的图像格式，以便进行进一步的分析和处理。摄像头可以以15帧/秒的速度拍摄2 Megapixels的图像，或以30帧/秒的速度拍摄较低分辨率的图像，这使得无线监控小车能够实时捕捉和传输图像，提供实时监控和响应能力。模块采用了低功耗设计，适用于需要长时间运行的应用场景，提高电池寿命，延长设备的工作时间。</p>
-<h2> 1.3 L298N电机驱动</h2>
-<p>L298N电机驱动芯片提供最大2A的电流输出，可以驱动各种类型和大小的直流电机，包括驱动力较大的电机，非常适合用于运行较重载荷的无线监控小车项目。可以实现直流电机的双向控制，即控制小车的前进、后退和转向。这使得无线监控小车能够在不同的场景中灵活移动和导航，提供更好的监控覆盖范围。通过使用PWM信号来控制电机驱动的输入引脚，可以实现对电机的精确速度控制，调整小车移动速度。L298N电机驱动支持5V至35V的电源电压范围，可以适应不同类型的电源配置，包括使用电池供电的情况，小车在不同的供电环境中都能正常运行。驱动具有过热保护功能，可在电机或芯片过热时自动停止工作，以保护设备的安全性。这在长时间运行或高负载条件下尤为重要，可以延长设备的使用寿命。L298N电机驱动控制逻辑关系如表1所示</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>WiFi天气时钟系统设计</title>
-      <link>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</link>
-      <guid>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">WiFi天气时钟系统设计</source>
-      <description>WiFi天气时钟系统设计 1总体结构 本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示 2系统硬件设计 本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</description>
-      <category>物联网</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> WiFi天气时钟系统设计</h1>
-<h2> 1总体结构</h2>
-<p>本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示</p>
-<h2> 2系统硬件设计</h2>
-<p>本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</p>
-<h3> 2.1 ESP32芯片</h3>
-<p>选择ESP32作为主控芯片，内置了WIFI和蓝牙的微控芯片。ESP32采用两个哈佛结构Xtensa LX6 CPU构成，拥有双核系统。所有的片上存储器、片外存储器以及外设都分布在两个CPU的数据总线和指令总线上。提供了强大的处理能力和丰富的外设接口，泛应用于物联网等领域。通过其强大的处理能力和多种接口，能够方便地连接到云平台、传感器、外设等设备，并实现各种智能化应用。<br>
-ESP32一共有38个引脚，除去电源引脚外，可用IO引脚为34个。GPIO0到GPIO39用于输入或输出数字信号。GPIO32到GPIO39可用于模拟信号的采集，将模拟信号转换为数字信号。GPIO25和GPIO26用于输出模拟信号，将数字信号转换为模拟信号。UART0_TX、UART0_RX、UART1_TX、UART1_RX、UART2_TX、UART2_RX用于串行通信。GPIO21和GPIO22用于I2C总线通信。GPIO5（SPI0_CLK）、GPIO18（SPI0_CS）、GPIO19（SPI0_MISO）、GPIO23（SPI0_MOSI）用于SPI总线通信。GPIO25（I2S_BCLK）、GPIO26（I2S_LRC）、GPIO22（I2S_DOUT）、GPIO21（I2S_DIN）用于音频相关的数据传输。GPIO0到GPIO19、GPIO21到GPIO23、GPIO25、GPIO26、GPIO27用于产生脉冲宽度调制信号。<br>
-需要注意的是，某些引脚可能有多个功能，并且在使用之前需要根据具体需求进行配置。此外，还有一些特殊引脚，如EN模组的电源使能引脚、VCC供电引脚和GND地引脚。在使用ESP32模组时，还需注意以下几点。ESP32引脚的电压范围为1.8V至3.3V，因此需要确保外部设备与模组的电压兼容。每个引脚的最大电流为12mA，总体最大电流为200mA。在设计电路时，需要注意不要超过这些限制，以免导致模组损坏。引脚具有多个功能，需要正确配置引脚功能以实现所需的功能。在高温环境下可能会过热，需注意散热和温度控制，以确保稳定运行。<br>
-ESP32模组具有强大的功能和丰富的引脚资源，适用于各种应用领域。在使用时，需要根据所需功能和需求，正确配置引脚，并保证电压和电流的合适范围，以确保稳定可靠的运行。</p>
-<h3> 2.2 LCD液晶屏</h3>
-<p>选择1.54寸彩色TFT显示屏高清IPS LCD液晶屏240<em>240模块展示数据信息，分辨率为240</em>240像素。这种高分辨率的显示屏可以产生清晰、细腻的图像和文本显示效果，采用高清IPS（In-Plane Switching）面板技术，可提供更广阔的视角范围和更好的视觉效果。适合用于显示天气信息和时间。<br>
-该显示屏具有较小的尺寸和低功耗、低发热和稳定的显示性能，可以用于各种嵌入式系统、智能手表、可穿戴设备和其他物联网应用。在使用过程中需要确保供电电压符合显示屏的要求，以避免损坏。连接合适的驱动芯片或模块，以实现正确的图像显示和触摸控制功能。有时需要使用转接板来适配显示屏和其他设备之间的接口差异。对于液晶屏模块, 在使用时需避免强烈冲击和大幅度扭曲，以免损坏显示模块。在使用时，需要注意供电电压、驱动控制、转接板以及可靠性问题，以确保显示屏的正常工作和长寿命。<br>
-LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。它具有高清显示、多种显示模式、可编程性等特点。连接LCD液晶屏与ESP32引脚可实现图形和文字信息的显示功能，需要确保正确地对应液晶屏的引脚与ESP32的引脚，以避免错误的连接导致显示异常或引脚损坏。确保为液晶屏和ESP32提供稳定的电源供应，并遵循其规格要求进行电气连接。在设计液晶屏功能时，需要正确配置并调用驱动程序，以确保其能够正确地与ESP32通信。在连接时，需留意其他设备或传感器是否与ESP32使用的引脚有冲突，以避免引脚冲突导致设备无法正常工作。确保正确的引脚对应、供电稳定、正确的屏幕驱动和避免引脚冲突是使用此功能时需要注意的关键点。</p>
-<h3> 2.3 轻触立式按键</h3>
-<p>选择6*6轻触立式按键。是一种较小的按键开关，有减轻使用者的手部负担，使用寿命长，操作简单等特点。这种尺寸适合在有限的空间内嵌入，可以满足紧凑设计的需求。本系统中按键主要用于界面动画风格和配网模式的切换。</p>
-<h2> 3系统软件设计</h2>
-<p>系统中使用到了Arduino平台，采用易于使用的硬件和软件开发工具，以简化电子项目的开发过程。ESP32和Arduino的结合使用，使得开发者能够利用ESP32的功能和Arduino的简洁易用性进行项目开发。使用C++编程语言来开发系统，简化了Arduino的库函数与ESP32的交互。开发环境采用VS Code软件。在VS Code的插件市场中搜索并安装Arduino插件，该插件提供了针对Arduino平台的开发环境和功能，指定ESP32的开发板型号、串口号和波特率，并确保正确配置。使用VS Code的Arduino插件，可以将代码编译和上传代码到ESP32开发板。插件处理编译和连接过程，并将生成的二进制文件通过串口上传到开发板。本系统软件部分的流程图如图2所示</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>燃气报警系统设计</title>
-      <link>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</link>
-      <guid>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">燃气报警系统设计</source>
-      <description>燃气报警系统设计 1 系统总体结构 系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。 2 系统硬件设计 硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</description>
-      <category>物联网</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 燃气报警系统设计</h1>
-<h2> 1 系统总体结构</h2>
-<p>系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</p>
-<h2> 2 系统硬件设计</h2>
-<p>硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</p>
-<h3> 2.1 ESP8266芯片</h3>
-<p>ESP8266成本较低，适用于小型物联网项目的开发。内置了WiFi模组，可以方便地连接到无线网络，实现远程监控和控制，对于燃气报警系统是非常重要的特性。内部搭载了高性能的处理器，能够运行复杂的算法和处理大量的数据。这使得它能够完成燃气传感器数据的处理和分析，进行报警判断和决策。具有多个通用输入输出引脚，可以连接外部传感器和执行器，实现与其他硬件设备的交互。ESP8266支持MicroPython进行编程和开发，具有丰富的开发资源和社区支持，开发燃气报警系统变得更加简单和便捷，可利用现有的库和示例代码进行快速开发。</p>
-<h3> 2.2 MQ-2传感器</h3>
-<p>MQ-2传感器是一种多气体检测器，能够检测多种可燃性气体，如甲烷、液化石油气、丙烷、氢气等。MQ-2具有很高的灵敏度，能够快速、准确地检测到燃气泄漏。能够实时监测环境中的气体浓度，并通过与ESP8266的连接，向系统发送相应的报警信号。具有低功耗特性，可以在长时间运行的情况下保持稳定的性能。MQ-2传感器采用了模拟输出方式，可以直接与ESP8266的模拟输入引脚连接，在硬件上的集成非常简单，且与ESP8266的通信也较为方便。价格相对较低，且易于获得，可以在开发过程中轻松获取所需数量的传感器，降低了项目成本和开发的难度。MQ-2常用的电路有两种，一种使用采用比较器电路监控，另一种为ADC电路检测，本文中采用的是ADC电路检测即将电压信号转化为数字信号，进而转化为精确的烟雾浓度值，ADC转换电路如图2所示。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>刀客</title>
-      <link>https://boxsir.gitee.io/item/web/java/daoke.html</link>
-      <guid>https://boxsir.gitee.io/item/web/java/daoke.html</guid>
+      <link>https://boxsir.gitee.io/item/web/springBoot/daoke.html</link>
+      <guid>https://boxsir.gitee.io/item/web/springBoot/daoke.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">刀客</source>
       <description>刀客 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。</description>
       <category>项目</category>
@@ -1775,6 +1699,81 @@ LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。�
 <li>完善的日志记录体系简单注解即可实现</li>
 <li>支持服务监控，数据监控，缓存监控功能。</li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>工程启动时建表和填充数据</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">工程启动时建表和填充数据</source>
+      <description>相关信息 java项目启动 建表和填充数据</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>java项目启动 建表和填充数据</p>
+</div>
+<!-- more -->
+<p>本例适用版本：</p>
+<p>SpringBoot：2.7.4</p>
+<p>Kingbase：8.6.0</p>
+<p>不保证本例在其它版本依然适用</p>
+<p>先决条件：</p>
+<p>SpringBoot工程能与目标DB顺畅连接。</p>
+<p>下面正文开始：</p>
+<p>1.在application.properties中加入以下文字：</p>
+<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>sql.init.mode有always、embedded、never三个选项，一般再需要建表时填always，如果表已经建立完毕须改成never；</p>
+<p>schema-locations是建表语句文件所在，本例中的schema.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>data-locations是给表充值文件所在，本例中data.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上文件的物理位置见下图：<br>
+</p>
+<p>2.以上三处就绪后运行程序，如果报错就检查sql语句有没有纰漏，如果不报错就表示建表成功了</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SpringBoot全局异常处理</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot全局异常处理</source>
+      <description>相关信息 java全局异常处理</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>java全局异常处理</p>
+</div>
+<!-- more -->
+<h3> 6、统一异常处理</h3>
+<h4> 6.1、制造异常</h4>
+<p><strong>除以0</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>我们想让异常结果也显示为统一的返回结果对象，并且统一处理系统的异常信息，那么需要统一异常处理。</p>
+<h4> 6.2、全局异常处理</h4>
+<h5> 6.2.1、创建统一异常处理器</h5>
+<p>创建处理类</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.2.1、测试</h5>
+<h4> 6.3、处理特定异常</h4>
+<h5> 6.3.1、添加异常处理方法</h5>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.3.2、测试</h5>
+<h4> 6.4、处理自定义异常</h4>
+<h5> 6.4.1、创建自定义异常类</h5>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.2、业务中需要位置抛出</h5>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.3、添加异常处理方法</h5>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>SpringBoot从入门到进阶</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/springboot.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/springboot.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot从入门到进阶</source>
+      <description>相关信息 SpringBoot 从入门到进阶系列官方小册.pdf</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>SpringBoot 从入门到进阶系列官方小册.pdf</p>
+</div>
 ]]></content:encoded>
     </item>
     <item>

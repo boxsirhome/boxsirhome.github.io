@@ -1,5 +1,5 @@
 ---
-title: "GIT笔记目录"
+title: "Git笔记"
 icon: "git"
 date: 2023-09-23
 index: false
@@ -8,7 +8,7 @@ comment: false
 pageInfo: false
 ---
 :::info
-这里放置 git相关 内容
+这里放置 Git相关 内容
 :::
 
 <AutoCatalog />

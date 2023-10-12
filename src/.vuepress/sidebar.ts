@@ -16,7 +16,7 @@ export default sidebar({
 
   "/notes/": "structure",
   "/notes/after/": "structure",
-  "/notes/after/java/": "structure",
+  "/notes/after/springBoot/": "structure",
   "/notes/ecology/": "structure",
   "/notes/ecology/linux/": "structure",
   "/notes/ecology/git/": "structure",
@@ -25,7 +25,7 @@ export default sidebar({
   "/notes/iot/": "structure",
 
   "/item/": "structure",
-  "/item/web/java": "structure",
+  "/item/web/springBoot": "structure",
   "/item/IoT/": "structure",
 
   "/about/site/": "structure",

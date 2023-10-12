@@ -6,7 +6,7 @@ sticky: false
 star: false
 timeline: false
 category:
-  - 物联网
+  - 项目
 tag:
   - IOT
   - ESP32

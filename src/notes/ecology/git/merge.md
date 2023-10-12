@@ -1,5 +1,5 @@
 ---
-title: Git合并提交代码                     # 当前页面内容标题，默认为 Markdown 文件中的第一个 h1 标签内容
+title: git合并提交代码                     # 当前页面内容标题，默认为 Markdown 文件中的第一个 h1 标签内容
 article: true                               # 是否将该文章添加至文章列表中，默认true
 sticky: false
 star: true

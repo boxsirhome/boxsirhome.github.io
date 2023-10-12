@@ -1,5 +1,5 @@
 ---
-title: "Linux笔记目录"
+title: "Linux笔记"
 icon: "linux"
 date: 2023-09-23
 index: false

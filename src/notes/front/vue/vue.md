@@ -1,5 +1,5 @@
 ---
-title: VUE简介
+title: Vue简介
 icon: pen-to-square
 date: 2023-9-23
 article: true

@@ -11,22 +11,22 @@ export default navbar([
         text: "后端笔记",
         prefix: "/after",
         children: [
-          { text: "JAVA", icon: "java", link: "/java" }
+          { text: "SpringBoot", icon: "springBoot", link: "/springBoot" }
         ],
       },
       {
         text: "前端笔记",
         prefix: "/front",
         children: [
-          { text: "VUE", icon: "vue", link: "/vue" },
+          { text: "Vue", icon: "vue", link: "/vue" },
         ],
       },
       {
         text: "生态笔记",
         prefix: "/ecology",
         children: [
-          { text: "LINUX", icon: "linux", link: "/linux" },
-          { text: "GIT", icon: "git", link: "/git" },
+          { text: "Linux", icon: "linux", link: "/linux" },
+          { text: "Git", icon: "git", link: "/git" },
         ],
       },
       {
@@ -47,7 +47,7 @@ export default navbar([
         text: "web项目",
         prefix: "/web",
         children: [
-          { text: "JAVA", icon: "java", link: "/java" }
+          { text: "SpringBoot", icon: "springBoot", link: "/springBoot" }
         ],
       },
       {
