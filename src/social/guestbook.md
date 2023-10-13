@@ -1,5 +1,5 @@
 ---
-title:  留言板 ✨ 
+title:  留言板 
 icon: comment
 breadcrumb: false
 sidebar: false

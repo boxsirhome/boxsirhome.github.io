@@ -24,15 +24,15 @@ projects:
     desc: 欢迎来留言
     link: /social/guestbook
 
+  - icon: /assets/homeProjects/map.svg
+    name: 站点地图
+    desc: 目录导航大全
+    link: /about/map
+
   - icon: /assets/homeProjects/aboutMe.svg
     name: 关于博主
     desc: 博主的私人空间
     link: /about/intro
-
-  - icon: /assets/homeProjects/aboutSite.svg
-    name: 关于本站
-    desc: 有关站点的介绍
-    link: /about/site
 
   # - icon: /logo.png
   #   name: 自定义项目

@@ -26,11 +26,23 @@ export default sidebar({
   "/notes/iot": "structure",
 
   "/item": "structure",
+  "/item/web": "structure",
   "/item/web/springBoot": "structure",
   "/item/IoT": "structure",
 
+  "/link": "structure",
+
+  "/social": "structure",
+
+  "/about": "structure",
   "/about/site": "structure",
   "/about/map": [
+    {
+      text: "首页",
+      icon: "home",
+      prefix: "/",
+      link: "/",
+    },
     {
       text: "笔记",
       icon: "notes",
@@ -43,6 +55,24 @@ export default sidebar({
       icon: "project",
       prefix: "/item",
       link: "/item",
+      children: "structure",
+    },
+    {
+      text: "仓库",
+      icon: "project",
+      prefix: "/link",
+      children: "structure",
+    },
+    {
+      text: "交友",
+      icon: "makeFriends",
+      prefix: "/social",
+      children: "structure",
+    },
+    {
+      text: "关于",
+      icon: "about",
+      prefix: "/about",
       children: "structure",
     },
   ],

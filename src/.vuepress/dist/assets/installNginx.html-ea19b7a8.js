@@ -1,1 +1,0 @@
-import{_ as e,o as n,c as s,e as t}from"./app-312e9770.js";const c={},i=t("div",{class:"hint-container tip"},[t("p",{class:"hint-container-title"},"提示"),t("p",null,"文档整理中。。。")],-1),l=[i];function o(a,_){return n(),s("div",null,l)}const d=e(c,[["render",o],["__file","installNginx.html.vue"]]);export{d as default};
