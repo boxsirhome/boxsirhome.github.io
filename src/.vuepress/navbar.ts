@@ -81,6 +81,7 @@ export default navbar([
     children: [
       { text: "关于我", icon: "aboutMe", link: "/intro" },
       { text: "关于本站", icon: "aboutSite", link: "/site" },
+      { text: "站点地图", icon: "map", link: "/map" },
     ]
   },
 ]);

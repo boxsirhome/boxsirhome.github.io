@@ -8,7 +8,7 @@ date: 2023-9-23                            # 写作时间
 category:                                   # 分类
   - 笔记
 tag:                                        # 标签
-  - git
+  - Git
 ---
 
 <!-- more -->

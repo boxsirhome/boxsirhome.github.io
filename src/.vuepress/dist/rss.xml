@@ -6,13 +6,189 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 12 Oct 2023 14:58:44 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Oct 2023 14:58:44 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Oct 2023 03:26:32 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Oct 2023 03:26:32 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>笔记</category>
     <category>项目</category>
+    <category>笔记</category>
     <category>使用指南</category>
+    <category>站点地图</category>
+    <item>
+      <title>刀客</title>
+      <link>https://boxsir.gitee.io/item/web/springBoot/daoke.html</link>
+      <guid>https://boxsir.gitee.io/item/web/springBoot/daoke.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">刀客</source>
+      <description>刀客 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。</description>
+      <category>项目</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 刀客</h1>
+<h2> 平台简介</h2>
+<p>墨客带刀，万物共生！</p>
+<ul>
+<li>前端采用Vue、Element UI。</li>
+<li>后端采用Spring Boot、Spring Security、Redis &amp; Jwt。</li>
+<li>权限认证使用Jwt，支持多终端认证系统。</li>
+<li>支持加载动态权限菜单，多方式轻松权限控制。</li>
+</ul>
+<!-- more -->
+<h2> 在线体验</h2>
+<ul>
+<li>刀客官网：<a href="http://www.daoke.space" target="_blank" rel="noopener noreferrer">http://www.daoke.space(opens new window)</a></li>
+<li>演示地址：<a href="http://demo.daoke.space" target="_blank" rel="noopener noreferrer">http://demo.daoke.space(opens new window)</a></li>
+<li>代码下载：<a href="https://gitee.com/idaoke/idaoke" target="_blank" rel="noopener noreferrer">https://gitee.com/idaoke/idaoke</a></li>
+</ul>
+<h2> 内置功能</h2>
+<p>（1）系统管理</p>
+<ul>
+<li>用户管理：用户是系统操作者，该功能主要完成系统用户配置。</li>
+<li>部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。</li>
+<li>岗位管理：配置系统用户所属担任职务。</li>
+<li>菜单管理：配置系统菜单，操作权限，按钮权限标识等。</li>
+<li>角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。</li>
+<li>字典管理：对系统中经常使用的一些较为固定的数据进行维护。</li>
+<li>参数管理：对系统动态配置常用参数。</li>
+<li>通知公告：系统通知公告信息发布维护。</li>
+<li>操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。</li>
+<li>登录日志：系统登录日志记录查询包含登录异常。</li>
+<li>在线用户：当前系统中活跃用户状态监控。</li>
+<li>定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。</li>
+<li>代码生成：前后端代码的生成（java、html、xml、sql）支持CRUD下载 。</li>
+<li>系统接口：根据业务代码自动生成相关的api接口文档。</li>
+<li>服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。</li>
+<li>缓存监控：对系统的缓存信息查询，命令统计等。</li>
+<li>在线构建器：拖动表单元素生成相应的HTML代码。</li>
+<li>连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。</li>
+</ul>
+<p>（2）店铺管理</p>
+<ul>
+<li>店员管理：维护店员信息，店员是会员的管理者。</li>
+<li>会员管理：会员信息，账单信息，积分信息。</li>
+<li>收入报表：生成各时间段会员人数，充值人数，每日人流，收入金额等的Echart图。</li>
+</ul>
+<p>（3）物业管理</p>
+<ul>
+<li>建设中</li>
+</ul>
+<p>（4）打卡管理</p>
+<ul>
+<li>建设中</li>
+</ul>
+<h2> 技术选型</h2>
+<p><strong>1、系统环境</strong></p>
+<ul>
+<li>Java EE 8</li>
+<li>Servlet 3.0</li>
+<li>Apache Maven 3</li>
+</ul>
+<p><strong>2、主框架</strong></p>
+<ul>
+<li>Spring Boot 2.5.x</li>
+<li>Spring Framework 5.2.x</li>
+<li>Spring Security 5.2.x</li>
+</ul>
+<p><strong>3、持久层</strong></p>
+<ul>
+<li>Apache Mybatis-plus 3.4.x</li>
+<li>Hibernate Validation 6.0.x</li>
+<li>Alibaba Druid 1.2.x</li>
+</ul>
+<p><strong>4、视图层</strong></p>
+<ul>
+<li>Vue 2.6.x</li>
+<li>Axios 0.21.x</li>
+<li>Element 2.15.x</li>
+</ul>
+<h2> 主要特性</h2>
+<ul>
+<li>完全响应式布局（支持电脑、平板、手机等所有主流设备）</li>
+<li>强大的一键生成功能（包括控制器、模型、视图、菜单等）</li>
+<li>支持多数据源，简单配置即可实现切换。</li>
+<li>支持按钮及数据权限，可自定义部门数据权限。</li>
+<li>对常用js插件进行二次封装，使js代码变得简洁，更加易维护</li>
+<li>完善的XSS防范及脚本过滤，彻底杜绝XSS攻击</li>
+<li>Maven多项目依赖，模块及插件分项目，尽量松耦合，方便模块升级、增减模块。</li>
+<li>国际化支持，服务端及客户端支持</li>
+<li>完善的日志记录体系简单注解即可实现</li>
+<li>支持服务监控，数据监控，缓存监控功能。</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>工程启动时建表和填充数据</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">工程启动时建表和填充数据</source>
+      <description>相关信息 java项目启动 建表和填充数据</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>java项目启动 建表和填充数据</p>
+</div>
+<!-- more -->
+<p>本例适用版本：</p>
+<p>SpringBoot：2.7.4</p>
+<p>Kingbase：8.6.0</p>
+<p>不保证本例在其它版本依然适用</p>
+<p>先决条件：</p>
+<p>SpringBoot工程能与目标DB顺畅连接。</p>
+<p>下面正文开始：</p>
+<p>1.在application.properties中加入以下文字：</p>
+<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>sql.init.mode有always、embedded、never三个选项，一般再需要建表时填always，如果表已经建立完毕须改成never；</p>
+<p>schema-locations是建表语句文件所在，本例中的schema.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>data-locations是给表充值文件所在，本例中data.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上文件的物理位置见下图：<br>
+</p>
+<p>2.以上三处就绪后运行程序，如果报错就检查sql语句有没有纰漏，如果不报错就表示建表成功了</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SpringBoot全局异常处理</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot全局异常处理</source>
+      <description>相关信息 java全局异常处理</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>java全局异常处理</p>
+</div>
+<!-- more -->
+<h3> 6、统一异常处理</h3>
+<h4> 6.1、制造异常</h4>
+<p><strong>除以0</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>我们想让异常结果也显示为统一的返回结果对象，并且统一处理系统的异常信息，那么需要统一异常处理。</p>
+<h4> 6.2、全局异常处理</h4>
+<h5> 6.2.1、创建统一异常处理器</h5>
+<p>创建处理类</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.2.1、测试</h5>
+<h4> 6.3、处理特定异常</h4>
+<h5> 6.3.1、添加异常处理方法</h5>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.3.2、测试</h5>
+<h4> 6.4、处理自定义异常</h4>
+<h5> 6.4.1、创建自定义异常类</h5>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.2、业务中需要位置抛出</h5>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.3、添加异常处理方法</h5>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>SpringBoot从入门到进阶</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/springboot.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/springboot.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot从入门到进阶</source>
+      <description>相关信息 SpringBoot 从入门到进阶系列官方小册.pdf</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>SpringBoot 从入门到进阶系列官方小册.pdf</p>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>嵌入式相关开源项目、库、资料</title>
       <link>https://boxsir.gitee.io/notes/iot/embedded.html</link>
@@ -1602,181 +1778,6 @@ LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。�
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>刀客</title>
-      <link>https://boxsir.gitee.io/item/web/springBoot/daoke.html</link>
-      <guid>https://boxsir.gitee.io/item/web/springBoot/daoke.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">刀客</source>
-      <description>刀客 平台简介 墨客带刀，万物共生！ 前端采用Vue、Element UI。 后端采用Spring Boot、Spring Security、Redis &amp;amp; Jwt。 权限认证使用Jwt，支持多终端认证系统。 支持加载动态权限菜单，多方式轻松权限控制。</description>
-      <category>项目</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 刀客</h1>
-<h2> 平台简介</h2>
-<p>墨客带刀，万物共生！</p>
-<ul>
-<li>前端采用Vue、Element UI。</li>
-<li>后端采用Spring Boot、Spring Security、Redis &amp; Jwt。</li>
-<li>权限认证使用Jwt，支持多终端认证系统。</li>
-<li>支持加载动态权限菜单，多方式轻松权限控制。</li>
-</ul>
-<!-- more -->
-<h2> 在线体验</h2>
-<ul>
-<li>刀客官网：<a href="http://www.daoke.space" target="_blank" rel="noopener noreferrer">http://www.daoke.space(opens new window)</a></li>
-<li>演示地址：<a href="http://demo.daoke.space" target="_blank" rel="noopener noreferrer">http://demo.daoke.space(opens new window)</a></li>
-<li>代码下载：<a href="https://gitee.com/idaoke/idaoke" target="_blank" rel="noopener noreferrer">https://gitee.com/idaoke/idaoke</a></li>
-</ul>
-<h2> 内置功能</h2>
-<p>（1）系统管理</p>
-<ul>
-<li>用户管理：用户是系统操作者，该功能主要完成系统用户配置。</li>
-<li>部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。</li>
-<li>岗位管理：配置系统用户所属担任职务。</li>
-<li>菜单管理：配置系统菜单，操作权限，按钮权限标识等。</li>
-<li>角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。</li>
-<li>字典管理：对系统中经常使用的一些较为固定的数据进行维护。</li>
-<li>参数管理：对系统动态配置常用参数。</li>
-<li>通知公告：系统通知公告信息发布维护。</li>
-<li>操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。</li>
-<li>登录日志：系统登录日志记录查询包含登录异常。</li>
-<li>在线用户：当前系统中活跃用户状态监控。</li>
-<li>定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。</li>
-<li>代码生成：前后端代码的生成（java、html、xml、sql）支持CRUD下载 。</li>
-<li>系统接口：根据业务代码自动生成相关的api接口文档。</li>
-<li>服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。</li>
-<li>缓存监控：对系统的缓存信息查询，命令统计等。</li>
-<li>在线构建器：拖动表单元素生成相应的HTML代码。</li>
-<li>连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。</li>
-</ul>
-<p>（2）店铺管理</p>
-<ul>
-<li>店员管理：维护店员信息，店员是会员的管理者。</li>
-<li>会员管理：会员信息，账单信息，积分信息。</li>
-<li>收入报表：生成各时间段会员人数，充值人数，每日人流，收入金额等的Echart图。</li>
-</ul>
-<p>（3）物业管理</p>
-<ul>
-<li>建设中</li>
-</ul>
-<p>（4）打卡管理</p>
-<ul>
-<li>建设中</li>
-</ul>
-<h2> 技术选型</h2>
-<p><strong>1、系统环境</strong></p>
-<ul>
-<li>Java EE 8</li>
-<li>Servlet 3.0</li>
-<li>Apache Maven 3</li>
-</ul>
-<p><strong>2、主框架</strong></p>
-<ul>
-<li>Spring Boot 2.5.x</li>
-<li>Spring Framework 5.2.x</li>
-<li>Spring Security 5.2.x</li>
-</ul>
-<p><strong>3、持久层</strong></p>
-<ul>
-<li>Apache Mybatis-plus 3.4.x</li>
-<li>Hibernate Validation 6.0.x</li>
-<li>Alibaba Druid 1.2.x</li>
-</ul>
-<p><strong>4、视图层</strong></p>
-<ul>
-<li>Vue 2.6.x</li>
-<li>Axios 0.21.x</li>
-<li>Element 2.15.x</li>
-</ul>
-<h2> 主要特性</h2>
-<ul>
-<li>完全响应式布局（支持电脑、平板、手机等所有主流设备）</li>
-<li>强大的一键生成功能（包括控制器、模型、视图、菜单等）</li>
-<li>支持多数据源，简单配置即可实现切换。</li>
-<li>支持按钮及数据权限，可自定义部门数据权限。</li>
-<li>对常用js插件进行二次封装，使js代码变得简洁，更加易维护</li>
-<li>完善的XSS防范及脚本过滤，彻底杜绝XSS攻击</li>
-<li>Maven多项目依赖，模块及插件分项目，尽量松耦合，方便模块升级、增减模块。</li>
-<li>国际化支持，服务端及客户端支持</li>
-<li>完善的日志记录体系简单注解即可实现</li>
-<li>支持服务监控，数据监控，缓存监控功能。</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>工程启动时建表和填充数据</title>
-      <link>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">工程启动时建表和填充数据</source>
-      <description>相关信息 java项目启动 建表和填充数据</description>
-      <category>笔记</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>java项目启动 建表和填充数据</p>
-</div>
-<!-- more -->
-<p>本例适用版本：</p>
-<p>SpringBoot：2.7.4</p>
-<p>Kingbase：8.6.0</p>
-<p>不保证本例在其它版本依然适用</p>
-<p>先决条件：</p>
-<p>SpringBoot工程能与目标DB顺畅连接。</p>
-<p>下面正文开始：</p>
-<p>1.在application.properties中加入以下文字：</p>
-<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>sql.init.mode有always、embedded、never三个选项，一般再需要建表时填always，如果表已经建立完毕须改成never；</p>
-<p>schema-locations是建表语句文件所在，本例中的schema.sql是这样书写的：</p>
-<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>data-locations是给表充值文件所在，本例中data.sql是这样书写的：</p>
-<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上文件的物理位置见下图：<br>
-</p>
-<p>2.以上三处就绪后运行程序，如果报错就检查sql语句有没有纰漏，如果不报错就表示建表成功了</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>SpringBoot全局异常处理</title>
-      <link>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot全局异常处理</source>
-      <description>相关信息 java全局异常处理</description>
-      <category>笔记</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>java全局异常处理</p>
-</div>
-<!-- more -->
-<h3> 6、统一异常处理</h3>
-<h4> 6.1、制造异常</h4>
-<p><strong>除以0</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>我们想让异常结果也显示为统一的返回结果对象，并且统一处理系统的异常信息，那么需要统一异常处理。</p>
-<h4> 6.2、全局异常处理</h4>
-<h5> 6.2.1、创建统一异常处理器</h5>
-<p>创建处理类</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.2.1、测试</h5>
-<h4> 6.3、处理特定异常</h4>
-<h5> 6.3.1、添加异常处理方法</h5>
-<p><strong>GlobalExceptionHandler.java中添加</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.3.2、测试</h5>
-<h4> 6.4、处理自定义异常</h4>
-<h5> 6.4.1、创建自定义异常类</h5>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.2、业务中需要位置抛出</h5>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h5> 6.4.3、添加异常处理方法</h5>
-<p><strong>GlobalExceptionHandler.java中添加</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>SpringBoot从入门到进阶</title>
-      <link>https://boxsir.gitee.io/notes/after/springBoot/springboot.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/springBoot/springboot.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot从入门到进阶</source>
-      <description>相关信息 SpringBoot 从入门到进阶系列官方小册.pdf</description>
-      <category>笔记</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>SpringBoot 从入门到进阶系列官方小册.pdf</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
       <title>主要功能与配置演示</title>
       <link>https://boxsir.gitee.io/demo/</link>
       <guid>https://boxsir.gitee.io/demo/</guid>
@@ -1799,6 +1800,16 @@ LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。�
 <p><a href="/demo/encrypt.html" target="blank">加密展示</a></p>
 </li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>站点地图</title>
+      <link>https://boxsir.gitee.io/about/map.html</link>
+      <guid>https://boxsir.gitee.io/about/map.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">站点地图</source>
+      <description>站点地图</description>
+      <category>站点地图</category>
+      <content:encoded><![CDATA[<h1> 站点地图</h1>
 ]]></content:encoded>
     </item>
   </channel>
