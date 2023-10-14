@@ -7,6 +7,7 @@ import { getDirname, path } from "@vuepress/utils";
 import {canvasPlugin, CanvasPluginType,} from "./plugins/vuepress-plugin-canvas";
 import { gradientCoverPlugin } from "./plugins/vuepress-plugin-gradient-cover";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
+import metingPlugin from "vuepress-plugin-meting2";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
@@ -20,6 +21,16 @@ export default defineUserConfig({
 
   plugins: [
     
+    metingPlugin({                                //音乐播放器
+      metingOptions: {
+        global:true, // 全局播放器开关
+        server: "tencent",
+        api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
+        type: "playlist",
+        mid: "851947617",
+      },
+    }),
+
     shikiPlugin({                                 //代码高亮插件
       theme: "one-dark-pro",
     }),

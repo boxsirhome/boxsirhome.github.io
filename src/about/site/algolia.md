@@ -1,7 +1,7 @@
 ---
 title: Algolia搜索
 icon: algolia
-date: 2023-03-28
+date: 2023-10-12
 breadcrumb: false
 article: false
 ---
@@ -264,7 +264,7 @@ new Crawler({
 前往博客，测试搜索功能成功实现
   ![10](./algolia/10.png)
 
-## 更新博客搜索
+## 执行爬虫 :pushpin:
 
 1. 盒子先生的博客爬虫规则，已经配置了在每天早上的2点执行(默认UTC时间，和北京时间相差8小时)
 

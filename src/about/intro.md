@@ -5,6 +5,8 @@ sidebar: false
 article: false
 ---
 
+<Meting mid="003UTVCN0QvffG" server="tencent" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
+
 # 介绍博主
 
 大家好！我是盒子小屋的博主🙇盒子先生，一名对挑战充满热情的极客！欢迎来到我的博客！{.aboutMe}
@@ -20,3 +22,4 @@ article: false
 我的博客将分享我的技术见解、项目经验和行业观察。希望通过我的分享能够为读者带来启发，激发他们的创造力，并帮助他们在技术领域取得突破。{.aboutMe}
 
 感谢您来访我的博客，我期待与您一起探索技术的无限可能！让我们携手并进，共同追求卓越！以上的言论，都是拿ChatGPT生成的，与我本人无关！{.aboutMe}
+

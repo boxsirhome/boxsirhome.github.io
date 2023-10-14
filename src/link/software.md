@@ -9,7 +9,7 @@ pageInfo: ["Author", "Date", "PageView"]
 ---
 
 :::info
-软件
+免费的、无广告、无病毒、无插件的软件安装包 :candy:
 :::
 
 ## 电脑系统

@@ -1,7 +1,7 @@
 ---
 title: 上传博客
 icon: upload
-date: 2023-03-28
+date: 2023-10-06
 breadcrumb: false
 article: false
 ---
@@ -44,7 +44,7 @@ pnpm docs:dev  #启动开发服务器
 
 
 
-## 上传博客
+## 推送博客
 
 项目部署在Gitee Pages服务中 ，访问目录是 `src/.vuepress/dist` ，所以需要先把项目构建到 `dist` 文件夹下。
 
@@ -75,7 +75,7 @@ git push -u origin "master"               #推送到远程maste分支
 
 
 
-## 更新博客
+## 更新博客 :pushpin:
 
-- 在vscode中更新博客内容后，需要重复 **上传博客** 和 **部署博客** 中的操作
-- 如果希望博客的搜索功能，立即实现对新文章的搜索，需要前往 [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) 来手动重启爬虫，实现对新文章的索引。具体步骤，参考 **Algolia搜索>[更新博客搜索](/about/site/algolia.html#更新博客搜索)**
+- 在vscode中更新博客内容后，需要重复 [推送博客](#推送博客) 和 [部署博客](#部署博客) 中的操作
+- 如果希望博客的搜索功能，立即实现对新文章的搜索，需要前往 [Algolia Crawler](https://crawler.algolia.com/admin/crawlers/) 来手动重启爬虫，实现对新文章的索引。具体步骤，参考 **Algolia搜索>[执行爬虫](/about/site/algolia.html#执行爬虫)**

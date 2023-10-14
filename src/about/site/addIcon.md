@@ -1,7 +1,7 @@
 ---
 title: 添加图标
-icon: addIcon
-date: 2023-03-28
+icon: iconfont
+date: 2023-10-12
 breadcrumb: false
 article: false
 ---
@@ -88,6 +88,7 @@ article: false
 
    其它位置图标支持，参考**主题文档>图标支持>[设置图标](https://theme-hope.vuejs.press/zh/guide/interface/icon.html#%E8%AE%BE%E7%BD%AE%E5%9B%BE%E6%A0%87)**
 
-## 添加新图标
-
-如果后期需要添加新的图标，重复 **首次使用>导入图标，使用图标** 的操作，将重新生成的新 CSS 地址替换 掉`iconAssets`。
+## 添加新图标 :pushpin:
+- 如果需要在Iconfont 平台 **添加新项目和新图标**，重复[首次使用](#首次使用)的操作，将生成的CSS地址增加到`iconAssets`方法中。
+- 如果需要在Iconfont 平台`navbar`项目中 **添加新图标**，重复 [导入图标](#导入图标) 的操作，将重新生成的新 CSS 地址替换 掉`iconAssets`方法中`navbar`项目图标。
+- 如果需要在Iconfont 平台上传自己的图标，参考 [svg制作上传](https://blog.csdn.net/AdminGuan/article/details/121691426)
