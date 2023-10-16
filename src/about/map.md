@@ -85,7 +85,7 @@ category:
     "datasets": [
       {
         "label": "数量",
-        "data": [23, 41, 11],
+        "data": [23, 41, 30],
         "backgroundColor": [
           "rgba(255, 99, 132, 0.2)",
           "rgba(54, 162, 235, 0.2)",

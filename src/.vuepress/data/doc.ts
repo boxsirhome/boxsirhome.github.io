@@ -33,13 +33,49 @@ export const doc_after: LinkData[] = [
   {
     name: "mybatis",
     desc: "MyBatis 是一款优秀的持久层框架，它支持自定义 SQL、存储过程以及高级映射。",
-    ico: "https://files.codelife.cc/icons/f5a900cb9c904a94.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_92/format,webp",
+    ico: "https://img0.baidu.com/it/u=3703507530,4124102307&fm=253&fmt=auto&app=138&f=PNG",
     link: "https://mybatis.org/mybatis-3/zh/",
+  },
+  {
+    name: "mybatis plus",
+    desc: "MyBatis的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。",
+    ico: "https://baomidou.com/img/logo.svg",
+    link: "https://baomidou.com/",
+  },
+  {
+    name: "Java知识体系",
+    desc: "BAT大厂面试题与全栈知识体系结合",
+    ico: "https://pdai.tech/android-chrome-192x192.png",
+    link: "https://pdai.tech/",
+  },
+  {
+    name: "Knife4j",
+    desc: "一个集Swagger2 和 OpenAPI3为一体的增强解决方案帮助开发者快速聚合使用OpenAPI规范",
+    ico: "https://doc.xiaominfo.com/img/favicon.ico",
+    link: "https://doc.xiaominfo.com/",
+  },  
+  {
+    name: "JustAuth",
+    desc: "开箱即用的整合第三方登录的开源组件，它可以让我们脱离繁琐的第三方登录SDK，让登录变得简单",
+    ico: "https://www.justauth.cn/logo.png",
+    link: "https://www.justauth.cn/",
+  },
+  {
+    name: "Jeepay",
+    desc: "一套开源支付系统,已对接微信支付，支付宝，云闪付官方接口，支持聚合码支付。",
+    ico: "https://www.jeequan.com/img/favicon.ico",
+    link: "https://www.jeequan.com/",
+  },
+  {
+    name: "SMS4J",
+    desc: "兼容了多厂商共用，以及动态配置切换，让您可以方便的使用多个厂商或者更换厂商进行短信发送。",
+    ico: "https://sms4j.com/logo.png",
+    link: "https://sms4j.com/",
   },
   {
     name: "Redis",
     desc: "一个开源的内存数据存储系统，通常被用作数据库、缓存和消息中间件。",
-    ico: "https://redis.io/images/favicons/favicon-32x32.png",
+    ico: "https://mms0.baidu.com/it/u=1021475377,1926690903&fm=253&app=120&f=JPEG",
     link: "https://redis.io/",
   },
   {
@@ -47,12 +83,48 @@ export const doc_after: LinkData[] = [
     desc: "可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA",
     ico: "http://doc.ruoyi.vip/images/favicon.ico",
     link: "http://www.ruoyi.vip/",
+  },  
+  {
+    name: "JEECG",
+    desc: "一款基于BPM的低代码平台！ 帮助Java项目解决70%的重复工作，让开发更多关注业务",
+    ico: "https://jeecg.com/images/logo.png",
+    link: "http://www.ruoyi.vip/",
   },
   {
     name: "Hutool",
     desc: "小而全的Java工具类库，通过静态方法封装，降低相关API的学习成本，提高工作效率。",
     ico: "https://www.hutool.cn/favicon.ico",
     link: "https://www.hutool.cn/",
+  },
+  {
+    name: "Tomcat",
+    desc: "旨在成为来自世界各地最优秀的开发人员的合作。我们邀请您参与这个开放开发项目。",
+    ico: "https://img2.baidu.com/it/u=2502335564,3673721843&fm=253&fmt=auto&app=138&f=JPEG",
+    link: "https://natapp.cn/",
+  },
+  {
+    name: "设计模式",
+    desc: "免费在线学习代码重构、设计模式、SOLID 原则以及其他和智能编程主题相关的一切内容。",
+    ico: "https://refactoringguru.cn/favicon.png",
+    link: "https://refactoringguru.cn/",
+  },
+  {
+    name: "NATAPP",
+    desc: "基于ngrok的国内高速内网穿透专业服务商,适用于本地架设演示服务器,外网可以访问等",
+    ico: "https://cdn.natapp.cn/assets/natapp/img/logo.png",
+    link: "https://tomcat.apache.org/",
+  },
+  {
+    name: "宝塔",
+    desc: "让运维简单高效。支持Linux与Windows系统，通过Web端轻松管理服务器。",
+    ico: "https://www.bt.cn/favicon.ico",
+    link: "https://www.bt.cn/",
+  },
+  {
+    name: "Maven仓库",
+    desc: "Maven是一款Java项目构建工具，它能帮助我们自动化构建、管理和发布Java项目。",
+    ico: "https://img1.baidu.com/it/u=3770909327,2266838073&fm=253&fmt=auto&app=138&f=JPEG",
+    link: "https://mvnrepository.com/",
   },
 ];
 
@@ -74,5 +146,11 @@ export const doc_IoT: LinkData[] = [
     desc: "简单、有趣、好玩的编程项目,主要涵盖Python、C、C++项目",
     ico: "https://cdn2022.itprojects.cn/01.assets/2022/04/1649554851-fa57a423e9d5fb2.ico",
     link: "https://www.itprojects.cn/",
+  },
+  {
+    name: "Blynk",
+    desc: "一款用于原型设计、部署和远程管理任意规模联网电子设备的应用程序，让物联网变得简单",
+    ico: "https://uploads-ssl.webflow.com/6272e11601c9e296becde07b/6272e3d23369c314dafe3ee7_favicon.ico",
+    link: "https://blynk.io/",
   },
 ];

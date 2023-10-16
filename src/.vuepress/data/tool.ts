@@ -58,7 +58,7 @@ export const tool: LinkData[] = [
   {
     name: "Cxy521",
     desc: "在线工具,开发工具代码格式化、压缩、加密、解密,下载链接转换,字帖,田字格,进制转换,二维码",
-    ico: "http://cxy521.com/static/img/favicon.ico",
+    ico: "https://img0.baidu.com/it/u=1627324435,3257677656&fm=253&fmt=auto&app=138&f=JPEG",
     link: "http://cxy521.com/",
   },
   {
@@ -124,13 +124,13 @@ export const tool: LinkData[] = [
   {
     name: "安娜的档案",
     desc: "世界上最大的开源开放数据库。镜像 Sci-Hub, Library Genesis, Z-Library 等。",
-    ico: "https://zh.annas-archive.gs/android-chrome-192x192.png",
+    ico: "https://img0.baidu.com/it/u=567784991,1347265476&fm=253&fmt=auto&app=138&f=PNG",
     link: "https://zh.annas-archive.gs/",
   },
   {
     name: "ASCII Generate",
     desc: "从单词或文本生成ASCII图形。130多种字体。",
-    ico: "http://network-science.de/favicon.ico",
+    ico: "https://img0.baidu.com/it/u=3188170188,2216550328&fm=253&fmt=auto&app=138&f=JPEG",
     link: "http://network-science.de/ascii/",
   },
   {
