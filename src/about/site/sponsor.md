@@ -6,7 +6,7 @@ breadcrumb: false
 article: false
 ---
 
-VuePress-Theme-Hope主题，当在 [行为选项](https://theme-hope.vuejs.press/zh/config/theme/behavior.html) 中设置 `{ custom: true }` 时，主题将通过 `@theme-hope` 别名来引入组件，所以你可以利用这一点来替换主题的任何一个组件。
+>VuePress-Theme-Hope主题，当在 [行为选项](https://theme-hope.vuejs.press/zh/config/theme/behavior.html) 中设置 `{ custom: true }` 时，主题将通过 `@theme-hope` 别名来引入组件，所以你可以利用这一点来替换主题的任何一个组件。
 
 ## 替换组件的方式
 
@@ -91,10 +91,8 @@ VuePress-Theme-Hope主题，当在 [行为选项](https://theme-hope.vuejs.press
 
 ### 1、组件添加到项目组件目录下
 
+> **盒子小屋**:house: 的赞赏组件放置在 `.vuepress/components/pay` 下。
 ::: details 赞赏组件
-
-> **盒子小屋**的赞赏组件放置在 `.vuepress/components/pay` 下。
-
 ```vue
 // .vuepress/components/pay/Sponsor.vue
 <template>

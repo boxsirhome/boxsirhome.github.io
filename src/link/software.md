@@ -9,7 +9,9 @@ pageInfo: ["Author", "Date", "PageView"]
 ---
 
 :::info
-免费的、无广告、无病毒、无插件的软件安装包 :candy:
+- 免费、无广告、无病毒、无插件的软件安装包 :floppy_disk:
+- 各版本都有，需要其他版本的评论区留言站长 :black_nib:
+- 地址失效，劳烦下方评论区，通知站长修复 :wrench:
 :::
 
 ## 电脑系统
@@ -28,7 +30,15 @@ pageInfo: ["Author", "Date", "PageView"]
 
 <MyLink :links="software_work"/> 
 
+## 图像处理
+
+<MyLink :links="software_image"/> 
+
+## 媒体工具
+
+<MyLink :links="software_media"/> 
+
 <script setup lang="ts">
 import MyLink from "@MyLink";
-import {software_system, software_database, software_develop, software_work} from "@Software";
+import {software_system, software_database, software_develop, software_work, software_image, software_media} from "@Software";
 </script>

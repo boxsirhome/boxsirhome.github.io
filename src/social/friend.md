@@ -46,7 +46,7 @@ import MyCoverLink from "@MyCoverLink";
 
 :::
 
-### :lollipop: 申请方式
+## 申请方式 :lollipop:
 
 1. 把本站添加到你的站点中
 

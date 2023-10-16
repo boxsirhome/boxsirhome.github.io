@@ -8,8 +8,8 @@ article: false
 
 ## 引入卡片组件
 1. 将卡片组件添加到项目目录下
+> **盒子小屋**:house: 的卡片组件放置在 .vuepress/components 下。
 ::: details 卡片组件
-> **盒子小屋**的卡片组件放置在 .vuepress/components 下。
 ```vue
 // .vuepress/components/Mylink.vue
 <!-- 卡片组件 -->

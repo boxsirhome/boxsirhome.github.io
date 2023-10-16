@@ -6,13 +6,10 @@ breadcrumb: false
 article: false
 ---
 
-整个主题在多处都添加了 FontClass / 图片 格式图标的支持。
-
-目前可以使用 iconfont、iconify 和 fontawesome 为你的项目添加图标，可以设置自己的图标资源。
-
-同时，png/svg 格式的图标也是支持的。可以使用完整 URL 或路径名来添加图标。
-
-具体 **参考主题>指南>界面>[图标支持](https://theme-hope.vuejs.press/zh/guide/interface/icon.html)**
+> 整个主题在多处都添加了 FontClass / 图片 格式图标的支持。
+> 目前可以使用 iconfont、iconify 和 fontawesome 为你的项目添加图标，可以设置自己的图标资源。
+> 同时，png/svg 格式的图标也是支持的。可以使用完整 URL 或路径名来添加图标。
+> 具体 **参考主题>指南>界面>[图标支持](https://theme-hope.vuejs.press/zh/guide/interface/icon.html)**
 
 ## 图标设置
 
@@ -43,7 +40,7 @@ article: false
 <HopeIcon icon="/logo.svg" size="4rem" />
 ```
 
-## 首次使用
+## 首次使用iconfont
 
 ### 新建项目
 

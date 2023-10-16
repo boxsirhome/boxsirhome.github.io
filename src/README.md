@@ -25,12 +25,12 @@ projects:
     link: /social/guestbook
 
   - icon: /assets/homeProjects/map.svg
-    name: 站点地图
+    name: 小屋地图
     desc: 目录导航大全
     link: /about/map
 
   - icon: /assets/homeProjects/aboutMe.svg
-    name: 关于博主
+    name: 关于屋主
     desc: 博主的私人空间
     link: /about/intro
 

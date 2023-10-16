@@ -75,18 +75,28 @@ export default hopeTheme({
     git: true,                   // 开发模式下启用,实现了页面创建时间、最后更新时间与贡献者的自动生成
     seo: true,                   // 全面增强站点的搜索引擎优化性
     prismjs: false,              // 禁用Prism的高亮，使用Shiki的高亮
+         
+    copyright: {                 // 开启复制文章，加入版权信息
+      author: "「盒子先生」",
+      license: "CC BY-NC-SA 4.0",
+      triggerLength: 50,         // 触发附加版权的最小内容长度
+      global: true,              // 开启全局，允许在页面的 frontmatter 中单独设置 copy: false 禁用
+    },
+
     feed: {                      // feed支持
       rss: true
     },
-    copyCode: {                  // 代码复制
+
+    copyCode: {                  // 代码复制键
       showInMobile: true,        // 开启手机端
       duration: 1000
     },
+
     comment: {                  // 评论服务配置
       provider: "Waline",
       serverURL: "https://waline.cailei.site/", /* https://waline-comment.vuejs.press 官方自己的地址，放着备用*/
-      copyright: false,         // 是否显示页脚版权信息(Powered by Waline v2.15.7)
-      reaction: true,           // 开启反应（你认为这篇文章怎么样？）
+      copyright: false,                          // 是否显示页脚Waline的版权信息(Powered by Waline v2.15.7)
+      reaction: true,                            // 开启反应（你认为这篇文章怎么样？）
     },
 
     mdEnhance: {                // MdEnhance 插件配置，Markdown增强

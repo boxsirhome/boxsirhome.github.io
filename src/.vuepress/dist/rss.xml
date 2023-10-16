@@ -6,23 +6,23 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 14 Oct 2023 12:39:31 GMT</pubDate>
-    <lastBuildDate>Sat, 14 Oct 2023 12:39:31 GMT</lastBuildDate>
+    <pubDate>Mon, 16 Oct 2023 09:25:14 GMT</pubDate>
+    <lastBuildDate>Mon, 16 Oct 2023 09:25:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>站点地图</category>
+    <category>小屋地图</category>
     <category>项目</category>
     <category>笔记</category>
     <category>使用指南</category>
     <item>
-      <title>站点地图</title>
+      <title>小屋地图</title>
       <link>https://boxsir.gitee.io/about/map.html</link>
       <guid>https://boxsir.gitee.io/about/map.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">站点地图</source>
-      <description>站点地图</description>
-      <category>站点地图</category>
+      <source url="https://boxsir.gitee.io/rss.xml">小屋地图</source>
+      <description>小屋地图</description>
+      <category>小屋地图</category>
       <pubDate>Fri, 13 Oct 2023 03:27:25 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 站点地图</h1>
+      <content:encoded><![CDATA[<h1> 小屋地图</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -930,26 +930,6 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>燃气报警系统设计</title>
-      <link>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</link>
-      <guid>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">燃气报警系统设计</source>
-      <description>燃气报警系统设计 1 系统总体结构 系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</description>
-      <category>项目</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 燃气报警系统设计</h1>
-<h2> 1 系统总体结构</h2>
-<p>系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</p>
-<!-- more -->
-<h2> 2 系统硬件设计</h2>
-<p>硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</p>
-<h3> 2.1 ESP8266芯片</h3>
-<p>ESP8266成本较低，适用于小型物联网项目的开发。内置了WiFi模组，可以方便地连接到无线网络，实现远程监控和控制，对于燃气报警系统是非常重要的特性。内部搭载了高性能的处理器，能够运行复杂的算法和处理大量的数据。这使得它能够完成燃气传感器数据的处理和分析，进行报警判断和决策。具有多个通用输入输出引脚，可以连接外部传感器和执行器，实现与其他硬件设备的交互。ESP8266支持MicroPython进行编程和开发，具有丰富的开发资源和社区支持，开发燃气报警系统变得更加简单和便捷，可利用现有的库和示例代码进行快速开发。</p>
-<h3> 2.2 MQ-2传感器</h3>
-<p>MQ-2传感器是一种多气体检测器，能够检测多种可燃性气体，如甲烷、液化石油气、丙烷、氢气等。MQ-2具有很高的灵敏度，能够快速、准确地检测到燃气泄漏。能够实时监测环境中的气体浓度，并通过与ESP8266的连接，向系统发送相应的报警信号。具有低功耗特性，可以在长时间运行的情况下保持稳定的性能。MQ-2传感器采用了模拟输出方式，可以直接与ESP8266的模拟输入引脚连接，在硬件上的集成非常简单，且与ESP8266的通信也较为方便。价格相对较低，且易于获得，可以在开发过程中轻松获取所需数量的传感器，降低了项目成本和开发的难度。MQ-2常用的电路有两种，一种使用采用比较器电路监控，另一种为ADC电路检测，本文中采用的是ADC电路检测即将电压信号转化为数字信号，进而转化为精确的烟雾浓度值，ADC转换电路如图2所示。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>无线监控小车</title>
       <link>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</link>
       <guid>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</guid>
@@ -994,6 +974,26 @@ LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。�
 <p>选择6*6轻触立式按键。是一种较小的按键开关，有减轻使用者的手部负担，使用寿命长，操作简单等特点。这种尺寸适合在有限的空间内嵌入，可以满足紧凑设计的需求。本系统中按键主要用于界面动画风格和配网模式的切换。</p>
 <h2> 3系统软件设计</h2>
 <p>系统中使用到了Arduino平台，采用易于使用的硬件和软件开发工具，以简化电子项目的开发过程。ESP32和Arduino的结合使用，使得开发者能够利用ESP32的功能和Arduino的简洁易用性进行项目开发。使用C++编程语言来开发系统，简化了Arduino的库函数与ESP32的交互。开发环境采用VS Code软件。在VS Code的插件市场中搜索并安装Arduino插件，该插件提供了针对Arduino平台的开发环境和功能，指定ESP32的开发板型号、串口号和波特率，并确保正确配置。使用VS Code的Arduino插件，可以将代码编译和上传代码到ESP32开发板。插件处理编译和连接过程，并将生成的二进制文件通过串口上传到开发板。本系统软件部分的流程图如图2所示</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>燃气报警系统设计</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">燃气报警系统设计</source>
+      <description>燃气报警系统设计 1 系统总体结构 系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</description>
+      <category>项目</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 燃气报警系统设计</h1>
+<h2> 1 系统总体结构</h2>
+<p>系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</p>
+<!-- more -->
+<h2> 2 系统硬件设计</h2>
+<p>硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</p>
+<h3> 2.1 ESP8266芯片</h3>
+<p>ESP8266成本较低，适用于小型物联网项目的开发。内置了WiFi模组，可以方便地连接到无线网络，实现远程监控和控制，对于燃气报警系统是非常重要的特性。内部搭载了高性能的处理器，能够运行复杂的算法和处理大量的数据。这使得它能够完成燃气传感器数据的处理和分析，进行报警判断和决策。具有多个通用输入输出引脚，可以连接外部传感器和执行器，实现与其他硬件设备的交互。ESP8266支持MicroPython进行编程和开发，具有丰富的开发资源和社区支持，开发燃气报警系统变得更加简单和便捷，可利用现有的库和示例代码进行快速开发。</p>
+<h3> 2.2 MQ-2传感器</h3>
+<p>MQ-2传感器是一种多气体检测器，能够检测多种可燃性气体，如甲烷、液化石油气、丙烷、氢气等。MQ-2具有很高的灵敏度，能够快速、准确地检测到燃气泄漏。能够实时监测环境中的气体浓度，并通过与ESP8266的连接，向系统发送相应的报警信号。具有低功耗特性，可以在长时间运行的情况下保持稳定的性能。MQ-2传感器采用了模拟输出方式，可以直接与ESP8266的模拟输入引脚连接，在硬件上的集成非常简单，且与ESP8266的通信也较为方便。价格相对较低，且易于获得，可以在开发过程中轻松获取所需数量的传感器，降低了项目成本和开发的难度。MQ-2常用的电路有两种，一种使用采用比较器电路监控，另一种为ADC电路检测，本文中采用的是ADC电路检测即将电压信号转化为数字信号，进而转化为精确的烟雾浓度值，ADC转换电路如图2所示。</p>
 ]]></content:encoded>
     </item>
     <item>

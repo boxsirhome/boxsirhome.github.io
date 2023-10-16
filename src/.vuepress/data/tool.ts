@@ -2,10 +2,22 @@ import { LinkData } from "./friendData";
 
 export const tool: LinkData[] = [
   {
+    name: "极简插件",
+    desc: "一个优质Chrome插件扩展收录下载网站，收录热门好用的Chrome插件扩展。",
+    ico: "https://chrome.zzzmh.cn/favicon.ico",
+    link: "https://chrome.zzzmh.cn/",
+  },
+  {
     name: "Smallpdf",
     desc: "支持Excel、Word、PPT、JPG、PNG、BMP、TIFF与GIF等格式的文档与PDF相互转换",
     ico: "https://s.smallpdf.com/static/e42e3ce3bd662d323c57.svg",
     link: "https://smallpdf.com/cn",
+  },
+  {
+    name: "Process On",
+    desc: "在线作图提供AI生成思维导图流程图。同时可实现人与人之间的实时协作和共享。",
+    ico: "https://www.processon.com/public_login/favicon.983368c6.ico",
+    link: "https://www.processon.com/",
   },
   {
     name: "json工具",
@@ -32,10 +44,40 @@ export const tool: LinkData[] = [
     link: "https://www.toolfk.com/",
   },
   {
+    name: "即时工具",
+    desc: "视频工具、音频工具、图片工具、PDF工具、设计工具、文本工具、加密工具、单位转换等等工具",
+    ico: "https://www.67tool.com/favicon.ico",
+    link: "https://www.67tool.com/",
+  },
+  {
+    name: "小众技术工具库",
+    desc: "主要分享一些精品网站和实用软件，也会不时分享一些电子书和教程资源。",
+    ico: "https://blog.xiaozhongjishu.com/wp-content/uploads/2022/04/small-logo.png",
+    link: "https://www.xiaozhongjishu.com/",
+  },
+  {
+    name: "Cxy521",
+    desc: "在线工具,开发工具代码格式化、压缩、加密、解密,下载链接转换,字帖,田字格,进制转换,二维码",
+    ico: "http://cxy521.com/static/img/favicon.ico",
+    link: "http://cxy521.com/",
+  },
+  {
+    name: "奇迹秀",
+    desc: "UI设计工具,界面设计工具,UI设计用什么工具,设计工具,-设计师的百宝箱",
+    ico: "https://www.qijishow.com/img/ico.ico",
+    link: "https://www.qijishow.com",
+  },
+  {
     name: "性价比机场",
-    desc: "绕过对互联网访问的限制，以访问在特定地区被封锁或限制的网站和服务，俗称翻墙。",
+    desc: "绕过对互联网访问的限制，以访问在特定地区被封锁或限制的网站和服务。",
     ico: "https://a.xn--6nq44r2uh9rhj7f.com/favicon.ico",
     link: "https://jichang.gitbook.io/",
+  },
+  {
+    name: "魔戒",
+    desc: "戴上魔戒，你将获得至高无上的力量。",
+    ico: "https://mojie.best/favicon.ico",
+    link: "https://mojie.best/",
   },
   {
     name: "讯飞星火",
@@ -64,13 +106,37 @@ export const tool: LinkData[] = [
   {
     name: "草料二维码",
     desc: "二维码生成器,二维码扫描,二维码美化,二维码印刷,批量生成二维码,一物一码,微信二维码",
-    ico: "https://static.clewm.net/static/images/favicon.ico",
+    ico: "https://tm-image.tianyancha.com/tm/12a13adf4d22dbb4958500166d1dfcfa.jpg",
     link: "https://cli.im/",
   },
   {
-    name: "地图查询",
+    name: "中国卫星地图",
     desc: "中国地图 - 中国卫星地图 - 中国高清航拍地图 - 便民查询网地图",
     ico: "https://map.bmcx.com/favicon.ico",
     link: "https://map.bmcx.com/",
+  },
+  {
+    name: "地球在线",
+    desc: "多源卫星地图与城市电子地图实时无缝切换，游历世界各地风景名胜，景点地图地标在线分享。",
+    ico: "https://www.earthol.com/favicon.ico",
+    link: "https://www.earthol.com/",
+  },
+  {
+    name: "安娜的档案",
+    desc: "世界上最大的开源开放数据库。镜像 Sci-Hub, Library Genesis, Z-Library 等。",
+    ico: "https://zh.annas-archive.gs/android-chrome-192x192.png",
+    link: "https://zh.annas-archive.gs/",
+  },
+  {
+    name: "ASCII Generate",
+    desc: "从单词或文本生成ASCII图形。130多种字体。",
+    ico: "http://network-science.de/favicon.ico",
+    link: "http://network-science.de/ascii/",
+  },
+  {
+    name: "CODELF",
+    desc: "变量命名、函数命名、方法命名、变量命名工件、命名事物、命名约定、编程命名",
+    ico: "https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png",
+    link: "https://unbug.github.io/codelf/",
   },
 ];

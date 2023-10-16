@@ -6,9 +6,8 @@ breadcrumb: false
 article: false
 ---
 
-VuePress-Theme-Hope主题对 `vuepress-plugin-search-pro`，`@vuepress/plugin-docsearch` 和`@vuepress/plugin-search` 三种搜索插件提供了内置支持。具体实现参考主题的[指南>功能>搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)
-
-盒子先生的博客采用了`@vuepress/plugin-docsearch` 搜索插件
+> VuePress-Theme-Hope主题对 `vuepress-plugin-search-pro`，`@vuepress/plugin-docsearch` 和`@vuepress/plugin-search` 三种搜索插件提供了内置支持。具体实现参考主题的[指南>功能>搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)
+> **盒子小屋**:house: 采用了`@vuepress/plugin-docsearch` 搜索插件
 
 ## 安装插件
 

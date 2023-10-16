@@ -1,4 +1,5 @@
 ---
+title: 介绍屋主
 icon: aboutMe
 breadcrumb: false
 sidebar: false
@@ -7,9 +8,8 @@ article: false
 
 <Meting mid="003UTVCN0QvffG" server="tencent" type="song" api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r"/>
 
-# 介绍博主
 
-大家好！我是盒子小屋的博主🙇盒子先生，一名对挑战充满热情的极客！欢迎来到我的博客！{.aboutMe}
+大家好！我是**盒子小屋**:house:的屋主「盒子先生」，一名对挑战充满热情的极客！欢迎来到我的博客！{.aboutMe}
 
 作为一个技术领域的探索者，我拥有广泛的知识和深厚的技术基础。我擅长多种编程语言和开发框架，具备扎实的算法和数据结构基础。无论是Java、C++还是Python，我都能驾驭自如，并能够快速解决复杂的问题。{.aboutMe}
 

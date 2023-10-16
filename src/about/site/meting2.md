@@ -6,14 +6,14 @@ breadcrumb: false
 article: false
 ---
 
-> **盒子小屋** 的音乐播放器插件来自 [vuepress-plugin-Meting2](https://github.com/OrageKK/vuepress-plugin-meting2):pray: 支持vuepress2. x
+> **盒子小屋**:house: 的音乐播放器插件来自 [vuepress-plugin-Meting2](https://github.com/OrageKK/vuepress-plugin-meting2):pray: 支持vuepress2. x
 > 插件作者借鉴 [vuepress-plugin-sbaudio](https://github.com/u2sb/vuepress-plugin-sbaudio) 和 [vuepress-plugin-meting](https://github.com/moefyit/vuepress-plugin-meting)
 
 <p align="center">
-   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-meting2.svg"></a>
-   <a href="https://github.com/moefyit/vuepress-plugin-meting2/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oragekk/vuepress-plugin-meting2"></a>
-   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-meting2.svg"></a>
-   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-meting2.svg"></a>
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://github.com/moefyit/vuepress-plugin-meting2/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oragekk/vuepress-plugin-meting2"></a>&nbsp;
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-meting2.svg"></a>&nbsp;
    <a href="https://github.com/oragekk/vuepress-plugin-meting2/blob/main/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/oragekk/vuepress-plugin-meting2"></a>
 </p>
 
@@ -72,7 +72,7 @@ export default defineUserConfig({
 
 | 名称            | 默认值                             | 描述                                                         |
 | --------------- | ---------------------------------- | ------------------------------------------------------------ |
-| container       | document.querySelector('.aplayer') | 播放器容器元素                                               |
+| container       | document.querySelector ('.aplayer')| 播放器容器元素                                               |
 | fixed           | false                              | 开启吸底模式, [详情](https://aplayer.js.org/#/home?id=fixed-mode) |
 | mini            | false                              | 开启迷你模式, [详情](https://aplayer.js.org/#/home?id=mini-mode) |
 | autoplay        | false                              | 音频自动播放                                                 |
@@ -106,7 +106,7 @@ export default defineUserConfig({
 | type           | song                                                         | MetingApi 中的 type 参数，即资源类型（播放列表、单曲、专辑等） |
 | auto           |                                                              | 资源 url，填写后可通过资源 url 自动解析资源平台、类型、ID，上述三个选项将被覆盖（本参数仅支持 netease、tencent、xiami 三平台） |
 | auth           | auth                                                         |                                                              |
-| api            | https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r | Meting APi 服务地址(如不可用自行替换)                        |
+| api            | https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r | Meting APi 服务地址(如不可用自行替换)              |
 | list           | []                                                           | 数组，除 list 外其他所有项                                   |
 | aplayerOptions | -                                                            | 全局Meting的APlayer配置                                      |
 

@@ -6,9 +6,8 @@ breadcrumb: false
 article: false
 ---
 
-VuePress-Theme-Hope主题的评论服务目前可以从 Giscus、Waline、Twikoo 和 Artalk 中选择。具体实现参考主题的[指南>功能>评论](https://theme-hope.vuejs.press/zh/guide/feature/comment.html)
-
-盒子先生的博客采用了 [Waline](https://theme-hope.vuejs.press/zh/guide/feature/comment.html#waline) | [配置指南](https://plugin-comment2.vuejs.press/zh/guide/waline.html) | [官网文档](https://waline.js.org/)
+> VuePress-Theme-Hope主题的评论服务目前可以从 Giscus、Waline、Twikoo 和 Artalk 中选择。具体实现参考主题的[指南>功能>评论](https://theme-hope.vuejs.press/zh/guide/feature/comment.html)
+> **盒子小屋**:house: 采用了 [Waline](https://theme-hope.vuejs.press/zh/guide/feature/comment.html#waline) | [配置指南](https://plugin-comment2.vuejs.press/zh/guide/waline.html) | [官网文档](https://waline.js.org/)
 
 ## 快速部署
 
