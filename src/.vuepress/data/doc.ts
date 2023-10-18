@@ -26,6 +26,24 @@ export const doc_front: LinkData[] = [
     ico: "https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/icon.png",
     link: "https://uniapp.dcloud.net.cn/",
   },
+  {
+    name: "VuePress v2",
+    desc: "一部分极简静态网站生成器，另一部分为书写技术文档而优化的默认主题",
+    ico: "https://v2.vuepress.vuejs.org/images/hero.png",
+    link: "https://v2.vuepress.vuejs.org/zh/",
+  },
+  {
+    name: "VuePress-Hope",
+    desc: "一个具有强大功能的 vuepress 主题",
+    ico: "https://theme-hope.vuejs.press/logo.svg",
+    link: "https://theme-hope.vuejs.press/zh/",
+  },
+  {
+    name: "Hexo",
+    desc: "Hexo是一个快速、简单且功能强大的博客框架，Markdown编写帖子，",
+    ico: "https://hexo.io/icon/favicon-32x32.png",
+    link: "https://hexo.io/zh-cn/",
+  },
 ];
 
 

@@ -91,10 +91,12 @@ article: false
 
 ### 1、组件添加到项目组件目录下
 
-> **盒子小屋**:house: 的赞赏组件放置在 `.vuepress/components/pay` 下。
+> **盒子小屋**:house: 的赞赏组件放置在 `.vuepress/components/layout` 下。
+
 ::: details 赞赏组件
+
 ```vue
-// .vuepress/components/pay/Sponsor.vue
+// .vuepress/components/layout/Sponsor.vue
 <template>
     <div class="sponsor">
       <div id="drinks-box">
@@ -533,7 +535,7 @@ article: false
 ::: details Layout布局
 
 ```vue{13,36}
-// .vuepress/components/pay/Layout.vue
+// .vuepress/components/layout/Layout.vue
 <template>
     <SkipLink />
     <CommonWrapper>
@@ -601,7 +603,7 @@ article: false
 import { defineClientConfig } from "@vuepress/client";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
-import Layout from "./components/pay/Layout.vue";
+import Layout from "./components/layout/Layout.vue";
 export default defineClientConfig({
   layouts: {
     Layout,

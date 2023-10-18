@@ -23,7 +23,7 @@ export default defineUserConfig({
     
     metingPlugin({                                //音乐播放器
       metingOptions: {
-        global:true, // 全局播放器开关
+        global: true, // 全局播放器开关
         server: "tencent",
         api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
         type: "playlist",
@@ -106,6 +106,7 @@ export default defineUserConfig({
   ],
   
   alias: {
+    "@theme-hope/components/PageFooter": path.resolve(__dirname, "./components/pageFooter/PageFooter.vue",), //替换页脚样式
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(__dirname, "./components/BlogHero.vue",), //主页描述替换为一言词句
     "@MyCoverLink": path.resolve(__dirname, "./components/MyCoverLink.vue"),  //自定义友链组件
     "@MyLink": path.resolve(__dirname, "./components/Mylink.vue"),            //自定义卡片组件

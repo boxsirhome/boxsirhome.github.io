@@ -28,6 +28,9 @@ devDependencies:
   '@vuepress/plugin-shiki':
     specifier: 2.0.0-beta.67
     version: 2.0.0-beta.67
+  '@vuepress/shared':
+    specifier: 2.0.0-beta.67
+    version: 2.0.0-beta.67
   '@vuepress/utils':
     specifier: 2.0.0-beta.67
     version: 2.0.0-beta.67

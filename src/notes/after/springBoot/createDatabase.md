@@ -14,7 +14,7 @@ tag:
 
 
 :::info
-java项目启动 建表和填充数据
+SpringBoot工程启动 建表和填充数据
 :::
 
 <!-- more -->
