@@ -3,15 +3,15 @@
       <div class="footer-left">
         <span id="runtime_span"></span>
         <div class="busuanzi">
-        <span id="busuanzi_container_site_pv" style="display: none">
-          总访问量
-          <span id="busuanzi_value_site_pv"></span>次
-          <span class="post-meta-divider">|</span>
-        </span>
-        <span id="busuanzi_container_site_uv" style="display: none">
-          您是第
-          <span id="busuanzi_value_site_uv"></span>位客人
-        </span>
+          <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量
+            <span id="busuanzi_value_site_pv"></span>次
+            <span class="post-meta-divider">|</span>
+          </span>
+          <span id="busuanzi_container_site_uv" style="display: none">
+            您是第
+            <span id="busuanzi_value_site_uv"></span>位客人
+          </span>
         </div>
       </div>
       <div class="footer-right footer-content">
@@ -24,23 +24,13 @@
   <script setup lang="ts">
   import { usePageFrontmatter } from "@vuepress/client";
   import { isString } from "@vuepress/shared";
-  import { computed, watch, onMounted } from "vue";
+  import { computed, onMounted } from "vue";
   import {
     usePageAuthor,
     useThemeLocaleData,
   } from "@theme-hope/composables/index";
-  import { useRouter } from "vue-router";
-  import script from "./utils/busuanzi.pure";
   import { show_runtime } from "./utils/time";
   
-  // 或取 当前vue-router 实例
-  const router = useRouter();
-  // 可以直接侦听一个 ref
-  watch(router.currentRoute, async (to, from) => {
-    if (to.path != from.path) {
-      script.fetch();
-    }
-  });
   onMounted(() => {
     show_runtime();
   });
