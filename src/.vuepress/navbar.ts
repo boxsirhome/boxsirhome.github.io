@@ -28,13 +28,23 @@ export default navbar([
           { text: "Linux", icon: "linux", link: "/linux" },
           { text: "Git", icon: "git", link: "/git" },
         ],
+      }
+    ],
+  },
+  {
+    text: "资料",
+    icon: "docs",
+    prefix: "/docs",
+    children: [
+      {
+        text: "API",
+        icon: "api",
+        link: "/api" 
       },
       {
-        text: "物联网笔记",
-        prefix: "/iot",
-        children: [
-          { text: "嵌入式", icon: "embedded", link: "/embedded" },
-        ],
+        text: "物联网",
+        icon: "IOT",
+        link: "/iot" 
       },
     ],
   },

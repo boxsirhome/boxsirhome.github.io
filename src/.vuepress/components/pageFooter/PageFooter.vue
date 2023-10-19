@@ -2,6 +2,10 @@
     <footer class="vp-footer-wrapper" v-show="enable">
       <div class="vp-footer">
         <span id="runtime_span"></span>
+        <span> 被光临
+          <img src="https://www.cutercounter.com/hits.php?id=hvxoafpk&nd=1&style=5" border="0" alt="website counter">次&nbsp;|&nbsp;您是第
+          <img src="https://www.cutercounter.com/hits.php?id=hmmxoafpa&nd=1&style=5" border="0" alt="website counter">位客人
+        </span>
       </div>
       <div class="vp-copyright">
         <div class="copyright">{{ copyright }}</div>
@@ -99,7 +103,10 @@
     padding-inline-start:2rem}
 
 .vp-footer {
-    margin: .5rem 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // margin: .5rem 1rem;
     font-size: 14px
 }
 
@@ -110,7 +117,7 @@
 }
 
 .vp-copyright {
-    margin: 6px 0;
+    // margin: 6px 0;
     font-size: 13px
 }
 

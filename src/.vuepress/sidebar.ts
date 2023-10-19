@@ -23,7 +23,10 @@ export default sidebar({
   "/notes/ecology/git": "structure",
   "/notes/front": "structure",
   "/notes/front/vue": "structure",
-  "/notes/iot": "structure",
+
+  "/docs": "structure",
+  "/docs/api": "structure",
+  "/docs/iot": "structure",
 
   "/item": "structure",
   "/item/web": "structure",
@@ -48,6 +51,13 @@ export default sidebar({
       icon: "notes",
       prefix: "/notes",
       link: "/notes",
+      children: "structure",
+    },    
+    {
+      text: "资料",
+      icon: "docs",
+      prefix: "/docs",
+      link: "/docs",
       children: "structure",
     },
     {
