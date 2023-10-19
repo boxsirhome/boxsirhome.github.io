@@ -1,11 +1,10 @@
 <template>
     <footer class="vp-footer-wrapper" v-show="enable">
       <div class="vp-footer">
-        <span id="runtime_span"></span>
-        <span> 被光临
-          <img src="https://www.cutercounter.com/hits.php?id=hvxoafpk&nd=1&style=5" border="0" alt="website counter">次&nbsp;|&nbsp;您是第
-          <img src="https://www.cutercounter.com/hits.php?id=hmmxoafpa&nd=1&style=5" border="0" alt="website counter">位客人
+        <span>您是第
+          <img src="https://www.cutercounter.com/hits.php?id=hxoafpc&nd=1&style=113" border="0" alt="">位访客
         </span>
+        <span id="runtime_span"></span>
       </div>
       <div class="vp-copyright">
         <div class="copyright">{{ copyright }}</div>

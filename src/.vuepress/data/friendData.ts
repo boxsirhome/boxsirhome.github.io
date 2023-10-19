@@ -15,7 +15,7 @@ export const friends: LinkData[] = [
   },
   {
     name: "Mr.Hope",
-    desc: "VuePress Theme Hope 主题作者。",
+    desc: "VuePress Theme Hope 主题作者",
     ico: "https://mister-hope.com/logo.svg",
     link: "https://mister-hope.com/",
   },

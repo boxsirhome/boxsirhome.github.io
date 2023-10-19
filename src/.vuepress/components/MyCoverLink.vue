@@ -129,7 +129,7 @@ a.card-body {
       transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* 添加过渡效果 */
       line-height: 2.5;
       flex: none;
-      flex-basis: 160px;
+      flex-basis: 200px;
       text-align: center;
       padding: 0 0.8rem;
       font-family: ZWZT,

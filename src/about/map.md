@@ -63,10 +63,6 @@ category:
         {
           "value": 5,
           "name": "Linux"
-        },
-        {
-          "value": 1,
-          "name": "嵌入式"
         }
       ]
     }
