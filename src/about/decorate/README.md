@@ -1,0 +1,17 @@
+---
+title: 小屋装修
+icon: decorate
+date: 2023-09-23
+breadcrumb: false
+index: false
+article: false
+comment: false
+pageInfo: false
+---
+
+:::info
+- **盒子小屋**:house: 是基于[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)框架开发，盒子先生对小屋进行了翻修！
+- 带有 :pushpin: 标记的标题表示，用于后期维护博客。
+:::
+
+<AutoCatalog />

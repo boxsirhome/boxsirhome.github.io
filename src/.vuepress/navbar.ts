@@ -82,6 +82,7 @@ export default navbar([
     children: [
       { text: "友链", icon: "friendLink", link: "/friend" },
       { text: "留言", icon: "comment", link: "/guestbook" },
+      { text: "订阅", icon: "feed", link: "/feed" },
     ]
   },
   {
@@ -89,8 +90,9 @@ export default navbar([
     icon: "about",
     prefix: "/about",
     children: [
-      { text: "关于屋主", icon: "aboutMe", link: "/intro" },
-      { text: "关于小屋", icon: "aboutSite", link: "/site" },
+      { text: "小屋户主", icon: "aboutMe", link: "/intro" },
+      { text: "小屋装修", icon: "decorate", link: "/decorate" },
+      { text: "小屋产权", icon: "copyright", link: "/copyright" },
       { text: "小屋地图", icon: "map", link: "/map" },
     ]
   },

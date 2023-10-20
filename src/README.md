@@ -30,7 +30,7 @@ projects:
     link: /about/map
 
   - icon: /assets/homeProjects/aboutMe.svg
-    name: 关于屋主
+    name: 盒子先生
     desc: 博主的私人空间
     link: /about/intro
 

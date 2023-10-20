@@ -38,7 +38,7 @@ export default sidebar({
   "/social": "structure",
 
   "/about": "structure",
-  "/about/site": "structure",
+  "/about/decorate": "structure",
   "/about/map": [
     {
       text: "首页",

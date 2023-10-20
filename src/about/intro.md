@@ -1,5 +1,5 @@
 ---
-title: 介绍屋主
+title: 介绍户主
 icon: aboutMe
 breadcrumb: false
 sidebar: false

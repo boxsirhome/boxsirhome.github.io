@@ -139,4 +139,10 @@ export const tool: LinkData[] = [
     ico: "https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png",
     link: "https://unbug.github.io/codelf/",
   },
+  {
+    name: "51.LA",
+    desc: "免费流量统计服务，流量监控分析平台，实时监测，精准洞察，专注用户行为分析",
+    ico: "https://www.51.la/favicon.ico",
+    link: "ttps://www.51.la/",
+  },
 ];

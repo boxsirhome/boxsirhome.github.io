@@ -111,7 +111,7 @@ const option = {
   },
   series: [
     {
-      data: [23, 41, 30],
+      data: [24, 41, 30],
       type: "bar",
       label: {
         show: true,
