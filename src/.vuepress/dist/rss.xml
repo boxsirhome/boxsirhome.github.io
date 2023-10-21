@@ -6,15 +6,936 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 20 Oct 2023 10:24:37 GMT</pubDate>
-    <lastBuildDate>Fri, 20 Oct 2023 10:24:37 GMT</lastBuildDate>
+    <pubDate>Sat, 21 Oct 2023 03:33:49 GMT</pubDate>
+    <lastBuildDate>Sat, 21 Oct 2023 03:33:49 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>小屋装修</category>
     <category>资料</category>
     <category>笔记</category>
     <category>小屋地图</category>
     <category>项目</category>
     <category>使用指南</category>
+    <item>
+      <title>添加图标</title>
+      <link>https://boxsir.gitee.io/about/decorate/addIcon.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/addIcon.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">添加图标</source>
+      <description>整个主题在多处都添加了 FontClass / 图片 格式图标的支持。 目前可以使用 iconfont、iconify 和 fontawesome 为你的项目添加图标，可以设置自己的图标资源。 同时，png/svg 格式的图标也是支持的。可以使用完整 URL 或路径名来添加图标。 具体 参考主题&amp;gt;指南&amp;gt;界面&amp;gt;图标支持</description>
+      <category>小屋装修</category>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>整个主题在多处都添加了 FontClass / 图片 格式图标的支持。<br>
+目前可以使用 iconfont、iconify 和 fontawesome 为你的项目添加图标，可以设置自己的图标资源。<br>
+同时，png/svg 格式的图标也是支持的。可以使用完整 URL 或路径名来添加图标。<br>
+具体 <strong>参考主题&gt;指南&gt;界面&gt;<a href="https://theme-hope.vuejs.press/zh/guide/interface/icon.html" target="_blank" rel="noopener noreferrer">图标支持</a></strong></p>
+</blockquote>
+<h2> 图标设置</h2>
+<p>可以在多个地方使用图标。</p>
+<ul>
+<li>
+<p>页面: 在 frontmatter 中设置 <code>icon</code></p>
+<p>此图标将用于路径导航、页面标题、导航栏生成项、侧边栏生成项、页面导航等。</p>
+</li>
+<li>
+<p>导航栏: 在 NavbarItemConfig 中设置 <code>icon</code> 选项</p>
+</li>
+<li>
+<p>侧边栏: 在 SidebarItemConfig 中设置 <code>icon</code> 选项</p>
+</li>
+<li>
+<p>主页: 在功能项中设置 <code>icon</code> 选项</p>
+</li>
+</ul>
+<h2> 在 Markdown 中添加图标</h2>
+<p>你可以使用 <code>&lt;HopeIcon /&gt;</code> 组件在 markdown 中添加图标。</p>
+<ul>
+<li><code>icon</code> 属性接受与其他 <code>icon</code> 选项相同的内容，即：字体类名和图像 url</li>
+<li><code>color</code> 属性接受一个 css 颜色值，它将用作图标颜色（可选）</li>
+<li><code>size</code> 属性接受一个 css 大小值，该值将用作图标大小（可选）</li>
+</ul>
+<p>例如：</p>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2> 首次使用iconfont</h2>
+<h3> 新建项目</h3>
+<p>需要新建一个项目，对你网站的图标进行设置与管理:</p>
+<ol>
+<li>使用 GitHub 或微博登录 <a href="https://www.iconfont.cn/" target="_blank" rel="noopener noreferrer">Iconfont</a>。</li>
+<li>在网站上方找到 “资源管理 → 我的项目”，点击右上角的 “新建项目” 图标。</li>
+<li>设置可以辨识的项目名称</li>
+<li><code>FontClass/Symbol 前缀</code> 填入 <code>icon-</code> (可以根据自己喜好填写，但需要将此值设置额外前缀 <code>iconfont</code> 并设置到在主题选项中的 <code>iconPrefix</code> ，如果填入的就是 <code>icon-</code> 则不需要设置主题选项中的 <code>iconPrefix</code> ，因为主题已经自动把 <code>iconPrefix</code> 设置成 <code>icon-</code> ，填了反而可能出现问题)</li>
+<li>Font Family 请保持 <code>iconfont</code><br>
+</li>
+</ol>
+<h3> 导入图标</h3>
+<ol>
+<li>
+<p>在 iconfont 自由搜索寻找你想要使用的图标，并点击图标上的 “添加入库” 按钮<br>
+</p>
+</li>
+<li>
+<p>在寻找完所有图标后，请点击右上角的 “添加入库” 图标，点击下方的 “添加至项目” 并选择你刚刚创建好的项目进行确定。<br>
+</p>
+</li>
+<li>
+<p>请点击项目上方的 “Font Class” 按钮，并点击生成。<br>
+</p>
+</li>
+<li>
+<p>生成链接<br>
+</p>
+</li>
+<li>
+<p>将 css 地址设置到主题选项的 <code>iconAssets</code> 中<br>
+</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>截止2023-10-20在iconfont每个项目中添加的图标不能超过40个，否则在使用时会出现色彩丢失</p>
+</div>
+</li>
+</ol>
+<h3> 使用图标</h3>
+<ol>
+<li>
+<p>复制代码<br>
+</p>
+<p>例如：<code>icon-bangbangtang-01</code></p>
+</li>
+<li>
+<p>可以使用 <code>&lt;HopeIcon /&gt;</code> 组件在 markdown 中添加图标。</p>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>其它位置图标支持，参考<strong>主题文档&gt;图标支持&gt;<a href="https://theme-hope.vuejs.press/zh/guide/interface/icon.html#%E8%AE%BE%E7%BD%AE%E5%9B%BE%E6%A0%87" target="_blank" rel="noopener noreferrer">设置图标</a></strong></p>
+</li>
+</ol>
+<h2> 添加新图标 📌</h2>
+<ul>
+<li>如果需要在Iconfont 平台 <strong>添加新项目和新图标</strong>，重复<a href="#%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8">首次使用</a>的操作，将生成的CSS地址增加到<code>iconAssets</code>方法中。</li>
+<li>如果需要在Iconfont 平台<code>navbar</code>项目中 <strong>添加新图标</strong>，重复 <a href="#%E5%AF%BC%E5%85%A5%E5%9B%BE%E6%A0%87">导入图标</a> 的操作，将重新生成的新 CSS 地址替换 掉<code>iconAssets</code>方法中<code>navbar</code>项目图标。</li>
+<li>如果需要在Iconfont 平台上传自己的图标，参考 <a href="https://blog.csdn.net/AdminGuan/article/details/121691426" target="_blank" rel="noopener noreferrer">svg制作上传</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>添加仓库</title>
+      <link>https://boxsir.gitee.io/about/decorate/addLink.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/addLink.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">添加仓库</source>
+      <description>引入卡片组件 将卡片组件添加到项目目录下 盒子小屋🏠 的卡片组件放置在 .vuepress/components 下。 卡片组件 // .vuepress/components/Mylink.vue &amp;lt;!-- 卡片组件 --&amp;gt; &amp;lt;template&amp;gt; &amp;lt;div class=&amp;quot;vp-project-panel&amp;quot;&amp;gt; &amp;lt;template v-if=&amp;quot;linkDatas.length &amp;gt; 0&amp;quot; v-for=&amp;quot;(item, index) in linkDatas&amp;quot; :key=&amp;quot;index&amp;quot; &amp;gt; &amp;lt;a class=&amp;quot;item vp-project-card&amp;quot; :class=&amp;quot;GetColorClassName(index)&amp;quot; :href=&amp;quot;item.link&amp;quot; target=&amp;quot;_blank&amp;quot; &amp;gt; &amp;lt;img class=&amp;quot;vp-project-image&amp;quot; :src=&amp;quot;item.ico&amp;quot; alt=&amp;quot;&amp;quot; onerror=&amp;apos;this.onerror=null,this.src=this.srcset=&amp;quot;/assets/default/loading.webp&amp;quot;&amp;apos; /&amp;gt; &amp;lt;div class=&amp;quot;vp-project-name&amp;quot;&amp;gt;{{ item.name }}&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;vp-project-desc&amp;quot;&amp;gt;{{ item.desc }}&amp;lt;/div&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/template&amp;gt; &amp;lt;script setup lang=&amp;quot;ts&amp;quot;&amp;gt; import { PropType } from &amp;quot;vue&amp;quot;; import { LinkData } from &amp;quot;../data/friendData&amp;quot;; const props = defineProps({ type: String, links:Object as PropType&amp;lt;LinkData[]&amp;gt;, }); let linkDatas: LinkData[]; console.log(props.links); linkDatas = props.links const GetColorClassName = (index) =&amp;gt; { const Idx = index % 9; return `project${Idx}`; }; &amp;lt;/script&amp;gt; &amp;lt;style lang=&amp;quot;scss&amp;quot; scoped&amp;gt; a.item { text-decoration: none; } .project-card .image { border-radius: 50%; } &amp;lt;/style&amp;gt;</description>
+      <category>小屋装修</category>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 引入卡片组件</h2>
+<ol>
+<li>将卡片组件添加到项目目录下</li>
+</ol>
+<blockquote>
+<p><strong>盒子小屋</strong>🏠 的卡片组件放置在 .vuepress/components 下。</p>
+</blockquote>
+<details class="hint-container details"><summary>卡片组件</summary>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<ol start="2">
+<li>将卡片组件添加到 <code>alias</code> 方法中</li>
+</ol>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="highlight-lines"><br><br><div class="highlight-line">&nbsp;</div><br><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="3">
+<li>使用卡片组件</li>
+</ol>
+<blockquote>
+<p>在md中配合 <strong>数据</strong> 使用卡片组件</p>
+</blockquote>
+<div class="language-markdown line-numbers-mode" data-ext="md"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><div class="highlight-line">&nbsp;</div><br><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 添加数据 📌</h2>
+<h3> 创建新仓库类别并添加数据</h3>
+<blockquote>
+<p>例如添加<strong>文档</strong>分类</p>
+</blockquote>
+<ol>
+<li>
+<p>在 <code>src\.vuepress\data</code> 目录下创建 <strong>文档类别</strong> 数据文件 <code>doc.ts</code>，包含<code>前端文档</code>和<code>后端文档</code></p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>在 <code>src\.vuepress\config.ts</code> 文件的<strong>alias:{}</strong> 方法下引入：</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="highlight-lines"><br><br><div class="highlight-line">&nbsp;</div><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>在 <code>src\link</code> 目录下新建<code>doc.md</code>文件并使用：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><br><div class="highlight-line">&nbsp;</div><br><br><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>在 <code>src\.vuepress\navbar.ts</code> 文件中挂载到下拉菜单</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="highlight-lines"><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​</p>
+</li>
+</ol>
+<h3> 添加已有仓库类别下的子分类</h3>
+<blockquote>
+<p>例如在<strong>软件</strong>分类下添加<strong>开发编程</strong>子类</p>
+</blockquote>
+<ol>
+<li>
+<p>在 <code>src\.vuepress\data\software.ts</code> 文件下，添加 <code>software_develop</code> 方法</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p>在 <code>src\link\software.md</code> 文件中使用</p>
+<div class="language-markdown line-numbers-mode" data-ext="md"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><br><div class="highlight-line">&nbsp;</div><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​</p>
+</li>
+</ol>
+<h3> 添加已有仓库类别数据</h3>
+<blockquote>
+<p>例如在<strong>工具</strong>分类下添加新工具</p>
+</blockquote>
+<p>在 <code>src\.vuepress\data\tool.ts</code> 文件中添加json</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Algolia搜索</title>
+      <link>https://boxsir.gitee.io/about/decorate/algolia.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/algolia.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Algolia搜索</source>
+      <description>VuePress-Theme-Hope主题对 vuepress-plugin-search-pro，@vuepress/plugin-docsearch 和@vuepress/plugin-search 三种搜索插件提供了内置支持。具体实现参考主题的指南&amp;gt;功能&amp;gt;搜索 盒子小屋🏠 采用了@vuepress/plugin-docsearch 搜索插件</description>
+      <category>小屋装修</category>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>VuePress-Theme-Hope主题对 <code>vuepress-plugin-search-pro</code>，<code>@vuepress/plugin-docsearch</code> 和<code>@vuepress/plugin-search</code> 三种搜索插件提供了内置支持。具体实现参考主题的<a href="https://theme-hope.vuejs.press/zh/guide/feature/search.html" target="_blank" rel="noopener noreferrer">指南&gt;功能&gt;搜索</a><br>
+<strong>盒子小屋</strong>🏠 采用了<code>@vuepress/plugin-docsearch</code> 搜索插件</p>
+</blockquote>
+<h2> 安装插件</h2>
+<ol>
+<li>安装 <code>@vuepress/plugin-docsearch</code></li>
+</ol>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="2">
+<li>从 <code>@vuepress/plugin-docsearch</code> 导入 <code>docsearchPlugin</code>，并在 <code>config.{ts,js}</code> 中的 <code>plugins</code> 应用。</li>
+</ol>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>关于 DocSearch 搜索插件的配置选项，详见 <a href="https://vuejs.press/zh/reference/plugin/docsearch.html" target="_blank" rel="noopener noreferrer">插件文档</a></p>
+<h2> 提交网站获取秘钥</h2>
+<ol>
+<li>
+<p><a href="https://docsearch.algolia.com/apply/" target="_blank" rel="noopener noreferrer">进入网站提交页面</a> ，填写网站信息来加入 DocSearch 项目。网站必须已经有博客内容，电子邮箱用于接受通知和后台的登录，储存库地址必须开源。<a href="https://docsearch.algolia.com/docs/what-is-docsearch" target="_blank" rel="noopener noreferrer">详细参考docsearch的文档</a><br>
+</p>
+</li>
+<li>
+<p>申请后需要等待官方发来邮件。Algolia 会发来两封邮件，分别告知申请通过和爬取完成。盒子先生的申请通过邮件，大概等待了三天。官方发来的邮件中，提取出 <code>appId</code> <code>apiKey</code> 和 <code>indexName</code> 三个信息，根据自己使用的 Vuepress 框架的文档进行配置即可。<br>
+</p>
+</li>
+</ol>
+<details class="hint-container details"><summary>配置示例</summary>
+<p>在 .vuepress/config.ts 文件下配置</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<ol start="3">
+<li>
+<p>邮箱中的apiKey权限较高，能创建、更新和删除索引，建议在<a href="https://dashboard.algolia.com/users/sign_in" target="_blank" rel="noopener noreferrer">Algolia后台</a>获取这个应用的<code>Search API Key</code> 这是可以在前端代码中安全使用的公共 API 密钥，仅可用于搜索，相对安全。<br>
+</p>
+</li>
+<li>
+<p>配置完成后，尝试在博客搜索一个关键词，确保网站中有文档包含这一关键词。（如果正常返回了搜索结果，那么恭喜你已经完成了配置；如果搜什么都是 No Results，那么还需要“修改爬虫配置”）</p>
+<p>跳转爬网工具<br>
+</p>
+</li>
+</ol>
+<h2> 修改爬虫配置</h2>
+<ol>
+<li>
+<p>Algolia 爬取时，只将每个页面匹配指定的元素选择器的元素下的文字建立索引，因此对于大多数情况需要手动指定选择器。前往 <a href="https://crawler.algolia.com/admin/crawlers/" target="_blank" rel="noopener noreferrer">Algolia Crawler</a> 来更新爬虫配置<br>
+<br>
+</p>
+</li>
+<li>
+<p>配置中 <code>initialIndexSettings.YOUR_INDEX_NAME.attributesForFaceting</code> 字段<strong>必须</strong>包含 <code>"lang"</code> ，否则该插件将无法正常工作。</p>
+</li>
+</ol>
+<details class="hint-container details"><summary>配置选项和说明</summary>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<ol start="3">
+<li>
+<p>其实就是需要根据自己网站的正文在 HTML 文档中的所处元素位置来告诉 Algolia 要从什么元素提取文字。如对于我使用的 VuePress-Theme-Hope 主题，就需要从 <code>.theme-hope-content</code> 中提取<br>
+</p>
+</li>
+<li>
+<p>修改好后，在网站右侧的 URL Tester 中可以输入自己网站某个界面的网址进行测试（注意选择正文界面而非首页，毕竟首页并没有东西用来建索引），如果看到 Records 中有内容就是成功啦。<br>
+</p>
+</li>
+<li>
+<p>回到Algolia的Overview（标注4的小眼睛），点击右上角的 Restart crawling 按钮重新启动爬虫，耐心等待爬取完成！<br>
+</p>
+</li>
+</ol>
+<p>前往博客，测试搜索功能成功实现<br>
+</p>
+<h2> 执行爬虫 📌</h2>
+<ol>
+<li>盒子先生的博客爬虫规则，已经配置了在每天早上的2点执行(默认UTC时间，和北京时间相差8小时)</li>
+</ol>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
+<li>如果推送了新文章，希望立刻实现对新文章的搜索，可手动重启爬虫！前往 <a href="https://crawler.algolia.com/admin/crawlers/" target="_blank" rel="noopener noreferrer">Algolia Crawler</a> 来手动重启爬虫<br>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>音乐播放器</title>
+      <link>https://boxsir.gitee.io/about/decorate/meting2.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/meting2.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">音乐播放器</source>
+      <description>盒子小屋🏠 的音乐播放器插件来自 vuepress-plugin-Meting2🙏 支持vuepress2. x 插件作者借鉴 vuepress-plugin-sbaudio 和 vuepress-plugin-meting</description>
+      <category>小屋装修</category>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p><strong>盒子小屋</strong>🏠 的音乐播放器插件来自 <a href="https://github.com/OrageKK/vuepress-plugin-meting2" target="_blank" rel="noopener noreferrer">vuepress-plugin-Meting2</a>🙏 支持vuepress2. x<br>
+插件作者借鉴 <a href="https://github.com/u2sb/vuepress-plugin-sbaudio" target="_blank" rel="noopener noreferrer">vuepress-plugin-sbaudio</a> 和 <a href="https://github.com/moefyit/vuepress-plugin-meting" target="_blank" rel="noopener noreferrer">vuepress-plugin-meting</a></p>
+</blockquote>
+<p align="center">
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://github.com/moefyit/vuepress-plugin-meting2/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oragekk/vuepress-plugin-meting2"></a>&nbsp;
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://github.com/oragekk/vuepress-plugin-meting2/blob/main/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/oragekk/vuepress-plugin-meting2"></a>
+</p>
+<h2> 安装</h2>
+
+<h2> 使用</h2>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="highlight-lines"><br><div class="highlight-line">&nbsp;</div><br><br><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><br><br><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用该插件后将自动注册 <code>&lt;Meting/&gt;</code> 组件与 <code>&lt;APlayer/&gt;</code> 组件，你可以在任意位置使用它们</p>
+<ul>
+<li><code>&lt;Meting/&gt;</code> 组件支持 <code>meting</code> Options 和 <code>aplayer</code> Options，其中 <code>aplayer</code> 的 <code>audio</code> 选项将自动通过 metingApi 获取，如果想要额外添加 <code>audio</code> 的话，可以通过 <code>additionalAudios</code> 选项实现</li>
+<li><code>&lt;APlayer/&gt;</code> 组件支持 <code>aplayer</code> Options，当然，你需要自行提供 <code>audio</code> 音乐源</li>
+</ul>
+<h2> 配置选项</h2>
+<p>配置选项 分为 <code>aplayerOptions</code>、<code>metingOptions</code>、<code>additionalAudios</code> 三部分</p>
+<h3> aplayerOptions</h3>
+<blockquote>
+<p>详情见 <a href="https://aplayer.js.org/#/zh-Hans/" target="_blank" rel="noopener noreferrer">aplayer 文档</a></p>
+</blockquote>
+<h4> 参数</h4>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>默认值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>container</td>
+<td>document.querySelector ('.aplayer')</td>
+<td>播放器容器元素</td>
+</tr>
+<tr>
+<td>fixed</td>
+<td>false</td>
+<td>开启吸底模式, <a href="https://aplayer.js.org/#/home?id=fixed-mode" target="_blank" rel="noopener noreferrer">详情</a></td>
+</tr>
+<tr>
+<td>mini</td>
+<td>false</td>
+<td>开启迷你模式, <a href="https://aplayer.js.org/#/home?id=mini-mode" target="_blank" rel="noopener noreferrer">详情</a></td>
+</tr>
+<tr>
+<td>autoplay</td>
+<td>false</td>
+<td>音频自动播放</td>
+</tr>
+<tr>
+<td>theme</td>
+<td>'#b7daff'</td>
+<td>主题色</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>'all'</td>
+<td>音频循环播放, 可选值: 'all', 'one', 'none'</td>
+</tr>
+<tr>
+<td>order</td>
+<td>'list'</td>
+<td>音频循环顺序, 可选值: 'list', 'random'</td>
+</tr>
+<tr>
+<td>preload</td>
+<td>'auto'</td>
+<td>预加载，可选值: 'none', 'metadata', 'auto'</td>
+</tr>
+<tr>
+<td>volume</td>
+<td>0.7</td>
+<td>默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效</td>
+</tr>
+<tr>
+<td>audio</td>
+<td>-</td>
+<td>音频信息, 应该是一个对象或对象数组</td>
+</tr>
+<tr>
+<td><a href="http://audio.name" target="_blank" rel="noopener noreferrer">audio.name</a></td>
+<td>-</td>
+<td>音频名称</td>
+</tr>
+<tr>
+<td>audio.artist</td>
+<td>-</td>
+<td>音频艺术家</td>
+</tr>
+<tr>
+<td>audio.url</td>
+<td>-</td>
+<td>音频链接</td>
+</tr>
+<tr>
+<td>audio.cover</td>
+<td>-</td>
+<td>音频封面</td>
+</tr>
+<tr>
+<td>audio.lrc</td>
+<td>-</td>
+<td><a href="https://aplayer.js.org/#/home?id=lrc" target="_blank" rel="noopener noreferrer">详情</a></td>
+</tr>
+<tr>
+<td>audio.theme</td>
+<td>-</td>
+<td>切换到此音频时的主题色，比上面的 theme 优先级高</td>
+</tr>
+<tr>
+<td>audio.type</td>
+<td>'auto'</td>
+<td>可选值: 'auto', 'hls', 'normal' 或其他自定义类型, <a href="https://aplayer.js.org/#/home?id=mse-support" target="_blank" rel="noopener noreferrer">详情</a></td>
+</tr>
+<tr>
+<td>customAudioType</td>
+<td>-</td>
+<td>自定义类型，<a href="https://aplayer.js.org/#/home?id=mse-support" target="_blank" rel="noopener noreferrer">详情</a></td>
+</tr>
+<tr>
+<td>mutex</td>
+<td>true</td>
+<td>互斥，阻止多个播放器同时播放，当前播放器播放时暂停其他播放器</td>
+</tr>
+<tr>
+<td>lrcType</td>
+<td>0</td>
+<td><a href="https://aplayer.js.org/#/home?id=lrc" target="_blank" rel="noopener noreferrer">详情</a></td>
+</tr>
+<tr>
+<td>listFolded</td>
+<td>false</td>
+<td>列表默认折叠</td>
+</tr>
+<tr>
+<td>listMaxHeight</td>
+<td>-</td>
+<td>列表最大高度</td>
+</tr>
+<tr>
+<td>storageName</td>
+<td>'aplayer-setting'</td>
+<td>存储播放器设置的 localStorage key</td>
+</tr>
+</tbody>
+</table>
+<h3> metingOptions</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>默认值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>global</td>
+<td>false</td>
+<td>是否启用全局播放器</td>
+</tr>
+<tr>
+<td>mid</td>
+<td>-</td>
+<td>MetingApi 中的 id 参数，即资源 ID</td>
+</tr>
+<tr>
+<td>server</td>
+<td>netease</td>
+<td>MetingApi 中的 server 参数，即音乐平台</td>
+</tr>
+<tr>
+<td>type</td>
+<td>song</td>
+<td>MetingApi 中的 type 参数，即资源类型（播放列表、单曲、专辑等）</td>
+</tr>
+<tr>
+<td>auto</td>
+<td></td>
+<td>资源 url，填写后可通过资源 url 自动解析资源平台、类型、ID，上述三个选项将被覆盖（本参数仅支持 netease、tencent、xiami 三平台）</td>
+</tr>
+<tr>
+<td>auth</td>
+<td>auth</td>
+<td></td>
+</tr>
+<tr>
+<td>api</td>
+<td><a href="https://api.i-meto.com/meting/api?server=:server&amp;type=:type&amp;id=:id&amp;r=:r" target="_blank" rel="noopener noreferrer">https://api.i-meto.com/meting/api?server=:server&amp;type=:type&amp;id=:id&amp;r=:r</a></td>
+<td>Meting APi 服务地址(如不可用自行替换)</td>
+</tr>
+<tr>
+<td>list</td>
+<td>[]</td>
+<td>数组，除 list 外其他所有项</td>
+</tr>
+<tr>
+<td>aplayerOptions</td>
+<td>-</td>
+<td>全局Meting的APlayer配置</td>
+</tr>
+</tbody>
+</table>
+<h3> additionalAudios</h3>
+<ul>
+<li>
+<p>additionalAudios</p>
+<ul>
+<li>类型：<code>Array&lt;Audio&gt;</code></li>
+<li>默认值：<code>[]</code></li>
+<li>描述：除 Meting 解析的 audio 外额外添加的 audio</li>
+</ul>
+</li>
+</ul>
+<h2> 使用组件 📌</h2>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>或者像这样</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>QQ音乐的mid不是数字
+<ul>
+<li><a href="https://y.qq.com/n/ryqq/songDetail/003UTVCN0QvffG" target="_blank" rel="noopener noreferrer">https://y.qq.com/n/ryqq/songDetail/003UTVCN0QvffG</a></li>
+</ul>
+</li>
+<li>网易云
+<ul>
+<li><a href="https://music.163.com/#/playlist?id=60198" target="_blank" rel="noopener noreferrer">https://music.163.com/#/playlist?id=60198</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>其它</title>
+      <link>https://boxsir.gitee.io/about/decorate/others.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/others.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">其它</source>
+      <description>留言插图 留言页 的顶部插图来自于 TenAPI 免费提供API服务 接口地址 https://tenapi.cn/v2/acg</description>
+      <category>小屋装修</category>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 留言插图</h2>
+<blockquote>
+<p><a href="/social/guestbook">留言页</a> 的顶部插图来自于 <a href="https://docs.tenapi.cn/" target="_blank" rel="noopener noreferrer">TenAPI</a> 免费提供API服务</p>
+</blockquote>
+<p>接口地址</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>请求示例</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>请求参数</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>必填</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>format</td>
+<td>string</td>
+<td>否</td>
+<td>返回数据格式, 可选值 <code>json</code> 默认返回图片</td>
+</tr>
+</tbody>
+</table>
+<p>返回数据</p>
+<div class="language-json line-numbers-mode" data-ext="json"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>返回参数</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>width</td>
+<td>int</td>
+<td>图片宽度</td>
+</tr>
+<tr>
+<td>height</td>
+<td>int</td>
+<td>图片高度</td>
+</tr>
+<tr>
+<td>url</td>
+<td>string</td>
+<td>图片地址</td>
+</tr>
+</tbody>
+</table>
+<h2> 页脚访问量统计</h2>
+<blockquote>
+<p>来自 <a href="https://www.cutercounter.com/" target="_blank" rel="noopener noreferrer">cutercounter.com</a></p>
+</blockquote>
+<ul>
+<li>网站和博客 100% 免费访客点击计数器</li>
+<li>数字与图像一起显示。</li>
+<li>有 152 种款式可供选择。</li>
+<li>只需将 HTML 代码放在您的网站上即可。</li>
+</ul>
+<h2> 主页一言描述</h2>
+<blockquote>
+<p>来自 <strong>theme-hope</strong> 主题文档 <a href="https://theme-hope.vuejs.press/zh/guide/advanced/presets.html#%E4%B8%80%E8%A8%80%E6%8F%8F%E8%BF%B0" target="_blank" rel="noopener noreferrer">一言描述</a></p>
+</blockquote>
+<ul>
+<li>博客主页的描述替换为随机的一言词句。</li>
+<li>一言名句组件"vuepress-theme-hope/presets/HitokotoBlogHero.js"</li>
+<li>使用方法：覆盖 @theme-hope/modules/blog/components/BlogHero，将上方组件导入原 BlogHero 的 heroInfo 插槽，同时原样传入插槽属性。</li>
+</ul>
+<details class="hint-container details"><summary>示例</summary>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>上传博客</title>
+      <link>https://boxsir.gitee.io/about/decorate/pushBlog.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/pushBlog.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">上传博客</source>
+      <description>运行博客 环境准备 安装 Node.js 安装 VSCode 安装 Pnpm，在终端中输入下列命令安装 pnpm: corepack enable corepack prepare pnpm@latest --activate</description>
+      <category>小屋装修</category>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 运行博客</h2>
+<h3> 环境准备</h3>
+<p>安装 <a href="https://nodejs.org/zh-cn" target="_blank" rel="noopener noreferrer">Node.js</a></p>
+<p>安装 <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VSCode</a></p>
+<p>安装 Pnpm，在终端中输入下列命令安装 pnpm:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 下载远程仓库</h3>
+<p>在本地仓下执行</p>
+<p>git clone <a href="https://gitee.com/boxsir/boxsir.git" target="_blank" rel="noopener noreferrer">https://gitee.com/boxsir/boxsir.git</a>  #克隆远程项目</p>
+<h3> 运行项目</h3>
+<p>使用 <strong>vscode</strong> 打开项目后在终端执行命令：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>此时可以在浏览器中访问 <a href="http://localhost:8080" target="_blank" rel="noopener noreferrer">http://localhost:8080</a> 看到项目启动</p>
+<h2> 推送博客</h2>
+<p>项目部署在Gitee Pages服务中 ，访问目录是 <code>src/.vuepress/dist</code> ，所以需要先把项目构建到 <code>dist</code> 文件夹下。</p>
+<p>在终端执行命令</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>构建完成后通过 <strong>git</strong> 推送到自己的远程仓库</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 部署博客</h2>
+<p>项目上传成功后，并没有部署完成。</p>
+<p>前往  <strong>gitee&gt;项目仓库&gt;服务&gt;Gitee Pages&gt;更新</strong></p>
+<p>更新完成后，可通过提供的网站地址，访问最新的博客啦🎉</p>
+<h2> 更新博客 📌</h2>
+<ul>
+<li>在vscode中更新博客内容后，需要重复 <a href="#%E6%8E%A8%E9%80%81%E5%8D%9A%E5%AE%A2">推送博客</a> 和 <a href="#%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2">部署博客</a> 中的操作</li>
+<li>如果希望博客的搜索功能，立即实现对新文章的搜索，需要前往 <a href="https://crawler.algolia.com/admin/crawlers/" target="_blank" rel="noopener noreferrer">Algolia Crawler</a> 来手动重启爬虫，实现对新文章的索引。具体步骤，参考 <strong>Algolia搜索&gt;<a href="/about/site/algolia.html#%E6%89%A7%E8%A1%8C%E7%88%AC%E8%99%AB" target="blank">执行爬虫</a></strong></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Sponsor赞赏</title>
+      <link>https://boxsir.gitee.io/about/decorate/sponsor.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/sponsor.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Sponsor赞赏</source>
+      <description>VuePress-Theme-Hope主题，当在 行为选项 中设置 { custom: true } 时，主题将通过 @theme-hope 别名来引入组件，所以你可以利用这一点来替换主题的任何一个组件。 替换组件的方式 你需要在自己的 VuePress 配置文件通过 alias 替换主题中使用的组件别名。</description>
+      <category>小屋装修</category>
+      <pubDate>Fri, 13 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>VuePress-Theme-Hope主题，当在 <a href="https://theme-hope.vuejs.press/zh/config/theme/behavior.html" target="_blank" rel="noopener noreferrer">行为选项</a> 中设置 <code>{ custom: true }</code> 时，主题将通过 <code>@theme-hope</code> 别名来引入组件，所以你可以利用这一点来替换主题的任何一个组件。</p>
+</blockquote>
+<h2> 替换组件的方式</h2>
+<p>你需要在自己的 VuePress 配置文件通过 <code>alias</code> 替换主题中使用的组件别名。</p>
+<p>具体步骤参考官方文档 <a href="https://theme-hope.vuejs.press/zh/guide/advanced/replace.html#%E6%9B%BF%E6%8D%A2%E7%BB%84%E4%BB%B6%E7%9A%84%E6%96%B9%E5%BC%8F" target="_blank" rel="noopener noreferrer">替换组件的方式</a></p>
+<p>本章要说的是对于 <strong>插槽利用</strong>，以实现 <strong>赞赏</strong> 的功能。</p>
+<h2> 插槽利用</h2>
+<p>关于插槽的详细使用参考官方文档  <a href="https://theme-hope.vuejs.press/zh/guide/advanced/replace.html#%E6%8F%92%E6%A7%BD%E5%88%A9%E7%94%A8" target="_blank" rel="noopener noreferrer">插槽利用</a></p>
+<p>有些组件提供了插槽，在这种情况下，你可以在覆盖组件时直接引入原组件，并通过插槽传入你需要的内容。通过这个特性可以实现传入<strong>赞赏组件</strong>。</p>
+<details class="hint-container details"><summary>插槽位置示例</summary>
+<p>常用插槽位置示例，详见 <a href="https://theme-hope.vuejs.press/zh/demo/slot.html" target="_blank" rel="noopener noreferrer">主布局插槽演示</a>。</p>
+<figure><figcaption>1</figcaption></figure>
+</details>
+<details class="hint-container details"><summary>提供插槽的组件</summary>
+<p><strong>主题</strong>:</p>
+<ul>
+<li><code>AutoLink</code>: <code>default</code>, <code>before</code>, <code>after</code></li>
+<li><code>CommonWrapper</code>: <code>default</code>, <code>navbarStartBefore</code>, <code>navbarStartAfter</code>, <code>navbarCenterBefore</code>, <code>navbarCenterAfter</code>, <code>navbarEndBefore</code>, <code>navbarEndAfter</code>, <code>navScreenTop</code>, <code>navScreenBottom</code>, <code>sidebar</code>, <code>sidebarTop</code>, <code>sidebarBottom</code></li>
+<li><code>HeroInfo</code>: <code>heroImage</code>, <code>heroInfo</code>, <code>heroBg</code>
+<ul>
+<li><code>heroInfo</code> 插槽将接收 <code>text</code> <code>tagline</code> 和 <code>isFullScreen</code> 属性。</li>
+<li><code>heroImage</code> 插槽将接收 <code>image</code> <code>imageDark</code> <code>heroStyle</code> <code>alt</code> 和 <code>isFullScreen</code> 属性。</li>
+<li><code>heroBg</code> 插槽将接收 <code>image</code> <code>bgStyle</code> 和 <code>isFullScreen</code> 属性。</li>
+</ul>
+</li>
+<li><code>HomePage</code>: <code>top</code>, <code>center</code>, <code>bottom</code></li>
+<li><code>NormalPage</code>: <code>top</code>, <code>contentBefore</code>, <code>contentAfter</code>, <code>bottom</code>, <code>tocBefore</code>, <code>tocAfter</code></li>
+</ul>
+<p><strong>博客</strong>：</p>
+<ul>
+<li><code>ArticleItem</code>: <code>title</code>, <code>cover</code>, <code>info</code>, <code>excerpt</code>
+<ul>
+<li><code>title</code> 插槽将接收 <code>title</code> <code>isEncrypted</code> 和 <code>type</code> 属性。</li>
+<li><code>excerpt</code> 插槽将接收 <code>excerpt</code> 属性。</li>
+<li><code>cover</code> 插槽将接收 <code>cover</code> 属性。</li>
+<li><code>info</code> 插槽将接收 <code>info</code> 属性。</li>
+</ul>
+</li>
+<li><code>BlogHero</code>: <code>heroBg</code>, <code>heroInfo</code>
+<ul>
+<li><code>heroInfo</code> 插槽将接收 <code>text</code> <code>tagline</code> <code>image</code> <code>imageDark</code> <code>heroStyle</code> <code>alt</code> 和 <code>isFullScreen</code> 属性。</li>
+<li><code>heroBg</code> 插槽将接收 <code>image</code> <code>bgStyle</code> 和 <code>isFullScreen</code> 属性。</li>
+</ul>
+</li>
+</ul>
+<p><strong>导航栏</strong>:</p>
+<ul>
+<li><code>DropdownLink</code>: <code>title</code></li>
+<li><code>NavActions</code>: <code>before</code>, <code>after</code></li>
+<li><code>Navbar</code>: <code>startBefore</code>, <code>startAfter</code>, <code>centerBefore</code>, <code>centerAfter</code>, <code>endBefore</code>, <code>endAfter</code></li>
+<li><code>NavbarBrand</code>: <code>default</code></li>
+<li><code>NavScreen</code>: <code>before</code>, <code>after</code></li>
+<li><code>NavScreenDropdown</code>: <code>before</code>, <code>after</code></li>
+</ul>
+<p><strong>侧边栏</strong>:</p>
+<ul>
+<li><code>Sidebar</code>: <code>top</code>, <code>default</code>, <code>bottom</code></li>
+</ul>
+<p><strong>TOC</strong>:</p>
+<ul>
+<li><code>TOC</code>: <code>before</code>, <code>after</code></li>
+</ul>
+</details>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>对于每个插槽的对应位置和功能，请详见 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/theme/src/client/" target="_blank" rel="noopener noreferrer">主题源码</a> 。</p>
+</div>
+<h2> 实现赞赏</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">思路</p>
+<ol>
+<li>下载赞赏组件 <code>Sponsor.vue</code>，添加到项目组件目录下。组件来自 <a href="https://github.com/OrageKK/sponsor-page" target="_blank" rel="noopener noreferrer">Sponsor-Page</a> 🙏</li>
+<li>赞赏使用在所有页面，创建<code>Layout.vue</code>布局，覆盖掉主题默认同名<code>Layout.vue</code>布局</li>
+<li>将<code>Sponsor.vue</code>组件传入到<code>Layout.vue</code>布局的<code>NormalPage:contentAfter</code>中</li>
+<li>在<code>.vuepress/client.ts</code>文件下，覆盖掉的默认的布局<code>layouts:{ Layout }</code></li>
+</ol>
+</div>
+<h3> 1、组件添加到项目组件目录下</h3>
+<blockquote>
+<p><strong>盒子小屋</strong>🏠 的赞赏组件放置在 <code>.vuepress/components/layout</code> 下。</p>
+</blockquote>
+<details class="hint-container details"><summary>赞赏组件</summary>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<h3> 2、创建<code>Layout.vue</code>布局，将<code>Sponsor.vue</code>组件传入</h3>
+<details class="hint-container details"><summary>Layout布局</summary>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">&nbsp;</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<h3> 3、在<code>client.ts</code>文件下，覆盖掉的默认的布局</h3>
+<details class="hint-container details"><summary>覆盖布局</summary>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="highlight-lines"><br><div class="highlight-line">&nbsp;</div><br><br><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><div class="highlight-line">&nbsp;</div><br><br><br><br><br><br><br><br><br><br></div><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Waline评论</title>
+      <link>https://boxsir.gitee.io/about/decorate/waline.html</link>
+      <guid>https://boxsir.gitee.io/about/decorate/waline.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Waline评论</source>
+      <description>VuePress-Theme-Hope主题的评论服务目前可以从 Giscus、Waline、Twikoo 和 Artalk 中选择。具体实现参考主题的指南&amp;gt;功能&amp;gt;评论 盒子小屋🏠 采用了 Waline | 配置指南 | 官网文档</description>
+      <category>小屋装修</category>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>VuePress-Theme-Hope主题的评论服务目前可以从 Giscus、Waline、Twikoo 和 Artalk 中选择。具体实现参考主题的<a href="https://theme-hope.vuejs.press/zh/guide/feature/comment.html" target="_blank" rel="noopener noreferrer">指南&gt;功能&gt;评论</a><br>
+<strong>盒子小屋</strong>🏠 采用了 <a href="https://theme-hope.vuejs.press/zh/guide/feature/comment.html#waline" target="_blank" rel="noopener noreferrer">Waline</a> | <a href="https://plugin-comment2.vuejs.press/zh/guide/waline.html" target="_blank" rel="noopener noreferrer">配置指南</a> | <a href="https://waline.js.org/" target="_blank" rel="noopener noreferrer">官网文档</a></p>
+</blockquote>
+<h2> 快速部署</h2>
+<h3> 注册LeanCloud (数据库)</h3>
+<ol>
+<li><a href="https://console.leancloud.app/login" target="_blank" rel="noopener noreferrer">登录</a> 或 <a href="https://console.leancloud.app/register" target="_blank" rel="noopener noreferrer">注册</a> <code>LeanCloud 国际版</code> 。推荐使用国际版，否则需要为应用额外绑定<strong>已备案</strong>的域名，同时购买独立 IP 并完成备案接入<br>
+</li>
+<li>进入 <a href="https://console.leancloud.app/applist.html#/apps" target="_blank" rel="noopener noreferrer">控制台</a> 后点击左上角 <a href="https://console.leancloud.app/applist.html#/newapp" target="_blank" rel="noopener noreferrer">创建应用</a>。起一个喜欢的名字 (选择免费的开发版):<br>
+</li>
+<li>创建应用后进入该应用，选择左下角的 <code>设置</code> &gt; <code>应用凭证</code>，然后记下 <code>APP ID</code>,<code>APP Key</code> 和 <code>Master Key</code>。转至 Vercel 进行快速部署。<br>
+</li>
+</ol>
+<h3> Vercel 部署服务</h3>
+<ol>
+<li>
+<p>转至 <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample" target="_blank" rel="noopener noreferrer">Vercel</a> 进行 Server 端部署，用 GitHub 账户进行快捷登录。输入一个喜欢的 Vercel 项目名称并点击 <code>Create</code> 继续<br>
+</p>
+</li>
+<li>
+<p>此时 Vercel 会基于 Waline 模板新建并初始化GitHub仓库，仓库名为你之前输入的项目名。</p>
+<p>构建中<br>
+</p>
+<p>构建完成后，Github中可以看到创建对应私有仓库<br>
+</p>
+<p>满屏的烟花会庆祝你部署成功。此时点击 <code>Go to Dashboard</code> 可以跳转到应用的控制台。<br>
+</p>
+</li>
+<li>
+<p>点击顶部的 <code>Settings</code> - <code>Environment Variables</code> 进入环境变量配置页，并配置三个环境变量 <code>LEAN_ID</code>, <code>LEAN_KEY</code> 和 <code>LEAN_MASTER_KEY</code> 。它们的值分别对应上一步在 LeanCloud 中获得的 <code>APP ID</code>, <code>APP KEY</code>, <code>Master Key</code>。<br>
+</p>
+<p>如果使用 LeanCloud 国内版，额外配置 <code>LEAN_SERVER</code> 环境变量，值为绑定好的域名。</p>
+</li>
+<li>
+<p>环境变量配置完成之后点击顶部的 <code>Deployments</code> 点击顶部最新的一次部署右侧的 <code>Redeploy</code> 按钮进行重新部署。该步骤是为了让刚才设置的环境变量生效。<br>
+</p>
+</li>
+<li>
+<p>等待片刻后 <code>STATUS</code> 会变成 <code>Ready</code>。此时请点击 <code>Visit</code> ，即可跳转到部署好的网站地址，此地址即为你的服务端地址。<br>
+</p>
+<p>如果<code>Visit</code> 跳转地址显示无法访问，这是因为vercel.app的域名被墙了，可以利用翻墙访问。</p>
+<p>推荐还是在vercel的 <code>Settings</code> - <code>Domains</code> 进入域名配置页<strong>绑定自己的域名</strong>，不用翻墙也可以访问。</p>
+</li>
+</ol>
+<h3> 绑定域名</h3>
+<ol>
+<li>
+<p>在域名服务器商处添加新的 <code>CNAME</code> 解析记录</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Type</th>
+<th style="text-align:center">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">example</td>
+<td style="text-align:center">CNAME</td>
+<td style="text-align:center"><a href="http://cname.vercel-dns.com" target="_blank" rel="noopener noreferrer">cname.vercel-dns.com</a></td>
+</tr>
+</tbody>
+</table>
+<p>例如：<br>
+</p>
+</li>
+<li>
+<p>点击Vercel后台顶部的 <code>Settings</code> - <code>Domains</code> 进入域名配置页，输入需要绑定的域名并点击 <code>Add</code><br>
+</p>
+</li>
+<li>
+<p>等待生效，可以通过自己的域名来访问了🎉</p>
+<ul>
+<li>评论系统：example.&lt;你的域名&gt;.com</li>
+<li>评论管理：example.&lt;你的域名&gt;.com/ui</li>
+</ul>
+<figure><figcaption>13</figcaption></figure>
+</li>
+</ol>
+<h3> 引入Waline客户端</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>基础功能完成🎉<br>
+</p>
+<p>Waline 评论的其他配置将在 <a href="https://plugin-comment2.vuejs.press/zh/config/waline.html" target="_blank" rel="noopener noreferrer">主题插件配置</a> | <a href="https://waline.js.org/reference/client/props.html" target="_blank" rel="noopener noreferrer">waline官网组件属性</a> 中列出。</p>
+<h2> 后台管理</h2>
+<h3> 评论管理</h3>
+<ol>
+<li>
+<p>部署完成后，请访问 <code>&lt;serverURL&gt;/ui/register</code> 进行注册。首个注册的人会被设定成管理员。</p>
+<p>例如：盒子博客评论的后台管理地址是 <a href="https://waline.cailei.site/ui" target="_blank" rel="noopener noreferrer">https://waline.cailei.site/ui</a><br>
+</p>
+</li>
+<li>
+<p>管理员登陆后，即可看到评论管理界面。在这里可以修改、标记或删除评论。<br>
+</p>
+</li>
+</ol>
+<h3> 用户管理</h3>
+<p><strong>管理员账号</strong>，可对评论系统用户进行管理，设置管理员和添加专属标签<br>
+</p>
+<h3> 普通用户后台</h3>
+<p>普通用户也可通过评论框注册账号。</p>
+<p><br>
+登陆后会点击头像，会跳转到自己的档案页，设置自己的昵称、主页、专属标签。<br>
+</p>
+<h2> 数据管理</h2>
+<h3> 多数据库服务</h3>
+<p>除了官方默认的 LeanCloud 之外，Waline 还支持多种数据库，包括 MySQL, PostgreSQL, SQLite 以及 MongoDB等。详细参考Waline的 <a href="https://waline.js.org/guide/database.html" target="_blank" rel="noopener noreferrer">多数据库服务支持</a></p>
+<h3> 管理数据</h3>
+<p>盒子博客评论区的数据使用了 <a href="https://www.leancloud.cn/" target="_blank" rel="noopener noreferrer">LeanCloud</a></p>
+<ol>
+<li>进入到自己的应用<br>
+</li>
+<li>可以对游客反馈、浏览量、评论信息之类的数据进行手动修改<br>
+</li>
+</ol>
+<h2> 开通评论通知服务</h2>
+<h3> 介绍</h3>
+<p>当有用户发布评论或者用户回复评论时，Waline 支持对博主和回复评论作者进行通知。</p>
+<ul>
+<li>博主通知支持多种方式，包括 <a href="https://waline.js.org/guide/features/notification.html#%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">邮件</a> | <a href="https://waline.js.org/guide/features/notification.html#%E5%BE%AE%E4%BF%A1%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">微信</a> | <a href="https://waline.js.org/guide/features/notification.html#%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E5%BA%94%E7%94%A8%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">企业微信</a> | <a href="https://waline.js.org/guide/features/notification.html#qq-%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">QQ</a> | <a href="https://waline.js.org/guide/features/notification.html#telegram-%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">Telegram</a> | <a href="https://waline.js.org/guide/features/notification.html#pushplus-%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">PushPlus </a> | <a href="https://waline.js.org/guide/features/notification.html#discord-%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">Discord</a> | <a href="https://waline.js.org/guide/features/notification.html#%E9%A3%9E%E4%B9%A6%E9%80%9A%E7%9F%A5" target="_blank" rel="noopener noreferrer">飞书</a></li>
+<li>当访客的评论收到回复时，会对访客进行邮件通知。</li>
+</ul>
+<p>盒子先生采用了 <strong>PushPlus</strong> 通知， <a href="http://www.pushplus.plus/" target="_blank" rel="noopener noreferrer">pushplus</a> 集成了微信、企业微信、钉钉、短信、邮件等渠道的信息推送平台。需要配置以下几个环境变量，具体的参数格式见 <a href="http://www.pushplus.plus/doc/guide/api.html#%E4%B8%80%E3%80%81%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%E6%8E%A5%E5%8F%A3" target="_blank" rel="noopener noreferrer">pushplus文档</a> ：</p>
+<ul>
+<li><code>PUSH_PLUS_KEY</code>： 用户令牌，即 <code>token</code>，必填。</li>
+<li><code>PUSH_PLUS_TOPIC</code>：群组编码，不填仅发送给自己；channel 为 webhook 时无效</li>
+<li><code>PUSH_PLUS_TEMPLATE</code>：发送模板默认值html</li>
+<li><code>PUSH_PLUS_CHANNEL</code>：发送渠道</li>
+<li><code>PUSH_PLUS_WEBHOOK</code>：webhook 编码，仅在 channel 使用 webhook 渠道和 CP 渠道时需要填写</li>
+<li><code>PUSH_PLUS_CALLBACKURL</code>：发送结果回调地址</li>
+<li><code>AUTHOR_EMAIL</code>: 博主邮箱，用来区分发布的评论是否是博主本身发布的。如果是博主发布的则不进行提醒通知。</li>
+<li><code>SITE_NAME</code>: 网站名称，用于在消息中显示。</li>
+<li><code>SITE_URL</code>: 网站地址，用于在消息中显示。</li>
+</ul>
+<h3> 开通PushPlus</h3>
+<p>盒子先生采用<strong>PushPlus</strong> 的<strong>邮件通知</strong></p>
+<ol>
+<li>
+<p>使用微信扫码登录<a href="http://www.pushplus.plus/login.html" target="_blank" rel="noopener noreferrer">pushplus</a> 可以在后台对邮件通知的渠道进行测试，获取到token<br>
+</p>
+<p>使用邮件渠道推送消息需要消息的接收方配置好自己的邮箱地址，否则将无法推送消息。<br>
+在一对多的群组中如部分接收用户未配置邮箱，不会影响其他已配置用户的接收。</p>
+</li>
+<li>
+<p>点击<strong>pushplus 推送加</strong>公众号菜单里面的“功能”&gt;“个人中心”&gt;“个人资料”&gt;“邮箱” 绑定自己的邮箱。<br>
+</p>
+</li>
+<li>
+<p>输入自己的“邮箱地址”，系统会发送一份验证邮件到绑定的邮箱中。登录自己的邮箱，点击验证邮件正文中的链接。</p>
+<figure><figcaption>18</figcaption></figure>
+</li>
+</ol>
+<h3> 配置vercel环境变量</h3>
+<ol>
+<li>转至vercel点击项目顶部的 <code>Settings</code> - <code>Environment Variables</code> 进入环境变量配置页，盒子先生没有回调地址，没有群组，发送模板采用默认，所以只配置了<code>PUSH_PLUS_KEY</code> ，<code>PUSH_PLUS_CHANNEL</code> ，<code>AUTHOR_EMAIL</code>，<code>SITE_NAME</code> 和<code>SITE_URL</code></li>
+</ol>
+<figure><figcaption>19</figcaption></figure>
+<p>2.环境变量配置完成之后点击顶部的 <code>Deployments</code> 点击顶部最新的一次部署右侧的 <code>Redeploy</code> 按钮进行重新部署。该步骤是为了让刚才设置的环境变量生效。<br>
+</p>
+<h3> 测试评论通知</h3>
+<ol>
+<li>
+<p>前往盒子先生博客的评论区，填写评论内容<br>
+</p>
+</li>
+<li>
+<p>接收到邮箱提醒<br>
+</p>
+</li>
+<li>
+<p>跳转到该条评论位置，对评论进行回复<br>
+</p>
+</li>
+<li>
+<p>个人中心、评论通知开关、历史消息等设置，可在<strong>pushplus推送加</strong>公众号中设置</p>
+<figure><figcaption>23</figcaption></figure>
+</li>
+</ol>
+<h2> 维护 📌</h2>
+<h3> 评论区消失</h3>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如果出现评论区消失，无法使用等问题，先检查自己的域名是否过期。<br>
+域名过期，需要在域名服务器商购买新域名，并重新绑定。<br>
+具体步骤参考 <a href="#%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D">绑定域名</a> 和 <a href="#%E5%BC%95%E5%85%A5waline%E5%AE%A2%E6%88%B7%E7%AB%AF">引入Waline客户端</a></p>
+</div>
+<h3> 数据维护</h3>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<ul>
+<li>对评论区的评论和用户管理，可以参考 <a href="#%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86">后台管理</a></li>
+<li>对于数据库的管理，可以参考 <a href="#%E7%AE%A1%E7%90%86%E6%95%B0%E6%8D%AE">管理数据</a></li>
+</ul>
+</div>
+<h3> 通知开关</h3>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>要关闭博客的评论通知功能，参考 <a href="#%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA%E9%80%9A%E7%9F%A5">测试评论通知</a> 中的 <strong>标注4</strong></p>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>铭心石刻二次元随机图API</title>
       <link>https://boxsir.gitee.io/docs/api/kousekiApi.html</link>
@@ -930,66 +1851,6 @@ TenAPI 初始版本	<a href="https://github.com/5ime/API-Admin" target="_blank" 
 ]]></content:encoded>
     </item>
     <item>
-      <title>工程启动时建表和填充数据</title>
-      <link>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">工程启动时建表和填充数据</source>
-      <description>相关信息 SpringBoot工程启动 建表和填充数据</description>
-      <category>笔记</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>SpringBoot工程启动 建表和填充数据</p>
-</div>
-<!-- more -->
-<p>本例适用版本：</p>
-<p>SpringBoot：2.7.4</p>
-<p>Kingbase：8.6.0</p>
-<p>不保证本例在其它版本依然适用</p>
-<p>先决条件：</p>
-<p>SpringBoot工程能与目标DB顺畅连接。</p>
-<p>下面正文开始：</p>
-<p>1.在application.properties中加入以下文字：</p>
-<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>sql.init.mode有always、embedded、never三个选项，一般再需要建表时填always，如果表已经建立完毕须改成never；</p>
-<p>schema-locations是建表语句文件所在，本例中的schema.sql是这样书写的：</p>
-<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>data-locations是给表充值文件所在，本例中data.sql是这样书写的：</p>
-<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上文件的物理位置见下图：<br>
-</p>
-<p>2.以上三处就绪后运行程序，如果报错就检查sql语句有没有纰漏，如果不报错就表示建表成功了</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>SpringBoot全局异常处理</title>
-      <link>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</link>
-      <guid>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot全局异常处理</source>
-      <description>相关信息 SpringBoot全局异常处理</description>
-      <category>笔记</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>SpringBoot全局异常处理</p>
-</div>
-<!-- more -->
-<h2> 1、制造异常</h2>
-<p><strong>除以0</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>我们想让异常结果也显示为统一的返回结果对象，并且统一处理系统的异常信息，那么需要统一异常处理。</p>
-<h2> 2、全局异常处理</h2>
-<h3> 2.1、创建统一异常处理器</h3>
-<p>创建处理类</p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.1、测试</h3>
-<h2> 3、处理特定异常</h2>
-<h3> 3.1、添加异常处理方法</h3>
-<p><strong>GlobalExceptionHandler.java中添加</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.2、测试</h3>
-<h2> 4、处理自定义异常</h2>
-<h3> 4.1、创建自定义异常类</h3>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.2、业务中需要位置抛出</h3>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.3、添加异常处理方法</h3>
-<p><strong>GlobalExceptionHandler.java中添加</strong></p>
-<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>刀客</title>
       <link>https://boxsir.gitee.io/item/web/springBoot/daoke.html</link>
       <guid>https://boxsir.gitee.io/item/web/springBoot/daoke.html</guid>
@@ -1087,6 +1948,133 @@ TenAPI 初始版本	<a href="https://github.com/5ime/API-Admin" target="_blank" 
 <li>完善的日志记录体系简单注解即可实现</li>
 <li>支持服务监控，数据监控，缓存监控功能。</li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>工程启动时建表和填充数据</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/createDatabase.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">工程启动时建表和填充数据</source>
+      <description>相关信息 SpringBoot工程启动 建表和填充数据</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>SpringBoot工程启动 建表和填充数据</p>
+</div>
+<!-- more -->
+<p>本例适用版本：</p>
+<p>SpringBoot：2.7.4</p>
+<p>Kingbase：8.6.0</p>
+<p>不保证本例在其它版本依然适用</p>
+<p>先决条件：</p>
+<p>SpringBoot工程能与目标DB顺畅连接。</p>
+<p>下面正文开始：</p>
+<p>1.在application.properties中加入以下文字：</p>
+<div class="language-yaml line-numbers-mode" data-ext="yml"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>sql.init.mode有always、embedded、never三个选项，一般再需要建表时填always，如果表已经建立完毕须改成never；</p>
+<p>schema-locations是建表语句文件所在，本例中的schema.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>data-locations是给表充值文件所在，本例中data.sql是这样书写的：</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上文件的物理位置见下图：<br>
+</p>
+<p>2.以上三处就绪后运行程序，如果报错就检查sql语句有没有纰漏，如果不报错就表示建表成功了</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SpringBoot全局异常处理</title>
+      <link>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</link>
+      <guid>https://boxsir.gitee.io/notes/after/springBoot/exceptionHandling.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">SpringBoot全局异常处理</source>
+      <description>相关信息 SpringBoot全局异常处理</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>SpringBoot全局异常处理</p>
+</div>
+<!-- more -->
+<h2> 1、制造异常</h2>
+<p><strong>除以0</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>我们想让异常结果也显示为统一的返回结果对象，并且统一处理系统的异常信息，那么需要统一异常处理。</p>
+<h2> 2、全局异常处理</h2>
+<h3> 2.1、创建统一异常处理器</h3>
+<p>创建处理类</p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.1、测试</h3>
+<h2> 3、处理特定异常</h2>
+<h3> 3.1、添加异常处理方法</h3>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.2、测试</h3>
+<h2> 4、处理自定义异常</h2>
+<h3> 4.1、创建自定义异常类</h3>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.2、业务中需要位置抛出</h3>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.3、添加异常处理方法</h3>
+<p><strong>GlobalExceptionHandler.java中添加</strong></p>
+<div class="language-java line-numbers-mode" data-ext="java"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>无线监控小车</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">无线监控小车</source>
+      <description>无线监控小车 1.1 ESP32-CAM ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。</description>
+      <category>项目</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 无线监控小车</h1>
+<h2> 1.1 ESP32-CAM</h2>
+<p>ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。</p>
+<!-- more -->
+<h2> 1.2 OV2640摄像头</h2>
+<p>OV2640摄像头具有200万像素的高分辨率，能够提供清晰、细节丰富的图像，确保捕捉到准确的画面细节，提供高质量的监控和录像。摄像头模块集成了图像处理功能，包括自动曝光、自动白平衡、自动对焦等。这些功能可以自动优化图像质量，使图像在不同的光线条件下保持清晰和准确，获得最佳的图像效果。支持多种输出格式，包括JPEG、YUV、RGB565等，可以选择最合适的图像格式，以便进行进一步的分析和处理。摄像头可以以15帧/秒的速度拍摄2 Megapixels的图像，或以30帧/秒的速度拍摄较低分辨率的图像，这使得无线监控小车能够实时捕捉和传输图像，提供实时监控和响应能力。模块采用了低功耗设计，适用于需要长时间运行的应用场景，提高电池寿命，延长设备的工作时间。</p>
+<h2> 1.3 L298N电机驱动</h2>
+<p>L298N电机驱动芯片提供最大2A的电流输出，可以驱动各种类型和大小的直流电机，包括驱动力较大的电机，非常适合用于运行较重载荷的无线监控小车项目。可以实现直流电机的双向控制，即控制小车的前进、后退和转向。这使得无线监控小车能够在不同的场景中灵活移动和导航，提供更好的监控覆盖范围。通过使用PWM信号来控制电机驱动的输入引脚，可以实现对电机的精确速度控制，调整小车移动速度。L298N电机驱动支持5V至35V的电源电压范围，可以适应不同类型的电源配置，包括使用电池供电的情况，小车在不同的供电环境中都能正常运行。驱动具有过热保护功能，可在电机或芯片过热时自动停止工作，以保护设备的安全性。这在长时间运行或高负载条件下尤为重要，可以延长设备的使用寿命。L298N电机驱动控制逻辑关系如表1所示</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>WiFi天气时钟系统设计</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">WiFi天气时钟系统设计</source>
+      <description>WiFi天气时钟系统设计 1总体结构 本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示</description>
+      <category>项目</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> WiFi天气时钟系统设计</h1>
+<h2> 1总体结构</h2>
+<p>本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示</p>
+<!-- more -->
+<h2> 2系统硬件设计</h2>
+<p>本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</p>
+<h3> 2.1 ESP32芯片</h3>
+<p>选择ESP32作为主控芯片，内置了WIFI和蓝牙的微控芯片。ESP32采用两个哈佛结构Xtensa LX6 CPU构成，拥有双核系统。所有的片上存储器、片外存储器以及外设都分布在两个CPU的数据总线和指令总线上。提供了强大的处理能力和丰富的外设接口，泛应用于物联网等领域。通过其强大的处理能力和多种接口，能够方便地连接到云平台、传感器、外设等设备，并实现各种智能化应用。<br>
+ESP32一共有38个引脚，除去电源引脚外，可用IO引脚为34个。GPIO0到GPIO39用于输入或输出数字信号。GPIO32到GPIO39可用于模拟信号的采集，将模拟信号转换为数字信号。GPIO25和GPIO26用于输出模拟信号，将数字信号转换为模拟信号。UART0_TX、UART0_RX、UART1_TX、UART1_RX、UART2_TX、UART2_RX用于串行通信。GPIO21和GPIO22用于I2C总线通信。GPIO5（SPI0_CLK）、GPIO18（SPI0_CS）、GPIO19（SPI0_MISO）、GPIO23（SPI0_MOSI）用于SPI总线通信。GPIO25（I2S_BCLK）、GPIO26（I2S_LRC）、GPIO22（I2S_DOUT）、GPIO21（I2S_DIN）用于音频相关的数据传输。GPIO0到GPIO19、GPIO21到GPIO23、GPIO25、GPIO26、GPIO27用于产生脉冲宽度调制信号。<br>
+需要注意的是，某些引脚可能有多个功能，并且在使用之前需要根据具体需求进行配置。此外，还有一些特殊引脚，如EN模组的电源使能引脚、VCC供电引脚和GND地引脚。在使用ESP32模组时，还需注意以下几点。ESP32引脚的电压范围为1.8V至3.3V，因此需要确保外部设备与模组的电压兼容。每个引脚的最大电流为12mA，总体最大电流为200mA。在设计电路时，需要注意不要超过这些限制，以免导致模组损坏。引脚具有多个功能，需要正确配置引脚功能以实现所需的功能。在高温环境下可能会过热，需注意散热和温度控制，以确保稳定运行。<br>
+ESP32模组具有强大的功能和丰富的引脚资源，适用于各种应用领域。在使用时，需要根据所需功能和需求，正确配置引脚，并保证电压和电流的合适范围，以确保稳定可靠的运行。</p>
+<h3> 2.2 LCD液晶屏</h3>
+<p>选择1.54寸彩色TFT显示屏高清IPS LCD液晶屏240<em>240模块展示数据信息，分辨率为240</em>240像素。这种高分辨率的显示屏可以产生清晰、细腻的图像和文本显示效果，采用高清IPS（In-Plane Switching）面板技术，可提供更广阔的视角范围和更好的视觉效果。适合用于显示天气信息和时间。<br>
+该显示屏具有较小的尺寸和低功耗、低发热和稳定的显示性能，可以用于各种嵌入式系统、智能手表、可穿戴设备和其他物联网应用。在使用过程中需要确保供电电压符合显示屏的要求，以避免损坏。连接合适的驱动芯片或模块，以实现正确的图像显示和触摸控制功能。有时需要使用转接板来适配显示屏和其他设备之间的接口差异。对于液晶屏模块, 在使用时需避免强烈冲击和大幅度扭曲，以免损坏显示模块。在使用时，需要注意供电电压、驱动控制、转接板以及可靠性问题，以确保显示屏的正常工作和长寿命。<br>
+LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。它具有高清显示、多种显示模式、可编程性等特点。连接LCD液晶屏与ESP32引脚可实现图形和文字信息的显示功能，需要确保正确地对应液晶屏的引脚与ESP32的引脚，以避免错误的连接导致显示异常或引脚损坏。确保为液晶屏和ESP32提供稳定的电源供应，并遵循其规格要求进行电气连接。在设计液晶屏功能时，需要正确配置并调用驱动程序，以确保其能够正确地与ESP32通信。在连接时，需留意其他设备或传感器是否与ESP32使用的引脚有冲突，以避免引脚冲突导致设备无法正常工作。确保正确的引脚对应、供电稳定、正确的屏幕驱动和避免引脚冲突是使用此功能时需要注意的关键点。</p>
+<h3> 2.3 轻触立式按键</h3>
+<p>选择6*6轻触立式按键。是一种较小的按键开关，有减轻使用者的手部负担，使用寿命长，操作简单等特点。这种尺寸适合在有限的空间内嵌入，可以满足紧凑设计的需求。本系统中按键主要用于界面动画风格和配网模式的切换。</p>
+<h2> 3系统软件设计</h2>
+<p>系统中使用到了Arduino平台，采用易于使用的硬件和软件开发工具，以简化电子项目的开发过程。ESP32和Arduino的结合使用，使得开发者能够利用ESP32的功能和Arduino的简洁易用性进行项目开发。使用C++编程语言来开发系统，简化了Arduino的库函数与ESP32的交互。开发环境采用VS Code软件。在VS Code的插件市场中搜索并安装Arduino插件，该插件提供了针对Arduino平台的开发环境和功能，指定ESP32的开发板型号、串口号和波特率，并确保正确配置。使用VS Code的Arduino插件，可以将代码编译和上传代码到ESP32开发板。插件处理编译和连接过程，并将生成的二进制文件通过串口上传到开发板。本系统软件部分的流程图如图2所示</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>燃气报警系统设计</title>
+      <link>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</link>
+      <guid>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">燃气报警系统设计</source>
+      <description>燃气报警系统设计 1 系统总体结构 系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</description>
+      <category>项目</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 燃气报警系统设计</h1>
+<h2> 1 系统总体结构</h2>
+<p>系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</p>
+<!-- more -->
+<h2> 2 系统硬件设计</h2>
+<p>硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</p>
+<h3> 2.1 ESP8266芯片</h3>
+<p>ESP8266成本较低，适用于小型物联网项目的开发。内置了WiFi模组，可以方便地连接到无线网络，实现远程监控和控制，对于燃气报警系统是非常重要的特性。内部搭载了高性能的处理器，能够运行复杂的算法和处理大量的数据。这使得它能够完成燃气传感器数据的处理和分析，进行报警判断和决策。具有多个通用输入输出引脚，可以连接外部传感器和执行器，实现与其他硬件设备的交互。ESP8266支持MicroPython进行编程和开发，具有丰富的开发资源和社区支持，开发燃气报警系统变得更加简单和便捷，可利用现有的库和示例代码进行快速开发。</p>
+<h3> 2.2 MQ-2传感器</h3>
+<p>MQ-2传感器是一种多气体检测器，能够检测多种可燃性气体，如甲烷、液化石油气、丙烷、氢气等。MQ-2具有很高的灵敏度，能够快速、准确地检测到燃气泄漏。能够实时监测环境中的气体浓度，并通过与ESP8266的连接，向系统发送相应的报警信号。具有低功耗特性，可以在长时间运行的情况下保持稳定的性能。MQ-2传感器采用了模拟输出方式，可以直接与ESP8266的模拟输入引脚连接，在硬件上的集成非常简单，且与ESP8266的通信也较为方便。价格相对较低，且易于获得，可以在开发过程中轻松获取所需数量的传感器，降低了项目成本和开发的难度。MQ-2常用的电路有两种，一种使用采用比较器电路监控，另一种为ADC电路检测，本文中采用的是ADC电路检测即将电压信号转化为数字信号，进而转化为精确的烟雾浓度值，ADC转换电路如图2所示。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -1882,73 +2870,6 @@ TenAPI 初始版本	<a href="https://github.com/5ime/API-Admin" target="_blank" 
 <p>修改 store/index.js 中的 state</p>
 </blockquote>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>无线监控小车</title>
-      <link>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</link>
-      <guid>https://boxsir.gitee.io/item/IoT/ESP32/monitorCar.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">无线监控小车</source>
-      <description>无线监控小车 1.1 ESP32-CAM ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。</description>
-      <category>项目</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 无线监控小车</h1>
-<h2> 1.1 ESP32-CAM</h2>
-<p>ESP32-CAM是一款基于ESP32芯片的集成式开发板，搭载了高性能的摄像头，并支持WiFi无线传输，可以实时传输监控画面到远程设备，实现远程监控功能。功能强大且灵活，可以轻松连接其他传感器和执行器，添加更多的智能功能，如红外传感器、超声波传感器等。ESP32-CAM采用低功耗设计，可以长时间运行，适用于电池供电的移动监控小车。具有丰富的IO接口，可以简单地扩展其他硬件模块，如电机驱动器、舵机等，以实现如自动避障、追踪等功能。ESP32-CAM的电路如图2所示。</p>
-<!-- more -->
-<h2> 1.2 OV2640摄像头</h2>
-<p>OV2640摄像头具有200万像素的高分辨率，能够提供清晰、细节丰富的图像，确保捕捉到准确的画面细节，提供高质量的监控和录像。摄像头模块集成了图像处理功能，包括自动曝光、自动白平衡、自动对焦等。这些功能可以自动优化图像质量，使图像在不同的光线条件下保持清晰和准确，获得最佳的图像效果。支持多种输出格式，包括JPEG、YUV、RGB565等，可以选择最合适的图像格式，以便进行进一步的分析和处理。摄像头可以以15帧/秒的速度拍摄2 Megapixels的图像，或以30帧/秒的速度拍摄较低分辨率的图像，这使得无线监控小车能够实时捕捉和传输图像，提供实时监控和响应能力。模块采用了低功耗设计，适用于需要长时间运行的应用场景，提高电池寿命，延长设备的工作时间。</p>
-<h2> 1.3 L298N电机驱动</h2>
-<p>L298N电机驱动芯片提供最大2A的电流输出，可以驱动各种类型和大小的直流电机，包括驱动力较大的电机，非常适合用于运行较重载荷的无线监控小车项目。可以实现直流电机的双向控制，即控制小车的前进、后退和转向。这使得无线监控小车能够在不同的场景中灵活移动和导航，提供更好的监控覆盖范围。通过使用PWM信号来控制电机驱动的输入引脚，可以实现对电机的精确速度控制，调整小车移动速度。L298N电机驱动支持5V至35V的电源电压范围，可以适应不同类型的电源配置，包括使用电池供电的情况，小车在不同的供电环境中都能正常运行。驱动具有过热保护功能，可在电机或芯片过热时自动停止工作，以保护设备的安全性。这在长时间运行或高负载条件下尤为重要，可以延长设备的使用寿命。L298N电机驱动控制逻辑关系如表1所示</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>WiFi天气时钟系统设计</title>
-      <link>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</link>
-      <guid>https://boxsir.gitee.io/item/IoT/ESP32/weatherClock.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">WiFi天气时钟系统设计</source>
-      <description>WiFi天气时钟系统设计 1总体结构 本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示</description>
-      <category>项目</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> WiFi天气时钟系统设计</h1>
-<h2> 1总体结构</h2>
-<p>本系统通过手机连接ESP32上的WiFi模组，实现对系统的配网和城市选择。通过请求网络API获取实时天气数据。通过NTP服务器连接到高精度的时间源，获取同步的精准的时间信息，并在LCD模块上显示。研究主要包括对电子元器件ESP32主控芯片的控制和开发、调试LCD模块的显示效果和交互、硬件电路设计、开发环境配置、软件程序编写、测试和评估系统的性能等方面。该系统具有简单易用、稳定可靠等特点，可以满足人们对智能家居和智能设备的需求。系统总体结构如图1所示</p>
-<!-- more -->
-<h2> 2系统硬件设计</h2>
-<p>本系统采用面包板作为设备搭建平台，直接将电子元器件引脚插入面包板插孔中，通过杜邦线将各个电子元器件链接，快速搭建和修改电子电路。省去焊接和拆焊的过程，不需要直接与高电压接触。电路采用跳线连接，可以减少因接触错误而导致的短路和电击的风险，更加快捷的进行系统的分析，原型设计和实验。系统中LCD屏幕与ESP32主板引脚连接如表1所示</p>
-<h3> 2.1 ESP32芯片</h3>
-<p>选择ESP32作为主控芯片，内置了WIFI和蓝牙的微控芯片。ESP32采用两个哈佛结构Xtensa LX6 CPU构成，拥有双核系统。所有的片上存储器、片外存储器以及外设都分布在两个CPU的数据总线和指令总线上。提供了强大的处理能力和丰富的外设接口，泛应用于物联网等领域。通过其强大的处理能力和多种接口，能够方便地连接到云平台、传感器、外设等设备，并实现各种智能化应用。<br>
-ESP32一共有38个引脚，除去电源引脚外，可用IO引脚为34个。GPIO0到GPIO39用于输入或输出数字信号。GPIO32到GPIO39可用于模拟信号的采集，将模拟信号转换为数字信号。GPIO25和GPIO26用于输出模拟信号，将数字信号转换为模拟信号。UART0_TX、UART0_RX、UART1_TX、UART1_RX、UART2_TX、UART2_RX用于串行通信。GPIO21和GPIO22用于I2C总线通信。GPIO5（SPI0_CLK）、GPIO18（SPI0_CS）、GPIO19（SPI0_MISO）、GPIO23（SPI0_MOSI）用于SPI总线通信。GPIO25（I2S_BCLK）、GPIO26（I2S_LRC）、GPIO22（I2S_DOUT）、GPIO21（I2S_DIN）用于音频相关的数据传输。GPIO0到GPIO19、GPIO21到GPIO23、GPIO25、GPIO26、GPIO27用于产生脉冲宽度调制信号。<br>
-需要注意的是，某些引脚可能有多个功能，并且在使用之前需要根据具体需求进行配置。此外，还有一些特殊引脚，如EN模组的电源使能引脚、VCC供电引脚和GND地引脚。在使用ESP32模组时，还需注意以下几点。ESP32引脚的电压范围为1.8V至3.3V，因此需要确保外部设备与模组的电压兼容。每个引脚的最大电流为12mA，总体最大电流为200mA。在设计电路时，需要注意不要超过这些限制，以免导致模组损坏。引脚具有多个功能，需要正确配置引脚功能以实现所需的功能。在高温环境下可能会过热，需注意散热和温度控制，以确保稳定运行。<br>
-ESP32模组具有强大的功能和丰富的引脚资源，适用于各种应用领域。在使用时，需要根据所需功能和需求，正确配置引脚，并保证电压和电流的合适范围，以确保稳定可靠的运行。</p>
-<h3> 2.2 LCD液晶屏</h3>
-<p>选择1.54寸彩色TFT显示屏高清IPS LCD液晶屏240<em>240模块展示数据信息，分辨率为240</em>240像素。这种高分辨率的显示屏可以产生清晰、细腻的图像和文本显示效果，采用高清IPS（In-Plane Switching）面板技术，可提供更广阔的视角范围和更好的视觉效果。适合用于显示天气信息和时间。<br>
-该显示屏具有较小的尺寸和低功耗、低发热和稳定的显示性能，可以用于各种嵌入式系统、智能手表、可穿戴设备和其他物联网应用。在使用过程中需要确保供电电压符合显示屏的要求，以避免损坏。连接合适的驱动芯片或模块，以实现正确的图像显示和触摸控制功能。有时需要使用转接板来适配显示屏和其他设备之间的接口差异。对于液晶屏模块, 在使用时需避免强烈冲击和大幅度扭曲，以免损坏显示模块。在使用时，需要注意供电电压、驱动控制、转接板以及可靠性问题，以确保显示屏的正常工作和长寿命。<br>
-LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。它具有高清显示、多种显示模式、可编程性等特点。连接LCD液晶屏与ESP32引脚可实现图形和文字信息的显示功能，需要确保正确地对应液晶屏的引脚与ESP32的引脚，以避免错误的连接导致显示异常或引脚损坏。确保为液晶屏和ESP32提供稳定的电源供应，并遵循其规格要求进行电气连接。在设计液晶屏功能时，需要正确配置并调用驱动程序，以确保其能够正确地与ESP32通信。在连接时，需留意其他设备或传感器是否与ESP32使用的引脚有冲突，以避免引脚冲突导致设备无法正常工作。确保正确的引脚对应、供电稳定、正确的屏幕驱动和避免引脚冲突是使用此功能时需要注意的关键点。</p>
-<h3> 2.3 轻触立式按键</h3>
-<p>选择6*6轻触立式按键。是一种较小的按键开关，有减轻使用者的手部负担，使用寿命长，操作简单等特点。这种尺寸适合在有限的空间内嵌入，可以满足紧凑设计的需求。本系统中按键主要用于界面动画风格和配网模式的切换。</p>
-<h2> 3系统软件设计</h2>
-<p>系统中使用到了Arduino平台，采用易于使用的硬件和软件开发工具，以简化电子项目的开发过程。ESP32和Arduino的结合使用，使得开发者能够利用ESP32的功能和Arduino的简洁易用性进行项目开发。使用C++编程语言来开发系统，简化了Arduino的库函数与ESP32的交互。开发环境采用VS Code软件。在VS Code的插件市场中搜索并安装Arduino插件，该插件提供了针对Arduino平台的开发环境和功能，指定ESP32的开发板型号、串口号和波特率，并确保正确配置。使用VS Code的Arduino插件，可以将代码编译和上传代码到ESP32开发板。插件处理编译和连接过程，并将生成的二进制文件通过串口上传到开发板。本系统软件部分的流程图如图2所示</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>燃气报警系统设计</title>
-      <link>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</link>
-      <guid>https://boxsir.gitee.io/item/IoT/ESP8266/gasAlarm.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">燃气报警系统设计</source>
-      <description>燃气报警系统设计 1 系统总体结构 系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</description>
-      <category>项目</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 燃气报警系统设计</h1>
-<h2> 1 系统总体结构</h2>
-<p>系统总体结构主要由硬件设计和软件设计组成。ESP8266作为主控单元，负责数据采集、报警控制和通信功能。MQ-2传感器用于检测环境中的燃气浓度，以实时监测燃气泄漏情况。文字转语音模块，将报警信息转换为可听的语音提示。使用ESP8266的定时器和ADC模块进行数据采集和处理，判断燃气浓度是否超过设定阈值，并触发报警机制。系统总体结构如图1所示。</p>
-<!-- more -->
-<h2> 2 系统硬件设计</h2>
-<p>硬件设计主要包含四个模块，分别是主控模块、燃气浓度采集模块、文字转语音模块和警报模块。主控模块连接到电源，通过3V3引脚供电给燃气浓度采集模块和文字转语音模块。传感器通过A0引脚将读取到的模拟信号，传递给主控模块。主控模块的TX引脚与文字转语音模块的RX引脚相连，TX引脚用于发送数据，RX引脚用于接收数据，文字转语音模块将接收到的数据转为语音信号后传输给警报模块。系统中ESP8266芯片与MQ-2传感器，文字转语音模块的引脚接线如表1所示。</p>
-<h3> 2.1 ESP8266芯片</h3>
-<p>ESP8266成本较低，适用于小型物联网项目的开发。内置了WiFi模组，可以方便地连接到无线网络，实现远程监控和控制，对于燃气报警系统是非常重要的特性。内部搭载了高性能的处理器，能够运行复杂的算法和处理大量的数据。这使得它能够完成燃气传感器数据的处理和分析，进行报警判断和决策。具有多个通用输入输出引脚，可以连接外部传感器和执行器，实现与其他硬件设备的交互。ESP8266支持MicroPython进行编程和开发，具有丰富的开发资源和社区支持，开发燃气报警系统变得更加简单和便捷，可利用现有的库和示例代码进行快速开发。</p>
-<h3> 2.2 MQ-2传感器</h3>
-<p>MQ-2传感器是一种多气体检测器，能够检测多种可燃性气体，如甲烷、液化石油气、丙烷、氢气等。MQ-2具有很高的灵敏度，能够快速、准确地检测到燃气泄漏。能够实时监测环境中的气体浓度，并通过与ESP8266的连接，向系统发送相应的报警信号。具有低功耗特性，可以在长时间运行的情况下保持稳定的性能。MQ-2传感器采用了模拟输出方式，可以直接与ESP8266的模拟输入引脚连接，在硬件上的集成非常简单，且与ESP8266的通信也较为方便。价格相对较低，且易于获得，可以在开发过程中轻松获取所需数量的传感器，降低了项目成本和开发的难度。MQ-2常用的电路有两种，一种使用采用比较器电路监控，另一种为ADC电路检测，本文中采用的是ADC电路检测即将电压信号转化为数字信号，进而转化为精确的烟雾浓度值，ADC转换电路如图2所示。</p>
-]]></content:encoded>
     </item>
     <item>
       <title>主要功能与配置演示</title>

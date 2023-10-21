@@ -2,8 +2,14 @@
 title: 其它
 icon: others
 date: 2023-10-19
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 order: -1
 ---
 

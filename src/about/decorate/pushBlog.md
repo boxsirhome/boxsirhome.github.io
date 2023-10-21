@@ -2,8 +2,14 @@
 title: 上传博客
 icon: upload
 date: 2023-10-06
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 ---
 
 ## 运行博客

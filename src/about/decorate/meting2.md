@@ -2,8 +2,14 @@
 title: 音乐播放器
 icon: player
 date: 2023-10-14
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 ---
 
 > **盒子小屋**:house: 的音乐播放器插件来自 [vuepress-plugin-Meting2](https://github.com/OrageKK/vuepress-plugin-meting2):pray: 支持vuepress2. x

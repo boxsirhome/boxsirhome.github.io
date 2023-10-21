@@ -2,8 +2,14 @@
 title: 添加仓库
 icon: warehouse
 date: 2023-10-07
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 ---
 
 ## 引入卡片组件

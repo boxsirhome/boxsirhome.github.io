@@ -2,8 +2,14 @@
 title: Waline评论
 icon: waline
 date: 2023-09-24
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 ---
 
 > VuePress-Theme-Hope主题的评论服务目前可以从 Giscus、Waline、Twikoo 和 Artalk 中选择。具体实现参考主题的[指南>功能>评论](https://theme-hope.vuejs.press/zh/guide/feature/comment.html)

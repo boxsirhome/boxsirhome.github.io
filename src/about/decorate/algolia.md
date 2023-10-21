@@ -2,8 +2,14 @@
 title: Algolia搜索
 icon: algolia
 date: 2023-10-12
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 ---
 
 > VuePress-Theme-Hope主题对 `vuepress-plugin-search-pro`，`@vuepress/plugin-docsearch` 和`@vuepress/plugin-search` 三种搜索插件提供了内置支持。具体实现参考主题的[指南>功能>搜索](https://theme-hope.vuejs.press/zh/guide/feature/search.html)

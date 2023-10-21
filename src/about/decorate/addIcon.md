@@ -2,8 +2,14 @@
 title: 添加图标
 icon: iconfont
 date: 2023-10-12
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 ---
 
 > 整个主题在多处都添加了 FontClass / 图片 格式图标的支持。

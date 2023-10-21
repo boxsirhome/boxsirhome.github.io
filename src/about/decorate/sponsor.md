@@ -2,8 +2,14 @@
 title: Sponsor赞赏
 icon: sponsor
 date: 2023-10-13
+isOriginal: true 
 breadcrumb: false
-article: false
+article: true
+sticky: false
+star: false
+timeline: false
+category:
+  - 小屋装修
 ---
 
 >VuePress-Theme-Hope主题，当在 [行为选项](https://theme-hope.vuejs.press/zh/config/theme/behavior.html) 中设置 `{ custom: true }` 时，主题将通过 `@theme-hope` 别名来引入组件，所以你可以利用这一点来替换主题的任何一个组件。
