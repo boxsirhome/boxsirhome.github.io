@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "isolatedModules": true,
-    "module": "esnext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "target": "ES2020",
     "baseUrl": "./",
     "paths": {
@@ -16,10 +16,7 @@
     ]
   },
   "include": [
-    "env.d.ts",
-    "src/.vuepress/**/*.ts",
-    "src/.vuepress/**/*.js",
-    "src/.vuepress/**/*.vue"
+    "src/.vuepress/**/*",
   ],
   "exclude": ["node_modules", "dist", "draft"]
 }

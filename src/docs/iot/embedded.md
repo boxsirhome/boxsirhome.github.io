@@ -6,7 +6,7 @@ sticky: false
 star: false
 timeline: false
 category:
-  - 笔记
+  - 资料
 tag:
   - IOT
 ---

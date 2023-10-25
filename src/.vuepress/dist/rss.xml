@@ -6,15 +6,15 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 21 Oct 2023 03:33:49 GMT</pubDate>
-    <lastBuildDate>Sat, 21 Oct 2023 03:33:49 GMT</lastBuildDate>
+    <pubDate>Wed, 25 Oct 2023 10:53:18 GMT</pubDate>
+    <lastBuildDate>Wed, 25 Oct 2023 10:53:18 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>小屋装修</category>
     <category>资料</category>
-    <category>笔记</category>
     <category>小屋地图</category>
     <category>项目</category>
+    <category>笔记</category>
     <category>使用指南</category>
     <item>
       <title>添加图标</title>
@@ -589,6 +589,29 @@
 </ul>
 <details class="hint-container details"><summary>示例</summary>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<h2> 通知组件</h2>
+<blockquote>
+<p>来自 <strong>theme-hope</strong> 主题文档 <a href="https://plugin-components.vuejs.press/zh/guide/notice.html" target="_blank" rel="noopener noreferrer">components插件</a><br>
+参考了 <a href="https://github.com/dromara/fast-request" target="_blank" rel="noopener noreferrer">dromara</a> 路径下 <code>/fast-request/blob/master/docs/.vuepress/theme.ts</code></p>
+</blockquote>
+<p>你可以为站点的不同路径设置多个公告，请设置插件选项的<code>rootComponents.notice</code>为公告配置数组。<br>
+每个公告配置需要包含一个<code>path</code>或<code>match</code>选项，用于匹配路径。<code>path</code>选项为字符串，匹配所有以此开头的路径，<code>match</code>选项为正则表达式，匹配相符的所有路路径。<br>
+其他的公告配置包括:</p>
+<ul>
+<li><code>title</code>: 通知标题，支持文本和 HTMLString</li>
+<li><code>content</code>: 通知内容，支持文本和 HTMLString</li>
+<li><code>actions</code>: 通知操作<br>
+包含以下内容的对象数组:
+<ul>
+<li><code>text</code>: 动作文本</li>
+<li><code>link</code> (可选): 操作链接。</li>
+<li><code>Pathname</code> 会被当作内部路由链接由 router 处理，绝对链接会被当作外部链接在新窗口打开。</li>
+<li><code>type</code> (可选): "default" 或 "primary"，默认值为 "default"。</li>
+</ul>
+</li>
+</ul>
+<details class="hint-container details"><summary>示例</summary>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
 ]]></content:encoded>
     </item>
     <item>
@@ -1115,7 +1138,7 @@ TenAPI 初始版本	<a href="https://github.com/5ime/API-Admin" target="_blank" 
       <guid>https://boxsir.gitee.io/docs/iot/embedded.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">嵌入式相关项目、库、资料</source>
       <description>嵌入式相关项目、库、资料 学习初期最难找的就是找学习资料了，本贴精心汇总了一些嵌入式相关资源，包括但不限于编程语言、单片机、开源项目、物联网、操作系统、Linux、计算机等资源，并且在不断地更新中，致力于打造全网最全的嵌入式资料库。有好的嵌入式相关资源的朋友欢迎做贡献，利人利己。 收录公开资料仅为了方便大家进行学习。如果你认为本仓库的一些文件侵犯了您的权益，请 向我反馈 。我将会从仓库中彻底清除这些文件。 以下为最新资料汇总： gitee：https://gitee.com/zhengnianli/EmbedSummary github：https://github.com/zhengnianli/EmbedSummary</description>
-      <category>笔记</category>
+      <category>资料</category>
       <pubDate>Thu, 19 Oct 2023 09:08:32 GMT</pubDate>
       <content:encoded><![CDATA[<h1> 嵌入式相关项目、库、资料</h1>
 <p>学习初期最难找的就是找学习资料了，本贴精心汇总了一些嵌入式相关资源，包括但不限于编程语言、单片机、开源项目、物联网、操作系统、Linux、计算机等资源，并且在不断地更新中，致力于打造全网最全的嵌入式资料库。有好的嵌入式相关资源的朋友欢迎做贡献，利人利己。</p>

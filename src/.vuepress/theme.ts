@@ -141,23 +141,42 @@ export default hopeTheme({
       ],
     },
 
-    components: {                 // 你想使用的组件
+    components: {                 // 你想使用的组件，
       components: [
-        "ArtPlayer",
+        // "ArtPlayer",
         "AudioPlayer",
         "Badge",
-        "BiliBili",
-        "CodePen",
+        // "BiliBili",
+        // "CodePen",
         "PDF",
-        "Replit",
-        "Share",
-        "SiteInfo",
-        "StackBlitz",
+        // "Replit",
+        // "Share",
+        // "SiteInfo",
+        // "StackBlitz",
         // "VidStack",
-        "VideoPlayer",
-        "XiGua",
-        "YouTube",
+        // "VideoPlayer",
+        // "XiGua",
+        // "YouTube",
       ],
+      rootComponents:{
+          notice: [
+            {
+              path: "/",
+              title: "🎉欢迎光临🎉",
+              content:
+                '能为小屋添砖加瓦吗<br>'+'<img src="/assets/medias/AliPayQR.png" width="100" height="100">'+'<img src="/assets/medias/WeChanSQ.png" width="100" height="100">',
+              actions: [
+                {
+                  text: "赞赏名单→",
+                  link: "/social/sponsor",
+                  type: "default",
+                },
+              ],
+              showOnce: false,
+              key: "2023.10.25",
+            },
+          ]
+      }
     },
 
     pwa: {                           // PWA

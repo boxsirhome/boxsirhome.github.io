@@ -11,8 +11,8 @@
           </div>
           <div id="drinks-button-box" class="tr3 left-100">
             <div id="drinks-button-bg" class="left-100"></div>
-            <div id="github-box">
-              <!-- <a :href="githubLink" target="_blank">Github</a>  -->
+            <div id="link-box">
+              <a :href="sponsorLink">sponsorLink</a> 
             </div>
             <ul id="donate-buttons" class="list tr3">
               <li id="paypal_donate">
@@ -34,7 +34,7 @@
   <script setup lang="ts">
   import { ref, reactive, computed, onMounted } from "vue";
   import { useWindowSize } from "@theme-hope/composables/index";
-  const githubLink = "https://github.com/OrageKK/sponsor-page";
+  const sponsorLink = "/social/sponsor";
   const paypalLink = "https://paypal.me/leekbox?country.x=C2&locale.x=zh_XC";
   const qrCodes = reactive({
     // btc_donate: "/assets/medias/BTCQR.png",
@@ -257,7 +257,7 @@
   }
   
   #donate-buttons a,
-  #github-box a {
+  #link-box a {
     display: block;
   }
   
@@ -293,7 +293,7 @@
     top: 0px;
   }
   
-  #github-box {
+  #link-box {
     width: 32px;
     height: 32px;
     position: absolute;
@@ -315,7 +315,7 @@
     }
   }
   
-  #drinks-button-box:hover #github-box {
+  #drinks-button-box:hover #link-box {
     top: calc(50% - 40px);
     right: 70px;
     transform: rotatez(5deg);

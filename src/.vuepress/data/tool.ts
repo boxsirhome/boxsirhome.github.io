@@ -89,7 +89,7 @@ export const tool: LinkData[] = [
     name: "AI智能中台",
     desc: "领先的AI工具，让你的创作更加丰富。AI3.5和Stable Diffusion对所有用户免费开放。",
     ico: "https://www.ai-yuxin.space/favicon.ico",
-    link: "https://www.ai-yuxin.space/",
+    link: "https://www.yuxin-ai.com/",
   },
   {
     name: "PaperYY",

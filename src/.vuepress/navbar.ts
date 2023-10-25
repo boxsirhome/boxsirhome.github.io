@@ -83,6 +83,7 @@ export default navbar([
       { text: "友链", icon: "friendLink", link: "/friend" },
       { text: "留言", icon: "comment", link: "/guestbook" },
       { text: "订阅", icon: "feed", link: "/feed" },
+      { text: "赞赏", icon: "sponsor", link: "/sponsor" },
     ]
   },
   {

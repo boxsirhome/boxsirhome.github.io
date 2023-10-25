@@ -110,3 +110,51 @@ import HitokotoBlogHero from "vuepress-theme-hope/presets/HitokotoBlogHero.js";
 </template>
 ```
 :::
+
+
+## 通知组件
+
+> 来自 **theme-hope** 主题文档 [components插件](https://plugin-components.vuejs.press/zh/guide/notice.html)
+> 参考了 [dromara](https://github.com/dromara/fast-request) 路径下 `/fast-request/blob/master/docs/.vuepress/theme.ts`
+
+你可以为站点的不同路径设置多个公告，请设置插件选项的`rootComponents.notice`为公告配置数组。
+每个公告配置需要包含一个`path`或`match`选项，用于匹配路径。`path`选项为字符串，匹配所有以此开头的路径，`match`选项为正则表达式，匹配相符的所有路路径。
+其他的公告配置包括:
+- `title`: 通知标题，支持文本和 HTMLString
+- `content`: 通知内容，支持文本和 HTMLString
+- `actions`: 通知操作
+包含以下内容的对象数组:
+  - `text`: 动作文本
+  - `link` (可选): 操作链接。
+  - `Pathname` 会被当作内部路由链接由 router 处理，绝对链接会被当作外部链接在新窗口打开。
+  - `type` (可选): "default" 或 "primary"，默认值为 "default"。
+
+::: details 示例
+```ts
+export default hopeTheme({
+plugins: {
+  components: { 
+    rootComponents:{
+          notice: [
+            {
+              path: "/",
+              title: "通知",
+              content:
+                '这是一则新通知',
+              actions: [
+                {
+                  text: "跳转到",
+                  link: "/",
+                  type: "default",
+                },
+              ],
+              showOnce: false,
+              key: "2023.10.25",
+            },
+          ]
+      }
+  }
+}
+})
+```
+:::
