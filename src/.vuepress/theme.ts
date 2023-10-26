@@ -2,12 +2,9 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
-const GONG_ZHONG_HAO =
-  '<svg t="1694672773540" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="26139" width="128" height="128"><path d="M512 512m-512 0a512 512 0 1 0 1024 0 512 512 0 1 0-1024 0Z" fill="#26BF4C" p-id="26140"></path><path d="M244.224 434.249143c1.609143-4.169143 22.893714 125.147429 121.417143 189.805714l-10.971429 59.904a86.308571 86.308571 0 0 0 70.582857-32.694857v-0.073143c57.636571 16.091429 133.851429 11.702857 233.398858-32.182857 0 0-29.403429 97.426286-85.211429 132.534857-103.424 64.877714-266.386286 34.523429-328.704-73.142857-17.773714-30.573714-46.518857-116.150857-0.512-244.150857z" fill="#FFFFFF" p-id="26141"></path><path d="M669.037714 365.714286a205.312 205.312 0 0 1 128 247.442285c-10.020571 33.865143-30.208 101.668571-154.770285 156.233143-6.656 2.925714 199.533714-250.660571-109.933715-400.310857A249.929143 249.929143 0 0 1 669.037714 365.714286z" fill="#FFFFFF" p-id="26142"></path><path d="M702.683429 323.072c4.681143 5.632-283.428571-72.118857-352.987429 219.428571v-0.219428H349.622857c-2.194286-2.56-57.051429-65.682286-54.784-130.267429A217.965714 217.965714 0 0 1 508.416 219.428571c35.474286 0 106.349714 0 194.267429 103.643429z" fill="#FFFFFF" p-id="26143"></path></svg>';
-const footerICP_HTML = `
-  <a class="footer-icp" href="https://beian.miit.gov.cn" target="_blank">
-  <img alt="备案号" src="/assets/images/beian.png" style="width: 14px;margin-right: 4px;"/>皖ICP备2022002531号
-  </a>`;
+const GONG_ZHONG_HAO = `<svg t="1694672773540" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="26139" width="128" height="128"><path d="M512 512m-512 0a512 512 0 1 0 1024 0 512 512 0 1 0-1024 0Z" fill="#26BF4C" p-id="26140"></path><path d="M244.224 434.249143c1.609143-4.169143 22.893714 125.147429 121.417143 189.805714l-10.971429 59.904a86.308571 86.308571 0 0 0 70.582857-32.694857v-0.073143c57.636571 16.091429 133.851429 11.702857 233.398858-32.182857 0 0-29.403429 97.426286-85.211429 132.534857-103.424 64.877714-266.386286 34.523429-328.704-73.142857-17.773714-30.573714-46.518857-116.150857-0.512-244.150857z" fill="#FFFFFF" p-id="26141"></path><path d="M669.037714 365.714286a205.312 205.312 0 0 1 128 247.442285c-10.020571 33.865143-30.208 101.668571-154.770285 156.233143-6.656 2.925714 199.533714-250.660571-109.933715-400.310857A249.929143 249.929143 0 0 1 669.037714 365.714286z" fill="#FFFFFF" p-id="26142"></path><path d="M702.683429 323.072c4.681143 5.632-283.428571-72.118857-352.987429 219.428571v-0.219428H349.622857c-2.194286-2.56-57.051429-65.682286-54.784-130.267429A217.965714 217.965714 0 0 1 508.416 219.428571c35.474286 0 106.349714 0 194.267429 103.643429z" fill="#FFFFFF" p-id="26143"></path></svg>`;
+const footerICP_HTML = `<a class="footer-icp" href="https://beian.miit.gov.cn" target="_blank"><img alt="备案号" src="/assets/images/beian.png" style="width: 14px;margin-right: 4px;"/>皖ICP备2022002531号</a>`;
+const NOTICE_CONTENT = `<div style="text-align:center;">能为小屋添砖加瓦吗<br><img src="/assets/medias/AliPayQR.png" width="100" height="100"><img src="/assets/medias/WeChanSQ.png" width="100" height="100"></div>`;
 
 export default hopeTheme({
   navbar,                                                       // 导航栏配置
@@ -163,11 +160,10 @@ export default hopeTheme({
             {
               path: "/",
               title: "🎉欢迎光临🎉",
-              content:
-                '能为小屋添砖加瓦吗<br>'+'<img src="/assets/medias/AliPayQR.png" width="100" height="100">'+'<img src="/assets/medias/WeChanSQ.png" width="100" height="100">',
+              content: NOTICE_CONTENT,
               actions: [
                 {
-                  text: "赞赏名单→",
+                  text: "赞赏名单",
                   link: "/social/sponsor",
                   type: "default",
                 },

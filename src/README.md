@@ -15,7 +15,7 @@ head:
       content: 盒子小屋, 盒子先生, Mr.Box Blog, 博客, java, 前端, 物联网, Vue
 projects:
   - icon: /assets/homeProjects/friendLink.svg
-    name: 友情链接
+    name: 友邻链接
     desc: 万里尚为邻
     link: /social/friend
 
@@ -24,15 +24,15 @@ projects:
     desc: 欢迎来留言
     link: /social/guestbook
 
+  - icon: /assets/homeProjects/copyright.svg
+    name: 小屋产权
+    desc: 文章版权协议
+    link: /about/copyright
+
   - icon: /assets/homeProjects/map.svg
     name: 小屋地图
     desc: 目录导航大全
     link: /about/map
-
-  - icon: /assets/homeProjects/aboutMe.svg
-    name: 盒子先生
-    desc: 博主的私人空间
-    link: /about/intro
 
   # - icon: /logo.png
   #   name: 自定义项目
