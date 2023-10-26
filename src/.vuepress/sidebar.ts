@@ -69,7 +69,7 @@ export default sidebar({
     },
     {
       text: "仓库",
-      icon: "project",
+      icon: "warehouse",
       prefix: "/link",
       children: "structure",
     },

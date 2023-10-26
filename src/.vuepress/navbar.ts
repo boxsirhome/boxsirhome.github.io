@@ -97,4 +97,9 @@ export default navbar([
       { text: "小屋地图", icon: "map", link: "/map" },
     ]
   },
+  {
+    text: "健康监控",
+    icon: "safety",
+    link: "https://stats.uptimerobot.com/DDKA6UjJ9J"
+  }
 ]);

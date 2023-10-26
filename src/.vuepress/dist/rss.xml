@@ -6,8 +6,8 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 26 Oct 2023 03:00:29 GMT</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2023 03:00:29 GMT</lastBuildDate>
+    <pubDate>Thu, 26 Oct 2023 11:07:33 GMT</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2023 11:07:33 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>小屋装修</category>
@@ -612,6 +612,30 @@
 </ul>
 <details class="hint-container details"><summary>示例</summary>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></details>
+<h2> 健康监控</h2>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p><strong>盒子小屋</strong>🏠所有动态数据都是取自网络，「盒子先生」无法保证这些接口永久有效。<br>
+期望定期检查指定网站、服务器或其他网络资源的可用性，并提供实时的监控报告和通知。<br>
+所以引用了<a href="https://uptimerobot.com/" target="_blank" rel="noopener noreferrer">uptimerobot</a>平台。</p>
+</div>
+<ul>
+<li>
+<p>网站监控：UptimeRobot 可以定期检测指定网站或服务器的可用性，并记录它们的响应时间和状态。如果网站或服务器无法访问或出现故障，UptimeRobot 将发送通知给管理员。</p>
+</li>
+<li>
+<p>多种监控类型：除了简单的HTTP和HTTPS监控外，UptimeRobot 还支持诸如Ping、TCP端口、关键词和文件完整性等多种监控类型，以帮助用户全面了解目标资源的可用性和运行状况。</p>
+</li>
+<li>
+<p>多个监控节点：UptimeRobot 在全球范围内拥有多个监控节点，可以从不同的地理位置进行监测，确保准确地测试目标资源的可用性。</p>
+</li>
+<li>
+<p>实时报告和统计信息：UptimeRobot 提供实时的监控报告和统计信息，可通过仪表板查看监控历史、平均响应时间、故障次数等指标，帮助用户分析目标资源的性能和可靠性。</p>
+</li>
+<li>
+<p>通知和集成：UptimeRobot 可以通过电子邮件、短信、Slack等多种途径向管理员发送监控报警和通知。此外，UptimeRobot 还支持与其他工具和服务的集成，如Webhooks、API 和第三方整合等。</p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
