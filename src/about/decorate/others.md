@@ -165,6 +165,7 @@ plugins: {
 **盒子小屋**🏠所有动态数据都是取自网络，「盒子先生」无法保证这些接口永久有效。
 期望定期检查指定网站、服务器或其他网络资源的可用性，并提供实时的监控报告和通知。
 所以引用了[uptimerobot](https://uptimerobot.com/)平台。
+想将源代码引入项目，可参考[uptime-status](https://github.com/yb/uptime-status)。
 :::
 - 网站监控：UptimeRobot 可以定期检测指定网站或服务器的可用性，并记录它们的响应时间和状态。如果网站或服务器无法访问或出现故障，UptimeRobot 将发送通知给管理员。
 

@@ -59,3 +59,5 @@ source /etc/profile
 java -version
 ```
 
+## 五、参考文件
+<PDF url="/pdf/linux_install_jdk.pdf"/>

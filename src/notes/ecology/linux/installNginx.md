@@ -13,6 +13,4 @@ tag:
   - Nginx
 ---
 
-::: tip
-文档整理中。。。
-:::
+<PDF url="/pdf/linux_install_Nginx.pdf"/>

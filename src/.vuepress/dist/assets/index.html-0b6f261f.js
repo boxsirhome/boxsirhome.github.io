@@ -1,0 +1,1 @@
+import{_ as n,r as o,o as a,c,b as s,d as e}from"./app-82bc7c55.js";const r={},l=e("div",{class:"hint-container warning"},[e("p",{class:"hint-container-title"},"注意"),e("p",null,"接口均来自于网络，仅供学习交流使用，如有侵权请联系站长删除！")],-1);function _(i,d){const t=o("AutoCatalog");return a(),c("div",null,[l,s(t)])}const p=n(r,[["render",_],["__file","index.html.vue"]]);export{p as default};

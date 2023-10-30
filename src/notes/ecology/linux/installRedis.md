@@ -108,3 +108,7 @@ firewall-cmd --reload
 9.重启服务器
 reboot
 ```
+
+## 9.参考文件
+
+<PDF url="/pdf/linux_install_redis.pdf"/>
