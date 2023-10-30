@@ -6,8 +6,8 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 30 Oct 2023 07:45:16 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2023 07:45:16 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2023 08:03:11 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2023 08:03:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>笔记</category>
@@ -21,14 +21,14 @@
       <link>https://boxsir.gitee.io/notes/after/springBoot/codeNorm.html</link>
       <guid>https://boxsir.gitee.io/notes/after/springBoot/codeNorm.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">阿里巴巴编码规范</source>
-      <description>转自CSDN博主「望山」 (https://blog.csdn.net/weixin_53244569/article/details/122087653) 命名风格 代码命名不能以下划线或者$开头或者结尾 代码命名不能以中文拼音或者中文拼音与英文混合方式 类名使用UpperCamCamelCase风格，但DO、PO、DTO、VO、BO等除外 方法名、...</description>
+      <description>相关信息 转自CSDN博主「望山」</description>
       <category>笔记</category>
       <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<!-- more -->
-<div class="hint-container info">
+      <content:encoded><![CDATA[<div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <p>转自CSDN博主<a href="https://blog.csdn.net/weixin_53244569/article/details/122087653" target="_blank" rel="noopener noreferrer">「望山」</a></p>
 </div>
+<!-- more -->
 <h2> 命名风格</h2>
 <p>代码命名不能以下划线或者$开头或者结尾</p>
 <p>代码命名不能以中文拼音或者中文拼音与英文混合方式</p>
@@ -421,12 +421,13 @@ iBATIS自带的queryForList(String statementName,int start,int size)不推荐使
       <link>https://boxsir.gitee.io/notes/ecology/linux/vim.html</link>
       <guid>https://boxsir.gitee.io/notes/ecology/linux/vim.html</guid>
       <source url="https://boxsir.gitee.io/rss.xml">vim编辑器常用命令</source>
-      <description>vi/vim是什么？ VI是Unix操作系统和类Unix操作系统中最通用的文本编辑器。 VIM编辑器是从VI发展出来的一个性能更强大的文本编辑器。可以主动的以字体颜色辨别语法的正确性，方便程序设计。VIM与VI编辑器完全兼容。 一般模式 以vi打开一个档案就直接进入一般模式了（这是默认的模式）。在这个模式中， 你可以使用『上下左右』按键来移动光标，你可以使用『删除字符』或『删除整行』来处理档案内容， 也可以使用『复制、贴上』来处理你的文件数据。 语法 功能描述 yy 复制光标当前一行 y数字y 复制一段（从光标当前行到后n行） p 箭头移动到目的行粘贴 u 撤销上一步 dd 删除光标当前行 d数字 d 删除光标（含）后多少行 x 剪切一个字母（当前光标），相当于del X 剪切一个字母（当前光标的前一个），相当于Backspace yw 复制一个词 dw 删除一个词 shift+6(^) 移动到行头 shift+4($) 移动到行尾 1+shift+g 移动到页头，数字 shift+g 移动到页尾 数字N+shift+g 移动到目标行</description>
+      <description>vi/vim是什么？ VI是Unix操作系统和类Unix操作系统中最通用的文本编辑器。 VIM编辑器是从VI发展出来的一个性能更强大的文本编辑器。可以主动的以字体颜色辨别语法的正确性，方便程序设计。VIM与VI编辑器完全兼容。</description>
       <category>笔记</category>
       <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2> vi/vim是什么？</h2>
 <p>VI是Unix操作系统和类Unix操作系统中最通用的文本编辑器。<br>
 VIM编辑器是从VI发展出来的一个性能更强大的文本编辑器。可以主动的以字体颜色辨别语法的正确性，方便程序设计。VIM与VI编辑器完全兼容。</p>
+<!-- more -->
 <h2> 一般模式</h2>
 <p>以vi打开一个档案就直接进入一般模式了（这是默认的模式）。在这个模式中， 你可以使用『上下左右』按键来移动光标，你可以使用『删除字符』或『删除整行』来处理档案内容， 也可以使用『复制、贴上』来处理你的文件数据。</p>
 <table>
@@ -2700,6 +2701,120 @@ LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。�
 ]]></content:encoded>
     </item>
     <item>
+      <title>创建仓库</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/create.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/create.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">创建仓库</source>
+      <category>笔记</category>
+      <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>常用的git命令大全</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/frequently.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/frequently.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
+      <category>笔记</category>
+      <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>git合并提交代码</title>
+      <link>https://boxsir.gitee.io/notes/ecology/git/merge.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/git/merge.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">git合并提交代码</source>
+      <category>笔记</category>
+      <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux常用命令</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/frequently.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/frequently.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux常用命令</source>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux下安装jdk</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/installJdk.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/installJdk.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装jdk</source>
+      <description>一、在/usr/local/目录下创建java目录 mkdir /usr/local/java cd /usr/local/java</description>
+      <category>笔记</category>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 一、在/usr/local/目录下创建java目录</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2> 二、下载jdk</h2>
+<p>JDK1.8官网下载地址：<a href="https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html</a></p>
+<p>放到/usr/local/java目录下，并解压</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 三、设置环境变量</h2>
+<p>输入命令配置环境变量</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在编辑模式下(按i键或者insert键进入编辑模式)，在profile文件的最后加上如下配置：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>按Esc退出编辑模式，再按<strong>Shift + :</strong> 输入<strong>wq</strong> 保存并退出</p>
+<p>修改完成后输入命令重新加载配置文件</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 四、使用命令查看是否修改安装成功</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 五、参考文件</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux下安装Nginx</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/installNginx.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/installNginx.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装Nginx</source>
+      <category>笔记</category>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Linux下安装Redis</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/installRedis.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/installRedis.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装Redis</source>
+      <description>1.安装依赖环境 yum install -y gcc</description>
+      <category>笔记</category>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> 1.安装依赖环境</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 2.下载redis包并解压</h2>
+<p>官网下载地址：Download | Redis</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3.进入解压目录并编译</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 4.指定安装目录安装</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 5.通过守护进程方式启动</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 6.设置开机自启动</h2>
+<p>切换到/lib/systemd/system/目录，创建redis.service文件。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>文件内容如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>PS：Type=forking这一句很关键，之前网上试了好多方法都不行。</p>
+<h2> 7.设置开机启动命令</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 8.开放端口</h2>
+<p>防火墙没开的无视</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 9.参考文件</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Linux开放端口</title>
+      <link>https://boxsir.gitee.io/notes/ecology/linux/openPort.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/linux/openPort.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">Linux开放端口</source>
+      <description>以下命令,适用 Centos7开放或者关闭具体端口 首先查看现在所有已开放的端口 开放指定端口 设置完成,下面会出现success,但是这时只是设置成功,还没生效。生效需要重启以下防火墙: 移除指定端口 重启防火墙 关闭防火墙 当需要的端口无法一一开启时,可以直接关闭防火墙 关闭之后,使用命令查看防火墙的状态</description>
+      <category>笔记</category>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- more -->
+<p>以下命令,适用 Centos7开放或者关闭具体端口<br>
+首先查看现在所有已开放的端口</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>开放指定端口</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>设置完成,下面会出现success,但是这时只是设置成功,还没生效。生效需要重启以下防火墙:</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>移除指定端口</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>重启防火墙</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>关闭防火墙<br>
+当需要的端口无法一一开启时,可以直接关闭防火墙</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>关闭之后,使用</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>命令查看防火墙的状态</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Vue简介</title>
       <link>https://boxsir.gitee.io/notes/front/vue/vue.html</link>
       <guid>https://boxsir.gitee.io/notes/front/vue/vue.html</guid>
@@ -3374,120 +3489,6 @@ LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。�
 <p>修改 store/index.js 中的 state</p>
 </blockquote>
 <div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>创建仓库</title>
-      <link>https://boxsir.gitee.io/notes/ecology/git/create.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/git/create.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">创建仓库</source>
-      <category>笔记</category>
-      <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
-      <content:encoded><![CDATA[<!-- more -->
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>常用的git命令大全</title>
-      <link>https://boxsir.gitee.io/notes/ecology/git/frequently.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/git/frequently.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">常用的git命令大全</source>
-      <category>笔记</category>
-      <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
-      <content:encoded><![CDATA[<!-- more -->
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>git合并提交代码</title>
-      <link>https://boxsir.gitee.io/notes/ecology/git/merge.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/git/merge.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">git合并提交代码</source>
-      <category>笔记</category>
-      <pubDate>Thu, 12 Oct 2023 06:25:40 GMT</pubDate>
-      <content:encoded><![CDATA[<!-- more -->
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>Linux常用命令</title>
-      <link>https://boxsir.gitee.io/notes/ecology/linux/frequently.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/linux/frequently.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Linux常用命令</source>
-      <category>笔记</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<!-- more -->
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>Linux下安装jdk</title>
-      <link>https://boxsir.gitee.io/notes/ecology/linux/installJdk.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/linux/installJdk.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装jdk</source>
-      <description>一、在/usr/local/目录下创建java目录 mkdir /usr/local/java cd /usr/local/java</description>
-      <category>笔记</category>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2> 一、在/usr/local/目录下创建java目录</h2>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2> 二、下载jdk</h2>
-<p>JDK1.8官网下载地址：<a href="https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html" target="_blank" rel="noopener noreferrer">https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html</a></p>
-<p>放到/usr/local/java目录下，并解压</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 三、设置环境变量</h2>
-<p>输入命令配置环境变量</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在编辑模式下(按i键或者insert键进入编辑模式)，在profile文件的最后加上如下配置：</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>按Esc退出编辑模式，再按<strong>Shift + :</strong> 输入<strong>wq</strong> 保存并退出</p>
-<p>修改完成后输入命令重新加载配置文件</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 四、使用命令查看是否修改安装成功</h2>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 五、参考文件</h2>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Linux下安装Nginx</title>
-      <link>https://boxsir.gitee.io/notes/ecology/linux/installNginx.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/linux/installNginx.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装Nginx</source>
-      <category>笔记</category>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux下安装Redis</title>
-      <link>https://boxsir.gitee.io/notes/ecology/linux/installRedis.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/linux/installRedis.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Linux下安装Redis</source>
-      <description>1.安装依赖环境 yum install -y gcc</description>
-      <category>笔记</category>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2> 1.安装依赖环境</h2>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 2.下载redis包并解压</h2>
-<p>官网下载地址：Download | Redis</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3.进入解压目录并编译</h2>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 4.指定安装目录安装</h2>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 5.通过守护进程方式启动</h2>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 6.设置开机自启动</h2>
-<p>切换到/lib/systemd/system/目录，创建redis.service文件。</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>文件内容如下：</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>PS：Type=forking这一句很关键，之前网上试了好多方法都不行。</p>
-<h2> 7.设置开机启动命令</h2>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 8.开放端口</h2>
-<p>防火墙没开的无视</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 9.参考文件</h2>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Linux开放端口</title>
-      <link>https://boxsir.gitee.io/notes/ecology/linux/openPort.html</link>
-      <guid>https://boxsir.gitee.io/notes/ecology/linux/openPort.html</guid>
-      <source url="https://boxsir.gitee.io/rss.xml">Linux开放端口</source>
-      <description>以下命令,适用 Centos7开放或者关闭具体端口 首先查看现在所有已开放的端口 开放指定端口 设置完成,下面会出现success,但是这时只是设置成功,还没生效。生效需要重启以下防火墙: 移除指定端口 重启防火墙 关闭防火墙 当需要的端口无法一一开启时,可以直接关闭防火墙 关闭之后,使用命令查看防火墙的状态</description>
-      <category>笔记</category>
-      <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<!-- more -->
-<p>以下命令,适用 Centos7开放或者关闭具体端口<br>
-首先查看现在所有已开放的端口</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>开放指定端口</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>设置完成,下面会出现success,但是这时只是设置成功,还没生效。生效需要重启以下防火墙:</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>移除指定端口</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>重启防火墙</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>关闭防火墙<br>
-当需要的端口无法一一开启时,可以直接关闭防火墙</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>关闭之后,使用</p>
-<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>命令查看防火墙的状态</p>
-]]></content:encoded>
     </item>
     <item>
       <title>主要功能与配置演示</title>

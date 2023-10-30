@@ -12,14 +12,14 @@
         {{ copyright }}&nbsp;|&nbsp;
         <a href="/about/copyright">
           <img alt="CC"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/25px-Cc.logo.circle.svg.png"
+            src="/assets/bgImage/25px-Cc.logo.circle.svg.png"
             width="15" height="15" style="vertical-align:middle;">&nbsp;
           <img alt="BY"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/25px-Cc-by_new.svg.png"
+            src="/assets/bgImage/25px-Cc-by_new.svg.png"
             width="15" height="15" style="vertical-align:middle;">&nbsp;
-          <img alt="NC" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cc-nc.svg/25px-Cc-nc.svg.png"
+          <img alt="NC" src="/assets/bgImage/25px-Cc-nc.svg.png"
             width="15" height="15" style="vertical-align:middle;">&nbsp;
-          <img alt="ND" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cc-nd.svg/25px-Cc-nd.svg.png"
+          <img alt="ND" src="/assets/bgImage/25px-Cc-nd.svg.png"
             width="15" height="15" style="vertical-align:middle;">
         </a>
       </div>

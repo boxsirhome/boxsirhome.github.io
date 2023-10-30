@@ -12,12 +12,12 @@ tag:
   - SpringBoot
 ---
 
-<!-- more -->
-
 
 :::info
 转自CSDN博主[「望山」](https://blog.csdn.net/weixin_53244569/article/details/122087653)
 :::
+
+<!-- more -->
 
 ## 命名风格
 代码命名不能以下划线或者$开头或者结尾
