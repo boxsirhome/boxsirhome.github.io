@@ -145,4 +145,10 @@ export const tool: LinkData[] = [
     ico: "https://www.51.la/favicon.ico",
     link: "ttps://www.51.la/",
   },
+  {
+    name: "PHPStudy（小皮）",
+    desc: "全面重构，全新UI，让天下没有难配的服务器环境十二年公益，初心不改",
+    ico: "https://www.xp.cn/favicon.ico",
+    link: "https://www.xp.cn/download.html",
+  },
 ];

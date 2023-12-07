@@ -21,6 +21,7 @@ export default sidebar({
   "/notes/ecology": "structure",
   "/notes/ecology/linux": "structure",
   "/notes/ecology/git": "structure",
+  "/notes/ecology/node": "structure",
   "/notes/front": "structure",
   "/notes/front/vue": "structure",
 

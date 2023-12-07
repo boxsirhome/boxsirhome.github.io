@@ -6,8 +6,8 @@
     <link>https://boxsir.gitee.io/</link>
     <description>盒子先生的博客</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 30 Oct 2023 08:03:11 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2023 08:03:11 GMT</lastBuildDate>
+    <pubDate>Thu, 07 Dec 2023 06:07:03 GMT</pubDate>
+    <lastBuildDate>Thu, 07 Dec 2023 06:07:03 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>笔记</category>
@@ -589,6 +589,8 @@ VIM编辑器是从VI发展出来的一个性能更强大的文本编辑器。可
 </tr>
 </tbody>
 </table>
+<h2> 模式间转换</h2>
+<figure><figcaption></figcaption></figure>
 ]]></content:encoded>
     </item>
     <item>
@@ -3514,6 +3516,46 @@ LCD液晶屏通过SPI接口的引脚将显示屏模块连接到主控制器。�
 </li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>nvm安装使用</title>
+      <link>https://boxsir.gitee.io/notes/ecology/node/installNvm.html</link>
+      <guid>https://boxsir.gitee.io/notes/ecology/node/installNvm.html</guid>
+      <source url="https://boxsir.gitee.io/rss.xml">nvm安装使用</source>
+      <description>什么是nvm nvm（Node Version Manager）是一款用于管理 Node.js 版本的工具，可以轻松地在一个系统中切换和安装多个 Node.js 版本。使用 nvm 可以让你轻松地升级或降级 Node.js 版本，也可以在同一台机器上同时使用多个版本的 Node.js。 下载及安装配置 下载 https://github.com/coreybutler/nvm-windows/releases</description>
+      <category>笔记</category>
+      <content:encoded><![CDATA[<h2> 什么是nvm</h2>
+<p>nvm（Node Version Manager）是一款用于管理 Node.js 版本的工具，可以轻松地在一个系统中切换和安装多个 Node.js 版本。使用 nvm 可以让你轻松地升级或降级 Node.js 版本，也可以在同一台机器上同时使用多个版本的 Node.js。</p>
+<h2> 下载及安装配置</h2>
+<h3> 下载</h3>
+<p><a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener noreferrer">https://github.com/coreybutler/nvm-windows/releases</a><br>
+</p>
+<h3> 安装</h3>
+<p>接受协议<br>
+<br>
+注意这里：默认安装到C盘，之后就不用配置环境变量了）<br>
+<br>
+<br>
+<br>
+完成可以以下方式检测<br>
+<br>
+如果安装到D盘，则需要配置相对应的环境，如图：（输入相对应的文件位置）<br>
+<br>
+</p>
+<h3> 配置</h3>
+<p>找到nvm文件位置，点开settings.txt<br>
+<br>
+然后在它后面输入以下代码：（这是配置镜像源）</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><figcaption></figcaption></figure>
+<h2> 使用nvm</h2>
+<p>1.先卸载之前的node.js</p>
+<p>2.在刚刚的nvm文件位置打开cmd</p>
+<p>3.输入以下代码查看nvm可安装的node版本</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>4.安装所对应的版本。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>5.切换到安装的版本</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>6.检测是否切换完成，新开一个cmd</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> nvm常用命令</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -27,6 +27,7 @@ export default navbar([
         children: [
           { text: "Linux", icon: "linux", link: "/linux" },
           { text: "Git", icon: "git", link: "/git" },
+          { text: "Node", icon: "node", link: "/node" },
         ],
       }
     ],

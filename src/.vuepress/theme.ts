@@ -14,6 +14,7 @@ export default hopeTheme({
   iconAssets: [                                                 // 全局设置图标资地址，默认的设置：iconAssets: "iconfont"
     "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",          // 默认图标的地址
     "//at.alicdn.com/t/c/font_4261008_dy5fmg7zxcv.css",         // Iconfont 平台,我的项目中"navbar"的图标
+    "//at.alicdn.com/t/c/font_4259881_h1ypiy97tns.css",         // Iconfont 平台,我的项目中"navbar_2"的图标
   ],
   
   logo: "/head.png",                                             // 导航栏图标
