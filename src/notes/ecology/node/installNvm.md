@@ -40,8 +40,8 @@ https://github.com/coreybutler/nvm-windows/releases
 ![](./installNvm/9.png)
 然后在它后面输入以下代码：（这是配置镜像源）
 ```
-node_mirror: https://npm.taobao.org/mirrors/node/
-npm_mirror: https://npm.taobao.org/mirrors/npm/
+node_mirror: https://npmmirror.com/mirrors/node/
+npm_mirror: https://npmmirror.com/mirrors/npm/
 ```
 ![](./installNvm/10.png)
 
