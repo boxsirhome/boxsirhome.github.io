@@ -1,1 +1,0 @@
-import{_ as n,r as o,o as t,c as l,b as s}from"./app-3c6e7926.js";const c={};function _(r,a){const e=o("PDF");return t(),l("div",null,[s(e,{url:"/pdf/linux_install_nodejs.pdf"})])}const f=n(c,[["render",_],["__file","installNode.html.vue"]]);export{f as default};

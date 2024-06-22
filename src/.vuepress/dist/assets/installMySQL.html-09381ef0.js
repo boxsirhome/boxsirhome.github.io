@@ -1,1 +1,0 @@
-import{_ as n,r as t,o as l,c as o,b as c}from"./app-3c6e7926.js";const s={};function _(r,a){const e=t("PDF");return l(),o("div",null,[c(e,{url:"/pdf/linux_install_MySQL.pdf"})])}const i=n(s,[["render",_],["__file","installMySQL.html.vue"]]);export{i as default};
