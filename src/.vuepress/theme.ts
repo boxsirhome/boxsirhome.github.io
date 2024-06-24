@@ -10,7 +10,7 @@ export default hopeTheme({
   navbar,                                                       // 导航栏配置
   sidebar,                                                      // 侧边栏配置
   
-  hostname: "https://boxsir.gitee.io",                          // 部署的域名
+  hostname: "https://boxsirhome.github.io",                          // 部署的域名
   iconAssets: [                                                 // 全局设置图标资地址，默认的设置：iconAssets: "iconfont"
     "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",          // 默认图标的地址
     "//at.alicdn.com/t/c/font_4261008_dy5fmg7zxcv.css",         // Iconfont 平台,我的项目中"navbar"的图标
@@ -18,7 +18,7 @@ export default hopeTheme({
   ],
   
   logo: "/head.png",                                             // 导航栏图标
-  repo: "https://github.com/leekboxsir",                         // 仓库地址
+  repo: "https://github.com/boxsirhome",                         // 仓库地址
   repoLabel: "GitHub",                                           // 导航栏标签类型
   repoDisplay: true,                                             // 是否在导航栏显示仓库链接
   fullscreen: true,                                              // 是否开启全屏模式
@@ -39,7 +39,7 @@ export default hopeTheme({
 
   author: {                                                        // 文章显示的默认作者信息
     name: "盒子先生",
-    url: "https://boxsir.gitee.io"
+    url: "https://boxsirhome.github.io"
   },
 
   blog: {
@@ -52,7 +52,7 @@ export default hopeTheme({
       Email: "mailto:1796535192@qq.com",
       Rss: "/rss.xml",
       Gitee: "https://gitee.com/boxsir",
-      GitHub: "https://github.com/leekboxsir",
+      GitHub: "https://github.com/boxsirhome",
       QQ: "http://wpa.qq.com/msgrd?v=3&uin=1796535192&site=qq&menu=yes",
       Wechat: "/assets/medias/Wechat.png",
       公众号: ["/assets/medias/GongZhongHao.png", GONG_ZHONG_HAO],

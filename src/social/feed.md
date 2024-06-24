@@ -7,7 +7,7 @@ article: false
 ---
 
 ## 本站唯一RSS链接
-https://boxsir.gitee.io/rss.xml
+https://boxsirhome.github.io/rss.xml
 
 ## 什么是RSS？
 根据 [维基百科](https://zh.wikipedia.org/wiki/RSS) ，RSS有以下解释：

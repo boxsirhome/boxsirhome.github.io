@@ -21,8 +21,8 @@ import MyCoverLink from "@MyCoverLink";
 ```yml
 昵称: "盒子小屋",
 简介: "心有山海，静而不争",
-头像: "https://boxsir.gitee.io/logo.png",
-连接: "https://boxsir.gitee.io/"
+头像: "https://boxsirhome.github.io/logo.png",
+连接: "https://boxsirhome.github.io/"
 ```
 
 @tab json
@@ -31,8 +31,8 @@ import MyCoverLink from "@MyCoverLink";
 {
   "name": "盒子小屋",
   "desc": "心有山海，静而不争",
-  "ico": "https://boxsir.gitee.io/logo.png",
-  "link": "https://boxsir.gitee.io/"
+  "ico": "https://boxsirhome.github.io/logo.png",
+  "link": "https://boxsirhome.github.io/"
 }
 ```
 @tab yml
@@ -40,8 +40,8 @@ import MyCoverLink from "@MyCoverLink";
 ```yml
 - name: "盒子小屋",
 - desc: "心有山海，静而不争",
-- ico: "https://boxsir.gitee.io/logo.png",
-- link: "https://boxsir.gitee.io/"
+- ico: "https://boxsirhome.github.io/logo.png",
+- link: "https://boxsirhome.github.io/"
 ```
 
 :::

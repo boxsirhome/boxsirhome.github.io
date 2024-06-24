@@ -10,7 +10,7 @@ export const friends: LinkData[] = [
   {
     "name": "盒子小屋",
     "desc": "心有山海，静而不争",
-    "ico": "https://boxsir.gitee.io/logo.png",
-    "link": "https://boxsir.gitee.io/"
+    "ico": "https://boxsirhome.github.io/logo.png",
+    "link": "https://boxsirhome.github.io/"
   },
 ];
