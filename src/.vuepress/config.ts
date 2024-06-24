@@ -44,9 +44,9 @@ export default defineUserConfig({
     }),
 
     docsearchPlugin({                             // Algolia全文搜索
-      appId: "0VQDGS0S4K",                        // 应用程序标识
-      apiKey: "cfa11ad05ae34956f4464beaa5bfce2c", // 搜索接口密钥
-      indexName: "boxsir-gitee",                  // 索引名称
+      appId: "7X9MPX8PVP",                        // 应用程序标识
+      apiKey: "b77166fa7ba6930b5642995d66fdc1df", // 搜索接口密钥
+      indexName: "boxsirhomeio",                  // 索引名称
       locales: {
         "/": {
           placeholder: "搜素文档",
