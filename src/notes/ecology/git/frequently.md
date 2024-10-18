@@ -14,6 +14,8 @@ tag:                                        # 标签
 
 <!-- more -->
 
+## 常用命令
+
 ```sh
 git init   #初始化
 git clone https://gitee.com/Cai_xiaozhan/springboot_maven_demo.git   #克隆远程项目 
@@ -42,4 +44,14 @@ git branch -d [branch-name]    #删除分支
 git push origin --delete [branch-name]   #删除远程分支
 git merge [branch]   #合并指定分支到当前分支
 git pull --rebase origin dev  #拉取dev分支并且和本地分支做比较
+```
+
+## 停止追踪本地文件
+```sh
+git update-index --assume-unchanged .\box\src\main\resources\application.yml
+```
+
+## 重新追踪该文件
+```sh
+git update-index --no-assume-unchanged .\box\src\main\resources\application.yml
 ```
