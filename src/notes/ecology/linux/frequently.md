@@ -38,3 +38,7 @@ help                                          # 帮助
 exit                                          # 退出
 ctrl+c                                        # 中断执行
 ```
+
+```sh
+tail -fn500 auth-center.log                   #实时查看 auth-center.log 文件的最后 500 行，并在文件更新时持续输出新内容。Ctrl + C退出
+```
