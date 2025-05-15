@@ -63,6 +63,7 @@ export default hopeTheme({
     admin: "boxsir",                                                // 最高权限密码
     config: {
        "/demo": ["cl970812"],
+       "/notes/company": ["cl970812","ldkj2025"]
     },
   },
 

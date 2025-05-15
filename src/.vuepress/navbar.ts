@@ -29,6 +29,13 @@ export default navbar([
           { text: "Git", icon: "git", link: "/git" },
           { text: "Node", icon: "node", link: "/node" },
         ],
+      },
+      {
+        text: "公司笔记",
+        prefix: "/company",
+        children: [
+          { text: "Skill", icon: "decorate", link: "/skill" },
+        ],
       }
     ],
   },
