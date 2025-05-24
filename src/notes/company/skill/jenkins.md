@@ -50,6 +50,7 @@ cd /app/config-center         # 到指定jar包目录下
 
 ```sh
 tail -fn500 config-center.log   #实时查看 auth-center.log 文件的最后 500 行，并在文件更新时持续输出新内容。Ctrl + C退出
+ ps -ef|grep java               #查看系统正在运行的 Java 进程
 ```
 
 参考下图
