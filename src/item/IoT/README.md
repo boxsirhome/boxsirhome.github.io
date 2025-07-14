@@ -7,4 +7,9 @@ article: false
 comment: false
 pageInfo: false
 ---
+
+:::info
+芯片开发的项目
+:::
+
 <AutoCatalog />
