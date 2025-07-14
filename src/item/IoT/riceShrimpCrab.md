@@ -14,7 +14,7 @@ tag:
 ---
 
 
-# **稻虾蟹共生养殖系统项目说明-V1.0**
+# **稻虾蟹共生系统项目说明**
 
 
 
@@ -24,7 +24,7 @@ tag:
 
 ### 主控模块：
 
-<img src="riceShrimpCrab/17.png" alt="图片1" width="700" />
+<img src="./riceShrimpCrab/17.png" alt="图片1" width="700" />
 
 主控板为ESP8266，链接环境温湿度传感器、雾化片驱动、水位传感器、继电器、OLED屏幕
 
@@ -33,8 +33,8 @@ tag:
 #### 1、ESP8266主控板
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/15.png"  width="300" />
-    <img src="riceShrimpCrab/16.png"  width="300" />
+    <img src="./riceShrimpCrab/15.png"  width="300" />
+    <img src="./riceShrimpCrab/16.png"  width="300" />
 </div>
 
 
@@ -45,15 +45,15 @@ CH340资料链接: https://pan.baidu.com/s/10xkZRh0lhhMzrGsPKYjVlw?pwd=l9hj 提�
 #### 2、ESP8266扩展板
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/66.png"  width="300" />
-    <img src="riceShrimpCrab/67.png"  width="300" />
+    <img src="./riceShrimpCrab/66.png"  width="300" />
+    <img src="./riceShrimpCrab/67.png"  width="300" />
 </div>
 
 #### 3、环境温湿度传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/18.png"  width="300" />
-    <img src="riceShrimpCrab/20.png"  width="300" />
+    <img src="./riceShrimpCrab/18.png"  width="300" />
+    <img src="./riceShrimpCrab/20.png"  width="300" />
 </div>
 
 DHT11资料下载链接：https://pan.baidu.com/s/1WdJK13-oJNpTJXn-8sp0DQ?pwd=8889提取码：8889
@@ -63,8 +63,8 @@ DHT11资料下载链接：https://pan.baidu.com/s/1WdJK13-oJNpTJXn-8sp0DQ?pwd=88
 #### 4、水位传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/21.png"  width="300" />
-    <img src="riceShrimpCrab/22.png"  width="300" />
+    <img src="./riceShrimpCrab/21.png"  width="300" />
+    <img src="./riceShrimpCrab/22.png"  width="300" />
 </div>
 
 使用讲解视频，电路图，相关资料链接：
@@ -77,8 +77,8 @@ DHT11资料下载链接：https://pan.baidu.com/s/1WdJK13-oJNpTJXn-8sp0DQ?pwd=88
 #### 5、OLED显示屏
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/9.png"  width="300" />
-    <img src="riceShrimpCrab/10.png"  width="300" />
+    <img src="./riceShrimpCrab/9.png"  width="300" />
+    <img src="./riceShrimpCrab/10.png"  width="300" />
 </div>
 
 新款0.96寸 4管脚 白色 焊好排针  使用说明：https://www.bilibili.com/opus/1019499397834080257
@@ -94,13 +94,12 @@ DHT11资料下载链接：https://pan.baidu.com/s/1WdJK13-oJNpTJXn-8sp0DQ?pwd=88
 #### 6、继电器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/27.png"  width="300" height="300"/>
-    <img src="riceShrimpCrab/28.png"  width="300" height="300"/>
+    <img src="./riceShrimpCrab/27.png"  width="300" height="300"/>
+    <img src="./riceShrimpCrab/28.png"  width="300" height="300"/>
 </div>
-
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/29.png"  width="300" height="300"/>
-    <img src="riceShrimpCrab/30.png"  width="300" height="300"/>
+    <img src="./riceShrimpCrab/29.png"  width="300" height="300"/>
+    <img src="./riceShrimpCrab/30.png"  width="300" height="300"/>
 </div>
 
 
@@ -108,15 +107,12 @@ DHT11资料下载链接：https://pan.baidu.com/s/1WdJK13-oJNpTJXn-8sp0DQ?pwd=88
 #### 7、雾化驱动
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/24.png"  width="300" />
-    <img src="riceShrimpCrab/23.png"  width="300" />
+    <img src="./riceShrimpCrab/24.png"  width="300" />
+    <img src="./riceShrimpCrab/23.png"  width="300" />
 </div>
-
-
-
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/25.png"  width="300" height="300"/>
-    <img src="riceShrimpCrab/26.png"  width="300" height="300"/>
+    <img src="./riceShrimpCrab/25.png"  width="300" height="300"/>
+    <img src="./riceShrimpCrab/26.png"  width="300" height="300"/>
 </div>
 
 
@@ -124,27 +120,27 @@ DHT11资料下载链接：https://pan.baidu.com/s/1WdJK13-oJNpTJXn-8sp0DQ?pwd=88
 #### 8、水泵
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/31.png"  width="300" />
-    <img src="riceShrimpCrab/57.png"  width="300" />
+    <img src="./riceShrimpCrab/31.png"  width="300" />
+    <img src="./riceShrimpCrab/57.png"  width="300" />
 </div>
 
 
 
 #### 9、增氧泵
 
-<img src="riceShrimpCrab/32.png"  width="300" height="300"/>
+<img src="./riceShrimpCrab/32.png"  width="300" height="300"/>
 
 
 
 #### 10、报警器
 
-<img src="riceShrimpCrab/33.png"  width="300" height="300"/>
+<img src="./riceShrimpCrab/33.png"  width="300" height="300"/>
 
 
 
 ### 水质检测模块：
 
-<img src="riceShrimpCrab/0.jpg" alt="图片1" width="700" />
+<img src="./riceShrimpCrab/0.jpg" alt="图片1" width="700" />
 
 以STM32系列单片机为核心设计水质检测系统，自行设计电源，选用PH传感器采集当前水体酸碱度， DS18B20温度采集、浊度传感器、OLED液晶显示，按键设置和蜂鸣器报警提醒构成。主要完成以下工作：
 
@@ -159,8 +155,8 @@ DHT11资料下载链接：https://pan.baidu.com/s/1WdJK13-oJNpTJXn-8sp0DQ?pwd=88
 #### 1、STM32F103C8T6开发板
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/1.png" alt="图片1" width="300" />
-    <img src="riceShrimpCrab/2.png" alt="图片2" width="300" />
+    <img src="./riceShrimpCrab/1.png" alt="图片1" width="300" />
+    <img src="./riceShrimpCrab/2.png" alt="图片2" width="300" />
 </div>
 
 
@@ -174,15 +170,15 @@ STM32F103C8T6数据手册：https://pan.baidu.com/s/13T5tt842yjWaCk66cwV8Pg?pwd=
 #### 2、DS18B20温度传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/3.png" alt="图片1" width="300" />
-    <img src="riceShrimpCrab/4.png" alt="图片2" width="300" />
+    <img src="./riceShrimpCrab/3.png" alt="图片1" width="300" />
+    <img src="./riceShrimpCrab/4.png" alt="图片2" width="300" />
 </div>
 
 
 
 #### 3、PH监测模块+PH电极探头
 
-<img src="riceShrimpCrab/5.png" alt="图片1" width="300" />
+<img src="./riceShrimpCrab/5.png" alt="图片1" width="300" />
 
 使用资料：
 
@@ -195,10 +191,10 @@ STM32F103C8T6数据手册：https://pan.baidu.com/s/13T5tt842yjWaCk66cwV8Pg?pwd=
 #### 4、浊度传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/7.png"  width="300" />
-    <img src="riceShrimpCrab/8.png"  width="300" />
+    <img src="./riceShrimpCrab/7.png"  width="300" />
+    <img src="./riceShrimpCrab/8.png"  width="300" />
 </div>
-<img src="riceShrimpCrab/6.png"  width="300" />
+<img src="./riceShrimpCrab/6.png"  width="300" />
 
 浊度资料链接: https://pan.baidu.com/s/1npfhQQ3SwOPjhHAwqtPSNw?pwd=egc8 
 
@@ -207,8 +203,8 @@ STM32F103C8T6数据手册：https://pan.baidu.com/s/13T5tt842yjWaCk66cwV8Pg?pwd=
 #### 5、OLED显示屏
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/9.png"  width="300" />
-    <img src="riceShrimpCrab/10.png"  width="300" />
+    <img src="./riceShrimpCrab/9.png"  width="300" />
+    <img src="./riceShrimpCrab/10.png"  width="300" />
 </div>
 
 
@@ -216,8 +212,8 @@ STM32F103C8T6数据手册：https://pan.baidu.com/s/13T5tt842yjWaCk66cwV8Pg?pwd=
 #### 6、WIFI模块
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/11.png"  width="300" />
-    <img src="riceShrimpCrab/12.png"  width="300" />
+    <img src="./riceShrimpCrab/11.png"  width="300" />
+    <img src="./riceShrimpCrab/12.png"  width="300" />
 </div>
 
 ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
@@ -227,15 +223,15 @@ ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
 #### 7、蜂鸣器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/94.png"  width="300" />
-    <img src="riceShrimpCrab/95.png"  width="300" />
+    <img src="./riceShrimpCrab/94.png"  width="300" />
+    <img src="./riceShrimpCrab/95.png"  width="300" />
 </div>
 
 #### 8、自锁开关
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/13.png"  width="300" />
-    <img src="riceShrimpCrab/14.png"  width="300" />
+    <img src="./riceShrimpCrab/13.png"  width="300" />
+    <img src="./riceShrimpCrab/14.png"  width="300" />
 </div>
 
 
@@ -247,8 +243,8 @@ ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
 #### 1、溶解氧传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/34.png"  width="300" />
-    <img src="riceShrimpCrab/35.png"  width="300" />
+    <img src="./riceShrimpCrab/34.png"  width="300" />
+    <img src="./riceShrimpCrab/35.png"  width="300" />
 </div>
 
 地址：https://yunya.site/
@@ -260,8 +256,8 @@ ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
 #### 2、风速传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/36.png"  width="300" />
-    <img src="riceShrimpCrab/38.png"  width="300" />
+    <img src="./riceShrimpCrab/36.png"  width="300" />
+    <img src="./riceShrimpCrab/38.png"  width="300" />
 </div>
 
 
@@ -269,8 +265,8 @@ ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
 #### 3、风向传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/39.png"  width="300" />
-    <img src="riceShrimpCrab/37.png"  width="300" />
+    <img src="./riceShrimpCrab/39.png"  width="300" />
+    <img src="./riceShrimpCrab/37.png"  width="300" />
 </div>
 
 
@@ -278,8 +274,8 @@ ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
 #### 4、光照传感器
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/40.png"  width="300" />
-    <img src="riceShrimpCrab/41.png"  width="300" />
+    <img src="./riceShrimpCrab/40.png"  width="300" />
+    <img src="./riceShrimpCrab/41.png"  width="300" />
 </div>
 
 
@@ -287,8 +283,8 @@ ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
 #### 5、有线摄像头
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/42.png"  width="300" />
-    <img src="riceShrimpCrab/43.png"  width="300" />
+    <img src="./riceShrimpCrab/42.png"  width="300" />
+    <img src="./riceShrimpCrab/43.png"  width="300" />
 </div>
 
 
@@ -296,8 +292,8 @@ ESP-01S  使用说明：https://www.bilibili.com/opus/1069977233630691330
 #### 6、ESP32-CAM摄像头
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/44.png"  width="300" />
-    <img src="riceShrimpCrab/45.png"  width="300" />
+    <img src="./riceShrimpCrab/44.png"  width="300" />
+    <img src="./riceShrimpCrab/45.png"  width="300" />
 </div>
 
 ESP32-CAM（带摄像头）  使用教程视频：https://www.bilibili.com/opus/1011714834051366936
@@ -309,8 +305,8 @@ ESP32+ESP32-CAM资料: https://pan.baidu.com/s/1sS52Y4oghFh8jwgl9YQ3eg?pwd=8889 
 ### 供电系统
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/91.png"  width="300" />
-    <img src="riceShrimpCrab/92.png"  width="300" />
+    <img src="./riceShrimpCrab/91.png"  width="300" />
+    <img src="./riceShrimpCrab/92.png"  width="300" />
 </div>
 
 
@@ -318,8 +314,8 @@ ESP32+ESP32-CAM资料: https://pan.baidu.com/s/1sS52Y4oghFh8jwgl9YQ3eg?pwd=8889 
 ### 土壤监测
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/46.png"  width="300" />
-    <img src="riceShrimpCrab/47.png"  width="300" />
+    <img src="./riceShrimpCrab/46.png"  width="300" />
+    <img src="./riceShrimpCrab/47.png"  width="300" />
 </div>
 
 
@@ -327,13 +323,13 @@ ESP32+ESP32-CAM资料: https://pan.baidu.com/s/1sS52Y4oghFh8jwgl9YQ3eg?pwd=8889 
 ### AI小农
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/52.png"  width="300" />
-    <img src="riceShrimpCrab/49.png"  width="300" />
+    <img src="./riceShrimpCrab/52.png"  width="300" />
+    <img src="./riceShrimpCrab/49.png"  width="300" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/50.png"  width="300" />
-    <img src="riceShrimpCrab/51.png"  width="300" />
+    <img src="./riceShrimpCrab/50.png"  width="300" />
+    <img src="./riceShrimpCrab/51.png"  width="300" />
 </div>
 
 
@@ -341,21 +337,21 @@ ESP32+ESP32-CAM资料: https://pan.baidu.com/s/1sS52Y4oghFh8jwgl9YQ3eg?pwd=8889 
 ### 驱鸟车
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/53.png"  width="300" />
-    <img src="riceShrimpCrab/54.png"  width="300" />
+    <img src="./riceShrimpCrab/53.png"  width="300" />
+    <img src="./riceShrimpCrab/54.png"  width="300" />
 </div>
 
 
 
 ### 无人机
 
-<img src="riceShrimpCrab/55.png"  width="300" />
+<img src="./riceShrimpCrab/55.png"  width="300" />
 
 
 
 ### 巡航船
 
-<img src="riceShrimpCrab/56.png"  width="300" />
+<img src="./riceShrimpCrab/56.png"  width="300" />
 
 ## 二、物联网程序开发
 
@@ -585,33 +581,33 @@ void loop() {
 
 将ESP8266通过USB链接电脑
 
-<img src="riceShrimpCrab/60.png"  width="800" />
+<img src="./riceShrimpCrab/60.png"  width="800" />
 
 查询串行端口
 
-<img src="riceShrimpCrab/61.png"  width="800" />
+<img src="./riceShrimpCrab/61.png"  width="800" />
 
-<img src="riceShrimpCrab/62.png"  width="800" />
+<img src="./riceShrimpCrab/62.png"  width="800" />
 
 选择库：打开开发工具-->导入程序-->工具栏(工具)-->开发板-->ESP8266
 
-<img src="riceShrimpCrab/58.png"  width="800" />
+<img src="./riceShrimpCrab/58.png"  width="800" />
 
 开发工具中选择端口：工具-->端口-->串行端口
 
-<img src="riceShrimpCrab/59.png"  width="800" />
+<img src="./riceShrimpCrab/59.png"  width="800" />
 
 编译程序：①和②选择无误后，点击③，出现④表示程序正在编译
 
-<img src="riceShrimpCrab/63.png"  width="800" />
+<img src="./riceShrimpCrab/63.png"  width="800" />
 
 程序上传至开发板：出现①中白色字体内容，表示编程成功，点击②的按钮上传程序到开发板
 
-<img src="riceShrimpCrab/64.png"  width="800" />
+<img src="./riceShrimpCrab/64.png"  width="800" />
 
 程序烧录成功
 
-<img src="riceShrimpCrab/65.png"  width="800" />
+<img src="./riceShrimpCrab/65.png"  width="800" />
 
 ### STM32开发
 
@@ -1205,33 +1201,33 @@ void ESP8266_Init(void)
 
 修改程序参数：接入的WIFI名称和密码、云平台的IP和端口、平台设备ID
 
-<img src="riceShrimpCrab/68.png"  width="800" />
+<img src="./riceShrimpCrab/68.png"  width="800" />
 
 配置目标选项：
 
 点击①目标选项按钮-->点击②Device按钮-->选择③STM32F103C8
 
-<img src="riceShrimpCrab/69.png"  width="800" />
+<img src="./riceShrimpCrab/69.png"  width="800" />
 
 继续选择①Output选项-->点击②选择输出文件位置-->填写③输出的文件名-->勾选④创建HEX文件
 
-<img src="riceShrimpCrab/70.png"  width="800" />
+<img src="./riceShrimpCrab/70.png"  width="800" />
 
 点击①构建，出现②程序构建成功
 
-<img src="riceShrimpCrab/71.png"  width="800" />
+<img src="./riceShrimpCrab/71.png"  width="800" />
 
 找到可烧录的单片机程序
 
-<img src="riceShrimpCrab/72.png"  width="800" />
+<img src="./riceShrimpCrab/72.png"  width="800" />
 
 #### 5、烧录步骤
 
 使用USB转TTL串口下载器链接STM32
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/73.png"  width="400" />
-    <img src="riceShrimpCrab/74.png"  width="400" />
+    <img src="./riceShrimpCrab/73.png"  width="400" />
+    <img src="./riceShrimpCrab/74.png"  width="400" />
 </div>
 
 | 串口下载器 |           STM32            |
@@ -1244,25 +1240,25 @@ void ESP8266_Init(void)
 
 链接到电脑
 
-<img src="riceShrimpCrab/75.png"  width="800" />
+<img src="./riceShrimpCrab/75.png"  width="800" />
 
 查询串行端口
 
-<img src="riceShrimpCrab/61.png"  width="800" />
+<img src="./riceShrimpCrab/61.png"  width="800" />
 
-<img src="riceShrimpCrab/76.png"  width="800" />
+<img src="./riceShrimpCrab/76.png"  width="800" />
 
 打开mcuisp烧录软件，选择HEX烧录程序
 
-<img src="riceShrimpCrab/77.png"  width="800" />
+<img src="./riceShrimpCrab/77.png"  width="800" />
 
 在mcuisp选项栏选择PROT-->选择查询到串行端口
 
-<img src="riceShrimpCrab/78.png"  width="800" />
+<img src="./riceShrimpCrab/78.png"  width="800" />
 
 按下①开始编程，烧录程序，如果在等待没反映，按下STM32开发板上的RESET按钮，出现②表示程序烧录成功
 
-<img src="riceShrimpCrab/79.png"  width="800" />
+<img src="./riceShrimpCrab/79.png"  width="800" />
 
 ### ESP32-CAM摄像头开发
 
@@ -1298,11 +1294,11 @@ https://arduino.me/packages/esp8266.json
 
 选择ESP32-CAM示例：文件-->示例-->ESP32-->Camera-->CameraWebServer
 
-<img src="riceShrimpCrab/80.png"  width="800" />
+<img src="./riceShrimpCrab/80.png"  width="800" />
 
 生成四个文件
 
-<img src="riceShrimpCrab/81.png"  width="800" />
+<img src="./riceShrimpCrab/81.png"  width="800" />
 
 替换CameraWebServer.ino中的代码程序
 
@@ -1447,8 +1443,8 @@ void loop() {
 使用USB转TTL串口下载器链接ESP32-CAM开发板
 
 <div style="display: flex; justify-content: center; gap: 50px;">
-    <img src="riceShrimpCrab/83.png"  width="400" />
-    <img src="riceShrimpCrab/84.png"  width="400" />
+    <img src="./riceShrimpCrab/83.png"  width="400" />
+    <img src="./riceShrimpCrab/84.png"  width="400" />
 </div>
 
 | 串口下载器 |           ESP32-CAM            |
@@ -1461,41 +1457,41 @@ void loop() {
 
 链接到电脑
 
-<img src="riceShrimpCrab/85.png"  width="800" />
+<img src="./riceShrimpCrab/85.png"  width="800" />
 
 查询串行端口
 
-<img src="riceShrimpCrab/61.png"  width="800" />
+<img src="./riceShrimpCrab/61.png"  width="800" />
 
-<img src="riceShrimpCrab/86.png"  width="800" />
+<img src="./riceShrimpCrab/86.png"  width="800" />
 
 
 
 选择库：工具-->开发板-->AI Thinker ESP32-CAM
 
-<img src="riceShrimpCrab/82.png"  width="800" />
+<img src="./riceShrimpCrab/82.png"  width="800" />
 
 开发工具中选择端口：工具-->端口-->串行端口
 
-<img src="riceShrimpCrab/87.png"  width="800" />
+<img src="./riceShrimpCrab/87.png"  width="800" />
 
 编译程序：①和②选择无误后，点击③，出现④表示程序正在编译
 
-<img src="riceShrimpCrab/88.png"  width="800" />
+<img src="./riceShrimpCrab/88.png"  width="800" />
 
 程序上传至开发板：出现①中白色字体内容，表示编程成功，点击②的按钮上传程序到开发板
 
-<img src="riceShrimpCrab/89.png"  width="800" />
+<img src="./riceShrimpCrab/89.png"  width="800" />
 
 程序烧录成功
 
-<img src="riceShrimpCrab/90.png"  width="800" />
+<img src="./riceShrimpCrab/90.png"  width="800" />
 
 ## 三、物联网模块组装
 
 ### ESP8266主控组装
 
-<img src="riceShrimpCrab/93.png"  width="900" />
+<img src="./riceShrimpCrab/93.png"  width="900" />
 
 | 序号 |    模块     | 序号 |       模块       | 序号 |       模块       |
 | :--: | :---------: | :--: | :--------------: | :--: | :--------------: |
@@ -1510,7 +1506,7 @@ void loop() {
 
 ### STM32水质检测组装
 
-<img src="riceShrimpCrab/96.png"  width="900" />
+<img src="./riceShrimpCrab/96.png"  width="900" />
 
 | 序号 |       模块       | 序号 |      模块       | 序号 |      模块       |
 | :--: | :--------------: | :--: | :-------------: | :--: | :-------------: |
@@ -1524,7 +1520,7 @@ void loop() {
 
 ### 系统总装
 
-<img src="riceShrimpCrab/97.png"  width="900" />
+<img src="./riceShrimpCrab/97.png"  width="900" />
 
 | 序号 |      模块       | 序号 |     模块      | 序号 |      模块       |
 | :--: | :-------------: | :--: | :-----------: | :--: | :-------------: |
@@ -1551,7 +1547,7 @@ void loop() {
 
 #### 2、项目结构
 
-<img src="riceShrimpCrab/98.png"  width="600" />
+<img src="./riceShrimpCrab/98.png"  width="600" />
 
 
 
@@ -2435,21 +2431,21 @@ cameras:
 
 选择Python解释器
 
-<img src="riceShrimpCrab/99.png"  width="800" />
+<img src="./riceShrimpCrab/99.png"  width="800" />
 
 右键main.py，选择”运行“
 
-<img src="riceShrimpCrab/100.png"  width="800" />
+<img src="./riceShrimpCrab/100.png"  width="800" />
 
 启动成功
 
-<img src="riceShrimpCrab/101.png"  width="800" />
+<img src="./riceShrimpCrab/101.png"  width="800" />
 
 打开浏览器输入：http://127.0.0.1:5000  +接口地址
 
 例如：
 
-<img src="riceShrimpCrab/102.png"  width="800" />
+<img src="./riceShrimpCrab/102.png"  width="800" />
 
 ### 接口文档
 
@@ -2684,7 +2680,7 @@ cameras:
 }
 ```
 
-注：视频流   http://${ip}:81/stream?t=${Date.now()}
+注：视频流   http://${ip}:81/stream
 
 
 
@@ -2762,7 +2758,7 @@ cameras:
 
 #### 2、项目结构
 
-<img src="riceShrimpCrab/103.png"  width="600" />
+<img src="./riceShrimpCrab/103.png"  width="600" />
 
 ### 网页开发
 
@@ -4023,11 +4019,11 @@ const AppConfig = {
 
 右键index.html，点击Open with Live Server
 
-<img src="riceShrimpCrab/104.png"  width="600" />
+<img src="./riceShrimpCrab/104.png"  width="600" />
 
 访问http://127.0.0.1:5500/index.html
 
-<img src="riceShrimpCrab/105.png"  width="800" />
+<img src="./riceShrimpCrab/105.png"  width="800" />
 
 ## 六、AI小农开发
 
@@ -4041,27 +4037,27 @@ const AppConfig = {
 
 
 
-<img src="riceShrimpCrab/109.png"  width="600" />
+<img src="./riceShrimpCrab/109.png"  width="600" />
 
 
 
 连接设备发出的WIFI信号
 
-<img src="riceShrimpCrab/110.png"  width="600" />
+<img src="./riceShrimpCrab/110.png"  width="600" />
 
 自动跳转到192.168.4.1地址，输入需要链接的wifi信息，连接
 
-<img src="riceShrimpCrab/111.png"  width="600" />
+<img src="./riceShrimpCrab/111.png"  width="600" />
 
 
 
 等待设备重启
 
-<img src="riceShrimpCrab/112.png"  width="600" />
+<img src="./riceShrimpCrab/112.png"  width="600" />
 
 设备显示 **服务地址** 及 **验证码** 
 
-<img src="riceShrimpCrab/113.png"  width="600" />
+<img src="./riceShrimpCrab/113.png"  width="600" />
 
 
 
@@ -4069,37 +4065,37 @@ const AppConfig = {
 
 登录到小智后台：https://xiaozhi.me ，点控制台
 
-<img src="riceShrimpCrab/114.png"  width="600" />
+<img src="./riceShrimpCrab/114.png"  width="600" />
 
 选择新建智能体-->小农
 
-<img src="riceShrimpCrab/115.png"  width="600" />
+<img src="./riceShrimpCrab/115.png"  width="600" />
 
-<img src="riceShrimpCrab/116.png"  width="600" />
+<img src="./riceShrimpCrab/116.png"  width="600" />
 
 选择添加设备-->填入验证码
 
-<img src="riceShrimpCrab/117.png"  width="600" />
+<img src="./riceShrimpCrab/117.png"  width="600" />
 
-<img src="riceShrimpCrab/118.png"  width="600" />
+<img src="./riceShrimpCrab/118.png"  width="600" />
 
 设备添加成功
 
-<img src="riceShrimpCrab/119.png"  width="600" />
+<img src="./riceShrimpCrab/119.png"  width="600" />
 
 #### 3、配置角色
 
 选择配置角色
 
-<img src="riceShrimpCrab/120.png"  width="600" />
+<img src="./riceShrimpCrab/120.png"  width="600" />
 
 填写角色信息
 
-<img src="riceShrimpCrab/121.png"  width="600" />
+<img src="./riceShrimpCrab/121.png"  width="600" />
 
 保存和获取MCP接入点
 
-<img src="riceShrimpCrab/122.png"  width="600" />
+<img src="./riceShrimpCrab/122.png"  width="600" />
 
 
 
@@ -4114,7 +4110,7 @@ const AppConfig = {
 
 #### 2、项目结构
 
-<img src="riceShrimpCrab/106.png"  width="600" />
+<img src="./riceShrimpCrab/106.png"  width="600" />
 
 
 
@@ -4497,7 +4493,7 @@ if __name__ == "__main__":
 pip install -r requirements.txt
 ```
 
-<img src="riceShrimpCrab/107.png"  width="800" />
+<img src="./riceShrimpCrab/107.png"  width="800" />
 
 
 
@@ -4507,52 +4503,52 @@ pip install -r requirements.txt
 python mcp_pipe.py server.py
 ```
 
-<img src="riceShrimpCrab/108.png"  width="800" />
+<img src="./riceShrimpCrab/108.png"  width="800" />
 
 
 
 ## 七、成果实景
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/123.png"  width="450" />
-    <img src="riceShrimpCrab/124.png"  width="450" />
+    <img src="./riceShrimpCrab/123.png"  width="450" />
+    <img src="./riceShrimpCrab/124.png"  width="450" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/125.png"  width="450" />
-    <img src="riceShrimpCrab/126.png"  width="450" />
+    <img src="./riceShrimpCrab/125.png"  width="450" />
+    <img src="./riceShrimpCrab/126.png"  width="450" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/127.png"  width="450" />
-    <img src="riceShrimpCrab/128.png"  width="450" />
+    <img src="./riceShrimpCrab/127.png"  width="450" />
+    <img src="./riceShrimpCrab/128.png"  width="450" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/129.png"  width="450" />
-    <img src="riceShrimpCrab/130.png"  width="450" />
+    <img src="./riceShrimpCrab/129.png"  width="450" />
+    <img src="./riceShrimpCrab/130.png"  width="450" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/131.png"  width="450" />
-    <img src="riceShrimpCrab/132.png"  width="450" />
+    <img src="./riceShrimpCrab/131.png"  width="450" />
+    <img src="./riceShrimpCrab/132.png"  width="450" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/133.png"  width="450" />
-    <img src="riceShrimpCrab/134.png"  width="450" />
+    <img src="./riceShrimpCrab/133.png"  width="450" />
+    <img src="./riceShrimpCrab/134.png"  width="450" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/135.png"  width="450" />
-    <img src="riceShrimpCrab/136.png"  width="450" />
+    <img src="./riceShrimpCrab/135.png"  width="450" />
+    <img src="./riceShrimpCrab/136.png"  width="450" />
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/137.png"  width="450" />
-    <img src="riceShrimpCrab/138.png"  width="450" />
+    <img src="./riceShrimpCrab/137.png"  width="450" />
+    <img src="./riceShrimpCrab/138.png"  width="450" />
 </div>
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-    <img src="riceShrimpCrab/139.png"  width="450" />
-    <img src="riceShrimpCrab/140.png"  width="450" />
+    <img src="./riceShrimpCrab/139.png"  width="450" />
+    <img src="./riceShrimpCrab/140.png"  width="450" />
 </div>
