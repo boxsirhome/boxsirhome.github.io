@@ -19,5 +19,13 @@ article: false
 title: 酷*英
 desc: 9.9￥
 logo: /assets/sponsor/2023_10_23.jpeg
+color: rgba(253, 138, 138, 0.15)
+```
+
+```card
+title: 雾*散
+desc: 1.0￥
+logo: /assets/sponsor/2026_01_23.jpg
 color: rgba(253, 230, 138, 0.15)
+link: https://blog.csdn.net/qq_46820097?type=blog
 ```
