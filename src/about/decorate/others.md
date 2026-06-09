@@ -59,12 +59,14 @@ curl https://tenapi.cn/v2/acg -X POST -d 'format=json'
 
 ## 页脚访问量统计
 
-> 来自 [cutercounter.com](https://www.cutercounter.com/)
+> 来自 [不蒜子](https://busuanzi.ibruce.info/)
 
-- 网站和博客 100% 免费访客点击计数器
-- 数字与图像一起显示。
-- 有 152 种款式可供选择。
-- 只需将 HTML 代码放在您的网站上即可。
+- 要使用不蒜子必须在页面中引入busuanzi.js
+
+```javascript
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+```
 
 ## 主页一言描述
 
